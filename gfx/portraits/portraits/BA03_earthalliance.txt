@@ -1,0 +1,160 @@
+portraits = {
+	#earthalliance
+	earthalliance_ivanova_1 = { greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_susan_ivanova_1.dds"}
+	earthalliance_ivanova_2 = { greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_susan_ivanova_2.dds"}
+	earthalliance_luchenko_1 = { greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_susanna_luchenko_1.dds"}	
+	earthalliance_franklin_1= { greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_stephen_franklin_1.dds"}	
+	earthalliance_franklin_2= { greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_stephen_franklin_2.dds"}	
+	earthalliance_garibaldi_1= { greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_michael_garibaldi_1.dds"}
+	earthalliance_garibaldi_2= { greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_michael_garibaldi_2.dds"}
+	earthalliance_santiago_1 = { greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_luis_santiago_1.dds"}
+	earthalliance_admiral = { greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_admiral_1.dds"}		
+	earthalliance_sheridan_1= { greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_john_sheridan_1.dds"}
+	earthalliance_sheridan_2= { greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_john_sheridan_2.dds"}
+	earthalliance_elizabeth_lochley_1 = { greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_elizabeth_lochley_1.dds"}
+	earthalliance_leeta_alexander_1 = { greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/earthalliance/earthalliance_leeta_alexander_1.dds"}	
+	#other intances to be added in similar manner.
+}
+
+
+					
+
+portrait_groups = {
+	BA03_earthalliance = {
+		default = earthalliance_sheridan_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					earthalliance_santiago_1
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					earthalliance_luchenko_1
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					human_female_01
+					human_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					human_female_01
+					human_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					earthalliance_ivanova_1
+					earthalliance_ivanova_2
+					earthalliance_leeta_alexander_1
+					earthalliance_elizabeth_lochley_1
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					earthalliance_garibaldi_1
+					earthalliance_sheridan_1
+					earthalliance_franklin_1
+					earthalliance_garibaldi_2
+					earthalliance_sheridan_2
+					earthalliance_franklin_2
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					earthalliance_ivanova_1
+					earthalliance_ivanova_2
+					earthalliance_leeta_alexander_1
+					earthalliance_elizabeth_lochley_1
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					earthalliance_franklin_1
+					earthalliance_franklin_2
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					earthalliance_sheridan_1
+					earthalliance_sheridan_2
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					earthalliance_garibaldi_1
+					earthalliance_garibaldi_2
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					earthalliance_luchenko_1
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					earthalliance_santiago_1
+				}
+			}
+		}
+	}
+}

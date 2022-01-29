@@ -1,0 +1,53 @@
+
+
+portraits = {						
+	SP_robot07	= {	entity =  "portrait_robot_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture" 
+					greeting_sound = "robot_human_greetings" 
+					character_textures = {
+						"gfx/models/portraits/Special/robot/Alien_AI_BlackBlue.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_BlackGreen.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_BlackOrange.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_BlackPurple.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_BlackRed.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_BlackYellow.dds"	
+					}
+				}
+}
+					
+portrait_groups = {
+		SP07_robot = {
+			default = SP_robot07
+		game_setup = {
+			add = {
+				portraits = {
+					SP_robot07
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					SP_robot07
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					SP_robot07
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					SP_robot07
+				}
+			}
+		}
+	}
+}

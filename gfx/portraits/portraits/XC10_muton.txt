@@ -1,0 +1,191 @@
+portraits = {
+
+	XC10_muton_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/muton/muton_1.dds"}
+	XC10_muton_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/muton/muton_2.dds"}
+	XC10_muton_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/muton/muton_3.dds"}
+}
+
+portrait_groups = {
+	XC10_muton = {
+		default = XC10_muton_1
+		game_setup = { 
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					XC10_muton_1
+					XC10_muton_2
+					XC10_muton_3
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

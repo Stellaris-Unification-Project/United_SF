@@ -1,0 +1,197 @@
+﻿### Borg
+borg_names = {
+	randomized = no
+	ship_names = {
+		generic = {
+			Vessel
+		}		
+		mining_station = { 
+			Station
+		}
+		research_station = { 
+			Station
+		}
+
+		observation_station = { 
+			Station
+		}
+
+		military_station_small = {
+			Outpost
+		}
+		military_station_medium = { 
+			Outpost
+		}
+		military_station_large = { 
+			Outpost
+		}
+	}
+	
+	ship_class_names = {
+		generic = {
+			Vessel
+		}
+		corvette = {
+		}
+		saber = {
+		}
+		sovereign = {
+		}
+		steamrunner = {
+		}		
+		adv_cruiser = {
+		}
+		strike = {
+		}			
+	}
+
+	fleet_names = {
+		sequential_name = "Attack Group %O%"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "Defensive Unit %O%"
+		}
+		assault_army = {
+			sequential_name = "Attack Unit %O%"
+		}
+		slave_army = {
+			sequential_name = "Slave Attack Unit %O%"
+		}
+		clone_army = { 
+			sequential_name = "Engineered Attack Unit %O%"
+		}
+		robotic_army = {
+			sequential_name = "Mechanical Attack Unit %O%"
+		}
+		android_army = {
+			sequential_name = "Synthetic Attack Unit %O%"
+		}
+		psionic_army = { 
+			sequential_name = "Psionic Attack Unit %O%"
+		}
+		xenomorph_army = {
+			sequential_name = "Engineered Attack Unit %O%"
+		}
+		gene_warrior_army = {
+			sequential_name = "Engineered Attack Unit %O%"
+		}
+	}
+
+	planet_names = {
+		generic = {
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+		names1 = {
+			weight = 10
+			first_names_male = {		
+				First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth
+			}
+			first_names_female = {
+				First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth
+			}
+			second_names = {
+				"of Ten"
+			}
+			regnal_first_names_male = {
+				"Primary"
+			}
+			regnal_first_names_female = {
+				"Primary"
+			}
+			regnal_second_names = {
+				"Leadership Node"
+			}
+		}
+		names2 = {
+			weight = 10
+			first_names_male = {		
+				First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth Eleventh Twelfth
+			}
+			first_names_female = {
+				First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth Eleventh Twelfth
+			}
+			second_names = {
+				"of Twelve"
+			}
+			regnal_first_names_male = {
+				"Primary"
+			}
+			regnal_first_names_female = {
+				"Primary"
+			}
+			regnal_second_names = {
+				"Leadership Node"
+			}
+		}
+		names3 = {
+			weight = 10
+			first_names_male = {		
+				First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth Eleventh Twelfth Thirteenth Fourteenth Fifteenth
+			}
+			first_names_female = {
+				First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth Eleventh Twelfth Thirteenth Fourteenth Fifteenth
+			}
+			second_names = {
+				"of Fifteen"
+			}
+			regnal_first_names_male = {
+				"Primary"
+			}
+			regnal_first_names_female = {
+				"Primary"
+			}
+			regnal_second_names = {
+				"Leadership Node"
+			}
+		}
+		names4 = {
+			weight = 10
+			first_names_male = {		
+				First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth Eleventh Twelfth Thirteenth
+			}
+			first_names_female = {
+				First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth Eleventh Twelfth Thirteenth
+			}
+			second_names = {
+				"of Thirteen"
+			}
+			regnal_first_names_male = {
+				"Primary"
+			}
+			regnal_first_names_female = {
+				"Primary"
+			}
+			regnal_second_names = {
+				"Leadership Node"
+			}
+		}
+		names5 = {
+			weight = 10
+			first_names_male = {		
+				First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth Eleventh
+			}
+			first_names_female = {
+				First Second Third Fourth Fifth Sixth Seventh Eighth Ninth Tenth Eleventh
+			}
+			second_names = {
+				"of Eleven"
+			}
+			regnal_first_names_male = {
+				"Primary"
+			}
+			regnal_first_names_female = {
+				"Primary"
+			}
+			regnal_second_names = {
+				"Leadership Node"
+			}
+		}
+	}
+}

@@ -1,0 +1,170 @@
+﻿xc_sectoid_names = {	
+
+	ship_names = {
+
+		generic = {
+			Tara Taree Tago Jib	Diro Supree	Diro Lifa Dranto Jib Tago Jaddo	Drella Turi	Mile Lini Seno Molla Kuto Dradi	Viri Vinto
+			Lyssa Molla	Drielia Antan Taria Mila Casto Drah	Tago Taria Iurir Mari Londo Mila Cela Jula Drisa Tyree Vino Vallko Lari Jaddo Mora Vini
+		}
+
+		corvette = {
+		}
+		
+		destroyer = {
+		}
+		
+		cruiser = {
+		}
+		
+		battleship = {
+		}
+		
+		science = {
+		}
+		
+		colonizer = {
+		}
+		
+		constructor = {
+		}
+		
+		
+		mining_station = { }
+		research_station = { }
+		#wormhole_station = { }
+		observation_station = { }
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		sequential_name = "%O% Sectoid Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Militia"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Militia"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Militia"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Army"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robotic Army"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Android Army"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psionic Storm"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Army"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Gene Army"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Swawto Arok Teyiti Mawi Lawey Ralu Munei Kanei Omaw Ateyok
+				Tsutu Lonei Orayta Tsalu Oman Mawey Olok Niwey Ralu Varo
+				Lawi Aweytu Ukaw Ataw Malu Ateyin Varay Tsito Altaw Sunei
+				Onaw Swinei Altaw Ukaw Amun Tawi Asuk Atok Tawey Otaw
+				}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Koni Niani Pyri Mauti Vardi Cilphi Erunk Tevoo Tani E'Omahl Laxu Ajon Okieen Ingol Onit V'Beta Droidai Sate Sartau Vani Dessi Ogron Bani Sani
+				Hile Ye'Raski Thogga Osleen Tribbloo Traniea Elgam Traki Xyri Bothu Kalou Caniea N'Meki E'Greni P'Koni Tr'Invin Xama Sleke Ynelv Dugi V'Inok Ranxu Metha Duose M'Madi L'Delve
+				T'Oggon Tecra K'Kiloo Nathi Zule R'Vidi Whrloni Meni Koni Zori Drapa Meri Codri Nieri Mayani Valee Nuri Lenni Shani Findel Tulee  K'ne Gatri Tiri Terli V'jofr F'gen Crone P'an Bara G'an
+			}
+			
+			# Always combined with a second name
+			first_names_male = {
+			}
+			# Always combined with a second name
+			first_names_female = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {				
+			}
+			
+			regnal_first_names_male = {
+			}
+			
+			regnal_first_names_female = {
+			}
+			
+			regnal_second_names = {
+			}
+		}
+	}
+}

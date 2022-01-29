@@ -1,0 +1,191 @@
+############################################################## 
+#	texturefile = "gfx/models/portraits/volus/volus1.dds"
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	# Drell
+	drell_female_leader1 = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell3.dds"}
+	drell_female_leader2 = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell5.dds"}
+	drell_female_sci = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell4.dds" }
+	drell_female_gen = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell12.dds" }
+	drell_female_admiral = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell5.dds" }
+	drell_female_admiral2 = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell12.dds" }
+	drell_genpop1 = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell11.dds" }
+	drell_male_leader1 = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell1.dds"}
+	drell_male_leader2 = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell13.dds"}
+	drell_male_leader3 = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell6.dds"}
+	drell_male_sci = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell10.dds" }
+	drell_male_sci2 = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell8.dds" }	
+	drell_male_gen = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell2.dds" }
+	drell_male_admiral = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell9.dds" }
+	drell_male_admiral2 = { greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/drell/drell7.dds" }
+}
+
+portrait_groups = {
+		ME10_drell = {
+		default = drell_male_leader1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					drell_male_leader1
+					drell_male_leader2
+					drell_male_leader3
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					drell_female_leader1
+					drell_female_leader2
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+				drell_genpop1
+				
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+				drell_genpop1			
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					drell_female_sci		
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					drell_male_sci
+					drell_male_sci2
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					drell_female_gen			
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					drell_male_gen			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					drell_female_admiral
+					drell_female_admiral2					
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					drell_male_admiral
+					drell_male_admiral2					
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					drell_female_leader1
+					drell_female_leader2
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					drell_male_leader1
+					drell_male_leader2
+					drell_male_leader3
+				}
+			}			
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					drell_female_leader1
+					drell_female_leader2		
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					drell_male_leader1				
+					drell_male_leader3
+					drell_male_leader2			
+				}
+			}
+		}
+	}
+}

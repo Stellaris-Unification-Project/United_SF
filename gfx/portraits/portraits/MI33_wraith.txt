@@ -1,0 +1,134 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_Babylon5_Races.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+   portraits = { 
+			wraith_f_1 = {greeting_sound ="human_female_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/wraith/wraith_f_1.dds"} 
+			wraith_f_2 = {greeting_sound ="human_female_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/wraith/wraith_f_2.dds"} 
+			
+			wraith_m_1 = {greeting_sound ="human_male_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/wraith/wraith_m_1.dds"} 
+			wraith_m_2 = {greeting_sound ="human_male_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/wraith/wraith_m_2.dds"}
+			wraith_m_3 = {greeting_sound ="human_male_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/wraith/wraith_m_3.dds"}
+			wraith_m_4 = {greeting_sound ="human_male_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/wraith/wraith_m_4.dds"} 
+			wraith_m_5 = {greeting_sound ="human_male_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/wraith/wraith_m_5.dds"}  			
+	}	
+
+portrait_groups = {
+	MI33_wraith= {
+		default = wraith_m_1
+		game_setup = { 
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					wraith_m_1
+					wraith_m_2
+					wraith_m_3
+					wraith_m_4
+					wraith_m_5
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					wraith_f_1
+					wraith_f_2
+				}
+			}
+
+		}			
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					wraith_m_1
+					wraith_m_2
+					wraith_m_3
+					wraith_m_4
+					wraith_m_5
+					wraith_f_1
+					wraith_f_2
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					wraith_m_1
+					wraith_m_2
+					wraith_m_3
+					wraith_m_4
+					wraith_m_5
+					wraith_f_1
+					wraith_f_2
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					wraith_f_1
+					wraith_f_2
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					wraith_m_1
+					wraith_m_2
+					wraith_m_3
+					wraith_m_4
+					wraith_m_5
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					wraith_f_1
+					wraith_f_2
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					wraith_m_1
+					wraith_m_2
+					wraith_m_3
+					wraith_m_4
+					wraith_m_5
+				}
+			}
+		}
+		
+		
+	}
+}

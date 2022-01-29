@@ -1,0 +1,180 @@
+portraits = {
+
+	HA_unggoy_1 = {	entity = "unggoy_01_entity"	clothes_selector = "unggoy_clothes_01" hair_selector = "general_no_hair"	greeting_sound = "fungoid_01_greetings" 
+			character_textures = {
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_01.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_02.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_03.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_04.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_05.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_06.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_07.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_08.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_09.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_10.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_11.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_12.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_13.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_14.dds"
+					"gfx/models/portraits/Halo/unggoy/unggoy_body_15.dds"
+					
+			}
+		}
+}
+
+portrait_groups = {
+	HA05_unggoy = {
+		default = HA_unggoy_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					HA_unggoy_1
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					HA_unggoy_1
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					HA_unggoy_1
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					HA_unggoy_1
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					HA_unggoy_1
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					HA_unggoy_1
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					HA_unggoy_1
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					HA_unggoy_1
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					HA_unggoy_1
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					HA_unggoy_1
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					HA_unggoy_1
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+						HA_unggoy_1
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					HA_unggoy_1
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					HA_unggoy_1
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

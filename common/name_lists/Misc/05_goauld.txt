@@ -1,0 +1,110 @@
+﻿### Goa'uld
+GOAULD_names = {		
+	planet_names = {
+		generic = {
+			names = { Tau'ri Abydos Dakara Ikarus Chulak Langara Tollana Cimmeria Delmak Edora Latona Vorash Revanna Hebridan Kresh'taa Castiana Vagonbrei Sahal Simarka Argos Heliopolis Oannes Hanka Carthago Sarita Tollan Altair Nasya Hadante Madrona Orban Vyus Entac Tiernod Kheb Euronda Alaris Juna Velona K'Tau Volian Cerador Cal Mah Pangar Tagrea Vis Uban Erebus Tartarus "Praklarush Taonas" Kallana Sodan Sartorus Galar Camelot Dar Eshkalon Co'rak }
+		}
+	}
+
+ship_names = {
+	
+		generic = {
+                }
+		corvette = { "Tel'tak" }
+		
+		destroyer = { "Al'kesh" }
+		
+		cruiser = { "Tuat" }
+		
+		battleship = { "Ha'tak"}
+		
+		science = {"Re'nok"}
+		
+		colonizer = { "Kal'ma" }
+		
+		constructor = { "Kalash" }
+		transport = {	"Talbet" }
+		
+		mining_station = { }
+		research_station = { }
+		observation_station = { }
+
+
+	
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+
+		
+	}
+
+	fleet_names = {
+		random_names = {
+			
+		}
+
+		sequential_name = "%O% System Fleet"
+	}
+
+
+army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Planetary Guard"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Expeditionary Force"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Indentured Rifles"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Clone Army"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Hunter-Killer Group"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Synthetic Rangers"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psi Commando"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Bio-Warfare Division"
+		}
+		
+		gene_warrior_army = {
+			random_names = {
+				"SARC-A 'Gladiators'" "SARC-B 'Widowmakers'" "SARC-C 'Immortals'" "SARC-D 'Berserkers'" "SARC-E 'Assassins'"
+				"SARC-F 'Reapers'" "SARC-G 'Nighthawks'" "SARC-H 'Desperados'" "SARC-I 'Grey Knights'" "SARC-J 'Roughnecks'" 
+			}
+			sequential_name = "%O% Bio-Engineered Squadron"
+		}
+	}
+
+
+	character_names = {
+		default = {
+			
+			# Always combined with a second name
+			first_names_male = { Aa Abesch Abi Aha Ahat Aker Amenemope Am-hehu Amaa Amaunet Amenti Amentet Ammit Amset Amun Amun-Re Amdjeru Anat Anedjti Anhor Anubis Anuket Aperetiset Apis Apophis Aqedis Arensnuphis Asch Aton Atum Ba-pef Babi Basepef Bastet Basti Bat Bata Behedeti Benu Bes Buchis Chemy Chensit Chentechtai Chenti Chepesch Chepre Cheribakef Cherti Chet-aat Chnum Chons Chontamenti Dedwen Djefa Duamutef Dunanui Geb Gengen Wer Ha Hapi Harachte Harendotes Harmachis Harmachis-Chepre-Re-Atum Haroeris Harpokrates Harsiese Hathor Hatmehit Hauron Hededet Hedj-hotep Heh Hehet Heka Heket Hemen Hemsut Herischef Hesat Hetepbakef Horus Iunmutef Hu Iaret Igai Ihi Imhotep Ipet Isfet Isis Isis-Sopdet Iunmutef Jah Janiu Junit Jusaas Kakau Kamutef Kebechsenuef Kek Keket Kematef Kemwer Maat Mafdet Mafed Mahaf Mahes Mandulis Mehen Mehit Menhit Meretseger Merimutef Mesechenet Min Min-Amun Min-Kamutef Mnevis Month Mut Naunet Nebet Nebethetepet Nechbet Nefertem Nehebkau Nehemetawai Neith Nemti Neper Nephthys Nun Nut Osiris Pachet Petet Penpen Petesuchos Ptah Ptireus Qadesch Qebehut Rait Rat-taui Re Renenutet Repit Reschef Ruti Sachmet Satis Schai Sched Schentait Schenut Schepsi Schesemtet Schesemu Schu Sebiumeker Sefegiru Selket Sem Semataui Sepa Serapis Seschat Seschmet Seth Sia Sobek Sokar Sopdet Sopdu Ta-Bitjet Tajet Tatenen Taweret Tefnut Temet Tenem Tenemu Thot Tithoes Tjaisepef Tjenenet Unut Upuaut Imoteph Wadjet Wai Weneg Weret-hekau Wosret Yam Amaunet Anubis Apophis Bastet Hathor Heru'ur Imhotep Isis Klorel Montu Nefertum Osiris Qetesh Ra Sekhmet Sobek Sokar Selkhet Seth Thoth Cleopatra Ares Athena Cronus Nerus Pelops Thanos Chalchiutlicue Telchak Zipacna Kali Niirti Amaterasu Camulus Grannus Morrigan Ba'al Mot Moloc Ishkur Marduk Olokun Yu Svarog Tanith Tilgath  Bynarr Cordesh Ja'din Limbris Ramius Shak'ran Terok
+ }
+
+			# Always combined with a second name
+			first_names_female = { Aa Abesch Abi Aha Ahat Aker Amenemope Am-hehu Amaa Amaunet Amenti Amentet Ammit Amset Amun Amun-Re Amdjeru Anat Anedjti Anhor Anubis Anuket Aperetiset Apis Apophis Aqedis Arensnuphis Asch Aton Atum Ba-pef Babi Basepef Bastet Basti Bat Bata Behedeti Benu Bes Buchis Chemy Chensit Chentechtai Chenti Chepesch Chepre Cheribakef Cherti Chet-aat Chnum Chons Chontamenti Dedwen Djefa Duamutef Dunanui Geb Gengen Wer Ha Hapi Harachte Harendotes Harmachis Harmachis-Chepre-Re-Atum Haroeris Harpokrates Harsiese Hathor Hatmehit Hauron Hededet Hedj-hotep Heh Hehet Heka Heket Hemen Hemsut Herischef Hesat Hetepbakef Horus Iunmutef Hu Iaret Igai Ihi Imhotep Ipet Isfet Isis Isis-Sopdet Iunmutef Jah Janiu Junit Jusaas Kakau Kamutef Kebechsenuef Kek Keket Kematef Kemwer Maat Mafdet Mafed Mahaf Mahes Mandulis Mehen Mehit Menhit Meretseger Merimutef Mesechenet Min Min-Amun Min-Kamutef Mnevis Month Mut Naunet Nebet Nebethetepet Nechbet Nefertem Nehebkau Nehemetawai Neith Nemti Neper Nephthys Nun Nut Osiris Pachet Petet Penpen Petesuchos Ptah Ptireus Qadesch Qebehut Rait Rat-taui Re Renenutet Repit Reschef Ruti Sachmet Satis Schai Sched Schentait Schenut Schepsi Schesemtet Schesemu Schu Sebiumeker Sefegiru Selket Sem Semataui Sepa Serapis Seschat Seschmet Seth Sia Sobek Sokar Sopdet Sopdu Ta-Bitjet Tajet Tatenen Taweret Tefnut Temet Tenem Tenemu Thot Tithoes Tjaisepef Tjenenet Unut Upuaut Imoteph Wadjet Wai Weneg Weret-hekau Wosret Yam Amaunet Anubis Apophis Bastet Hathor Heru'ur Imhotep Isis Klorel Montu Nefertum Osiris Qetesh Ra Sekhmet Sobek Sokar Selkhet Seth Thoth Cleopatra Ares Athena Cronus Nerus Pelops Thanos Chalchiutlicue Telchak Zipacna Kali Niirti Amaterasu Camulus Grannus Morrigan Ba'al Mot Moloc Ishkur Marduk Olokun Yu Svarog Tanith Tilgath  Bynarr Cordesh Ja'din Limbris Ramius Shak'ran Terok
+ }			
+			
+			# Always combined with a first name
+			second_names = {" "}
+			
+		}
+	}
+}

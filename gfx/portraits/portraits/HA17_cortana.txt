@@ -1,0 +1,48 @@
+
+
+portraits = {
+	HA_cortana_1 = {	entity = "portrait_human_female_01_entity"  clothes_selector = "cortana_clothes_1" 	hair_selector = "cortana_hair_1" greeting_sound = "human_female_greetings_03" 
+			character_textures = {
+					"gfx/models/portraits/empty_body.dds"
+			}
+
+    }
+}	
+
+portrait_groups = {
+		HA17_cortana = {
+		default = HA_cortana_1 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					HA_cortana_1
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					HA_cortana_1
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					HA_cortana_1
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					HA_cortana_1
+				}
+			}
+		}
+	}
+}

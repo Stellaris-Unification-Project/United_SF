@@ -1,0 +1,111 @@
+
+DoctorWho = {
+	DH01_doctor = {
+		name = "Doctor"
+		plural = "Doctors"
+		home_planet = "Gallifrey"
+		home_system = "Gallifrey"
+		name_list = HUM1 
+	}
+	DH02_cyberman = {
+		name = Cyberman 
+		plural = Cybermen
+		home_planet = "Mondas"
+		home_system = "Mondas"
+		name_list = hive_robotic_names 
+	}
+		
+	DH03_dalek= {
+		name = Dalek
+		plural = Daleks
+		home_planet = "Skaro"
+		home_system = "Skaro"
+		name_list = HUM1 
+	}
+	
+	DH04_whispermen= {
+		name = Whisperman
+		plural = Whispermen
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = HUM1 
+	}
+	
+	DH05_silence= {
+		name = Silence
+		plural = Silence
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = HUM1 
+	}
+	
+	DH06_icewarrior= {
+		name = "Ice Warrior"
+		plural = "Ice Warriors"
+		home_planet = "Mars"
+		home_system = "Sol"
+		name_list = HUM1 
+	}
+	
+	DH07_zygon= {
+		name = "Zygon"
+		plural = "Zygons"
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = HUM1 
+	}
+	
+	DH08_weeping_angel= {
+		name = "Weeping Angel"
+		plural = "Weeping Angels"
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = HUM1 
+	}
+	
+	DH09_sontaran= {
+		name = "Sontaran"
+		plural = "Sontarans"
+		home_planet = "Sontar"
+		home_system = "Sontar"
+		name_list = HUM1 
+	}
+	
+	DH10_judoon= {
+		name = "Judoon"
+		plural = "Judoon"
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = HUM1 
+	}
+
+	DH11_ood= {
+		name = "The Ood"
+		plural = "The Oods"
+		home_planet = "The Ood Sphere"
+		home_system = "The Ood Sphere"
+		name_list = HUM1 
+	}
+
+	DH12_slitheen = {
+		name = "Slitheen"
+		plural = "Slitheens"
+		home_planet = "Raxacoricofallapotorius"
+		home_system = "Raxacoricofallapotorius"
+		name_list = REP1 
+	}
+
+	DH13_silurian = {
+		name = "Silurian"
+		plural = "Silurians"
+		home_planet = "Earth"
+		home_system = "Sol"
+		name_list = REP2 
+	}
+	
+}
+
+	
+
+
+	

@@ -1,0 +1,232 @@
+portraits = {
+
+	silurian_1f = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silurian/silurian_f1.dds"}
+	silurian_2f = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silurian/silurian_f2.dds"}
+	silurian_3f = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silurian/silurian_f3.dds"}
+	silurian_4f = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silurian/silurian_f4.dds"}
+	silurian_5f = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silurian/silurian_f5.dds"}
+	
+	silurian_1m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silurian/silurian_m1.dds"}
+	silurian_2m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silurian/silurian_m2.dds"}
+	silurian_3m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silurian/silurian_m3.dds"}
+	silurian_4m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silurian/silurian_m4.dds"}
+	silurian_5m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silurian/silurian_m5.dds"}
+	silurian_6m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silurian/silurian_m6.dds"}
+	}
+
+portrait_groups = {
+	DH13_silurian = {
+		default = silurian_1f 	 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					silurian_1m	
+					silurian_2m					
+					silurian_3m	
+					silurian_4m	
+					silurian_5m
+					silurian_6m					
+					}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					silurian_1f
+					silurian_2f
+					silurian_3f
+					silurian_4f
+					silurian_5f
+	
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					silurian_1m	
+					silurian_2m					
+					silurian_3m	
+					silurian_4m	
+					silurian_5m
+					silurian_6m						
+					silurian_1f
+					silurian_2f
+					silurian_3f
+					silurian_4f
+					silurian_5f
+					}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					silurian_1m	
+					silurian_2m					
+					silurian_3m	
+					silurian_4m	
+					silurian_5m
+					silurian_6m						
+					silurian_1f
+					silurian_2f
+					silurian_3f
+					silurian_4f
+					silurian_5f	
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					silurian_1f
+					silurian_2f
+					silurian_3f
+					silurian_4f
+					silurian_5f	
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					silurian_1m	
+					silurian_2m					
+					silurian_3m	
+					silurian_4m	
+					silurian_5m
+					silurian_6m		
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					silurian_1f
+					silurian_2f
+					silurian_3f
+					silurian_4f
+					silurian_5f
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					silurian_1m	
+					silurian_2m					
+					silurian_3m	
+					silurian_4m	
+					silurian_5m
+					silurian_6m	
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					silurian_1f
+					silurian_2f
+					silurian_3f
+					silurian_4f
+					silurian_5f	
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					silurian_1m	
+					silurian_2m					
+					silurian_3m	
+					silurian_4m	
+					silurian_5m
+					silurian_6m		
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					silurian_1f
+					silurian_2f
+					silurian_3f
+					silurian_4f
+					silurian_5f	
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					silurian_1m	
+					silurian_2m					
+					silurian_3m	
+					silurian_4m	
+					silurian_5m
+					silurian_6m		
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					silurian_1f
+					silurian_2f
+					silurian_3f
+					silurian_4f
+					silurian_5f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					silurian_1m	
+					silurian_2m					
+					silurian_3m	
+					silurian_4m	
+					silurian_5m
+					silurian_6m	
+				}
+			}
+		}		
+	
+	}
+}
+
+

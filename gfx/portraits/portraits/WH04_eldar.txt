@@ -1,0 +1,298 @@
+portraits = {
+
+	WH_eldar01f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_fem_general1.dds"}
+	WH_eldar02f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_fem_ruler1.dds"} 
+	WH_eldar03f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_fem_ruler2.dds"} 
+	WH_eldar04f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_fem_scientist1.dds"} 
+	WH_eldar05f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_general1.dds"}
+	WH_eldar06f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_general2.dds"}
+	WH_eldar07f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_governor1.dds"}
+	WH_eldar18f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_f1.dds"}
+	
+	WH_eldar08 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_ruler1.dds"}
+	WH_eldar09 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_ruler2.dds"}
+	WH_eldar10 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_ruler3.dds"}
+	WH_eldar11 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_ruler4.dds"}
+	WH_eldar12 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar_scientist1.dds"}
+	WH_eldar13 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar1.dds"}
+	WH_eldar14 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar2.dds"}
+	WH_eldar15 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar3.dds"}
+	WH_eldar16 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar4.dds"}
+	WH_eldar17 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/eldar/eldar5.dds"}
+	
+
+}
+
+portrait_groups = {
+	WH04_eldar = {
+		default = WH_eldar08 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					WH_eldar08
+					WH_eldar09
+					WH_eldar10
+					WH_eldar11
+					WH_eldar12
+					WH_eldar13
+					WH_eldar14
+					WH_eldar15
+					WH_eldar16
+					WH_eldar17
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					WH_eldar02f
+					WH_eldar01f
+					WH_eldar03f
+					WH_eldar04f
+					WH_eldar05f
+					WH_eldar06f
+					WH_eldar07f
+					WH_eldar18f
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					WH_eldar08
+					WH_eldar09
+					WH_eldar10
+					WH_eldar11
+					WH_eldar12
+					WH_eldar13
+					WH_eldar14
+					WH_eldar15
+					WH_eldar16
+					WH_eldar17
+					WH_eldar02f
+					WH_eldar01f
+					WH_eldar03f
+					WH_eldar04f
+					WH_eldar05f
+					WH_eldar06f
+					WH_eldar07f
+					WH_eldar18f
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					WH_eldar08
+					WH_eldar09
+					WH_eldar10
+					WH_eldar11
+					WH_eldar12
+					WH_eldar13
+					WH_eldar14
+					WH_eldar15
+					WH_eldar16
+					WH_eldar17
+					WH_eldar02f
+					WH_eldar01f
+					WH_eldar03f
+					WH_eldar04f
+					WH_eldar05f
+					WH_eldar06f
+					WH_eldar07f
+					WH_eldar18f
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					WH_eldar02f
+					WH_eldar01f
+					WH_eldar03f
+					WH_eldar04f
+					WH_eldar05f
+					WH_eldar06f
+					WH_eldar07f
+					WH_eldar18f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					WH_eldar08
+					WH_eldar09
+					WH_eldar10
+					WH_eldar11
+					WH_eldar12
+					WH_eldar13
+					WH_eldar14
+					WH_eldar15
+					WH_eldar16
+					WH_eldar17
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					WH_eldar02f
+					WH_eldar01f
+					WH_eldar03f
+					WH_eldar04f
+					WH_eldar05f
+					WH_eldar06f
+					WH_eldar07f
+					WH_eldar18f
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					WH_eldar08
+					WH_eldar09
+					WH_eldar10
+					WH_eldar11
+					WH_eldar12
+					WH_eldar13
+					WH_eldar14
+					WH_eldar15
+					WH_eldar16
+					WH_eldar17
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					WH_eldar02f
+					WH_eldar01f
+					WH_eldar03f
+					WH_eldar04f
+					WH_eldar05f
+					WH_eldar06f
+					WH_eldar07f
+					WH_eldar18f
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					WH_eldar08
+					WH_eldar09
+					WH_eldar10
+					WH_eldar11
+					WH_eldar12
+					WH_eldar13
+					WH_eldar14
+					WH_eldar15
+					WH_eldar16
+					WH_eldar17
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					WH_eldar02f
+					WH_eldar01f
+					WH_eldar03f
+					WH_eldar04f
+					WH_eldar05f
+					WH_eldar06f
+					WH_eldar07f
+					WH_eldar18f
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					WH_eldar08
+					WH_eldar09
+					WH_eldar10
+					WH_eldar11
+					WH_eldar12
+					WH_eldar13
+					WH_eldar14
+					WH_eldar15
+					WH_eldar16
+					WH_eldar17
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					WH_eldar02f
+					WH_eldar01f
+					WH_eldar03f
+					WH_eldar04f
+					WH_eldar05f
+					WH_eldar06f
+					WH_eldar07f
+					WH_eldar18f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					WH_eldar08
+					WH_eldar09
+					WH_eldar10
+					WH_eldar11
+					WH_eldar12
+					WH_eldar13
+					WH_eldar14
+					WH_eldar15
+					WH_eldar16
+					WH_eldar17
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

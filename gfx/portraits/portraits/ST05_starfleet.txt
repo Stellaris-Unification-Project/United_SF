@@ -1,0 +1,205 @@
+portraits = {
+	# starfleet
+	starfleet_female_01 = {	entity = "portrait_starfleet_female_01_entity"	clothes_selector = "mammalian_starfleet_female_clothes_01" 	hair_selector = "starfleet_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_female_body_01.dds"
+		}
+	}
+	starfleet_female_02 = {	entity = "portrait_starfleet_female_02_entity"	clothes_selector = "mammalian_starfleet_female_clothes_01" 	hair_selector = "starfleet_female_hair_02"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_female_body_02.dds"
+		}
+	}
+	starfleet_female_03 = {	entity = "portrait_starfleet_female_03_entity"	clothes_selector = "mammalian_starfleet_female_clothes_01" 	hair_selector = "starfleet_female_hair_03"	greeting_sound = "human_female_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_female_body_03.dds"
+		}
+	}	
+	starfleet_female_04 = {	entity = "portrait_starfleet_female_04_entity"	clothes_selector = "mammalian_starfleet_female_clothes_01" 	hair_selector = "starfleet_female_hair_04"	greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_female_body_04.dds"
+		}
+	}
+	starfleet_female_05 = {	entity = "portrait_starfleet_female_05_entity"	clothes_selector = "mammalian_starfleet_female_clothes_01" 	hair_selector = "starfleet_female_hair_05"	greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_female_body_05.dds"
+		}
+	}
+	starfleet_female_06 = {	entity = "portrait_starfleet_female_06_entity"	clothes_selector = "mammalian_starfleet_female_clothes_01" 	hair_selector = "starfleet_female_hair_06"	greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_female_body_06.dds"
+		}
+	}
+	starfleet_male_01 = {	entity = "portrait_starfleet_male_01_entity"	clothes_selector = "mammalian_starfleet_male_clothes_01" 	hair_selector = "starfleet_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_male_body_01.dds"
+		}
+	}	
+	starfleet_male_02 = {	entity = "portrait_starfleet_male_02_entity"	clothes_selector = "mammalian_starfleet_male_clothes_01" 	hair_selector = "starfleet_male_hair_02"		greeting_sound = "human_male_greetings_04" 
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_male_body_02.dds"
+		}
+	}	
+	starfleet_male_03 = {	entity = "portrait_starfleet_male_03_entity"	clothes_selector = "mammalian_starfleet_male_clothes_01" 	hair_selector = "starfleet_male_hair_03"		greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_male_body_03.dds"
+		}
+	}
+	starfleet_male_04 = {	entity = "portrait_starfleet_male_04_entity"	clothes_selector = "mammalian_starfleet_male_clothes_01" 	hair_selector = "starfleet_male_hair_04"		greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_male_body_04.dds"
+		}
+	}
+	starfleet_male_05 = {	entity = "portrait_starfleet_male_05_entity"	clothes_selector = "mammalian_starfleet_male_clothes_01" 	hair_selector = "starfleet_male_hair_05"	greeting_sound = "human_male_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_male_body_05.dds"
+		}
+	}
+	starfleet_male_06 = {	entity = "portrait_starfleet_male_06_entity"	clothes_selector = "mammalian_starfleet_male_clothes_01" 	hair_selector = "starfleet_male_hair_06"	greeting_sound = "human_male_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/starfleet/starfleet_male_body_06.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	ST05_starfleet = {
+		default = starfleet_female_04
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					starfleet_male_01
+					starfleet_male_02
+					starfleet_male_03
+					starfleet_male_04
+					starfleet_male_05
+					starfleet_male_06
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					starfleet_female_01
+					starfleet_female_02
+					starfleet_female_03
+					starfleet_female_04
+					starfleet_female_05
+					starfleet_female_06
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					starfleet_female_01
+					starfleet_female_02
+					starfleet_female_03
+					starfleet_female_04
+					starfleet_female_05
+					starfleet_female_06
+					starfleet_male_01
+					starfleet_male_02
+					starfleet_male_03
+					starfleet_male_04
+					starfleet_male_05
+					starfleet_male_06
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					starfleet_female_01
+					starfleet_female_02
+					starfleet_female_03
+					starfleet_female_04
+					starfleet_female_05
+					starfleet_female_06
+					starfleet_male_01
+					starfleet_male_02
+					starfleet_male_03
+					starfleet_male_04
+					starfleet_male_05
+					starfleet_male_06
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					starfleet_female_01
+					starfleet_female_02
+					starfleet_female_03
+					starfleet_female_04
+					starfleet_female_05
+					starfleet_female_06
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					starfleet_male_01
+					starfleet_male_02
+					starfleet_male_03
+					starfleet_male_04
+					starfleet_male_05
+					starfleet_male_06
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					starfleet_female_01
+					starfleet_female_02
+					starfleet_female_03
+					starfleet_female_04
+					starfleet_female_05
+					starfleet_female_06
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					starfleet_male_01
+					starfleet_male_02
+					starfleet_male_03
+					starfleet_male_04
+					starfleet_male_05
+					starfleet_male_06
+				}
+			}
+		}
+	}		
+		
+		
+		

@@ -1,0 +1,76 @@
+
+
+portraits = {
+	# collectors
+	#entity = "collector_entity"
+	#static:
+	collector1 = {greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Mass_Effect/collector/Collector_1.dds"}
+	
+	collector2 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Mass_Effect/collector/Collector_2_1.dds"}
+	collector2_2 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Mass_Effect/collector/Collector_2_2.dds"}
+	collector2_3 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Mass_Effect/collector/Collector_2_3.dds"}
+	collector2_4 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Mass_Effect/collector/Collector_2_4.dds"}
+	collector2_5 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Mass_Effect/collector/Collector_2_5.dds"}
+	
+	#Dynamic:
+	#collector1 = {	entity =  "collector_entity_1"  clothes_selector = "general_no_hair" hair_selector = "general_no_hair"	greeting_sound = "arthropoid_01_greetings" 
+	#		character_textures = {"gfx/models/portraits/Mass_Effect/collector/Collector_2.dds"}	
+	#}
+			
+	#collector2 = {	entity =  "collector_entity_2"  clothes_selector = "general_no_hair" hair_selector = "general_no_hair"	greeting_sound = "arthropoid_01_greetings" 
+	#		character_textures = {"gfx/models/portraits/Mass_Effect/collector/Collector_2_1.dds"
+	#							 "gfx/models/portraits/Mass_Effect/collector/Collector_2_2.dds"
+	#							 "gfx/models/portraits/Mass_Effect/collector/Collector_2_3.dds"
+	#							 "gfx/models/portraits/Mass_Effect/collector/Collector_2_4.dds"
+	#							 "gfx/models/portraits/Mass_Effect/collector/Collector_2_5.dds"
+	#		}	
+	#}
+			
+
+}
+
+portrait_groups = {
+	ME17_collector = {
+	default = collector1
+		game_setup = { 
+			add = {
+				portraits = {
+					collector1
+					collector2	
+					collector2_2 collector2_3 collector2_4 	collector2_5
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					collector1
+					collector2	
+					collector2_2 collector2_3 collector2_4 	collector2_5
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					collector1
+					collector2	
+					collector2_2 collector2_3 collector2_4 	collector2_5
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					collector1
+					collector2	
+					collector2_2 collector2_3 collector2_4 	collector2_5
+				}
+			}
+		}
+	}
+}

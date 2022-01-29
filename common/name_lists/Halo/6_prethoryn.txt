@@ -1,0 +1,71 @@
+﻿### The Flood
+flood_names = {
+	randomized = no
+	
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			"Flood Spawn"
+		}
+
+		corvette = {  "Flood Corvette"
+		}
+
+		destroyer = { "Flood Destroyer"
+		}
+		
+		cruiser = { "Flood  Cruiser" 
+		}		
+
+		battleship = { "Flood Battleship"
+		}
+		
+		science = { "Flood Discovery"
+		}
+		
+		colonizer = { "Flood Colonizer"
+		}
+		
+		constructor = { "Flood Constructor"
+		}		
+
+		
+		mining_station = { }
+		research_station = { }
+
+		observation_station = { }
+		
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		sequential_name = "%O% The Flood"
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			full_names = {
+				"Flood 'Hunter'" "Flood 'Stalker'" "Flood 'Devourer'" "Flood 'Slayer'" 
+				"Flood 'Destroyer'" "Flood 'Executioner'" "Flood 'Reaper'" "Flood 'Slaughterer'" 
+				"Flood 'Howler'" "Flood 'Prowler'" "Flood 'Killer'" "Flood 'Mauler'"
+				"Flood 'Seeker'" "Flood 'Butcher'" "Flood 'Corrupter'" "Flood 'Screamer'" 
+				"Flood 'Stinger'" "Flood 'Thresher'" "Flood 'Strider'" "Flood 'Singer'" 
+				"Flood 'Silencer'" "Flood 'Feeder'" "Flood 'Striker'" "Flood 'Smiter'"
+				"Flood 'Watcher'" "Flood 'Observer'" "Flood 'Chaser'" "Flood 'Vanquisher'" 
+				"Flood 'Crusher'" "Flood 'Eater'" "Flood 'Invader'" "Flood 'Interloper'" 
+				"Flood 'Intruder'" "Flood 'Trespasser'" "Flood 'Encroacher'" "Flood 'Ravager'" 
+				"Flood 'Gnawer'" "Flood 'Ruiner'" "Flood 'Wrecker'" "Flood 'Despoiler'" 
+				"Flood 'Pillager'" "Flood 'Tainter'" "Flood 'Depriver'" "Flood 'Reaver'" 
+				"Flood 'Berserker'" "Flood 'Punisher'" "Flood 'Scourer'" "Flood 'Cleanser'" 
+				"Flood 'Shatterer'" "Flood 'Tormenter'" "Flood 'Terrorizer'"
+			}
+			
+		}
+	}
+}

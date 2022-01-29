@@ -1,0 +1,23 @@
+FANTASY = {
+	skeletor = {
+		name = Sharn
+		plural = Sharn
+		home_planet = "Chikazel"
+		home_system = "Aezor"
+		name_list = "MAM1"
+	}
+	gdevil = {
+		name = Ygg
+		plural = Yggdrae
+		home_planet = "Rakhala"
+		home_system = "Kandar"
+		name_list = "MAM1"
+	}
+	aquan = {
+		name = Aquan
+		plural = Aquans
+		home_planet = "Aquatica"
+		home_system = "Aquatica"
+		name_list = "MAM1"
+	}
+}

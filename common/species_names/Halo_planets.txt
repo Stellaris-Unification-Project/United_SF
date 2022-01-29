@@ -1,0 +1,137 @@
+
+Halo = {
+	HA01_forerunner = {
+		name = Forerunner
+		plural = Forerunners
+		home_planet = "Ghibalb"
+		home_system = "Ghibalb"
+		name_list = "forerunner_names"
+	}
+	
+	HA02_huragok = {
+		name = Huragok
+		plural = Huragoks
+		home_planet = "Onyx"
+		home_system = "Onyx"
+		name_list = "huragok_names"
+	}
+	
+	HA03_flood= {
+		name = "The Flood"
+		plural = "The Flood"
+		home_planet = "G 617 g1"
+		home_system = "G 617"
+		name_list = "halo_theme_names" #default for halo
+	}	
+	
+	HA04_sangheili = {
+		name = Sangheili
+		plural = Sangheili
+		home_planet = "Sanghelios"
+		home_system = "Urs"
+		name_list = "sangheili_names"
+	}	
+
+	HA05_unggoy = {
+		name = Unggoy
+		plural = Unggoy
+		home_planet = "Balaho"
+		home_system = "Tala"
+		name_list = "halo_theme_names" #default for halo
+	}	
+
+	HA06_jiralhanae = {
+		name = Jiralhanae
+		plural = Jiralhanae
+		home_planet = "Doisac"
+		home_system = "Oth Sonin "
+		name_list = "halo_theme_names" #default for halo
+	}	
+
+	HA07_sanshyuum = {
+		name = "San'Shyuum"
+		plural = "San'Shyuum"
+		home_planet = "Janjur Qom"
+		home_system = "Janjur Qom"
+		name_list = "halo_theme_names" #default for halo
+	}
+
+	HA08_yanmee = {
+		name = "Yanme'e"
+		plural = "Yanme'e"
+		home_planet = "Palamok"
+		home_system = "Napret"
+		name_list = "halo_theme_names" #default for halo
+	}
+	
+	HA09_ruutian= {
+		name = Ruutian
+		plural = Ruutians
+		home_planet = "Eayn"
+		home_system = "Y'Deio"
+		name_list = "halo_theme_names" #default for halo
+	}	
+
+	HA10_ibieshan = {
+		name = Ibieshan
+		plural = Ibieshans
+		home_planet = "Eayn"
+		home_system = "Y'Deio"
+		name_list = "halo_theme_names" #default for halo
+	}
+	
+	HA11_tvaoan = {
+		name = "T'vaoan"
+		plural = "T'vaoans"
+		home_planet = "T'vao"
+		home_system = "T'vao"
+		name_list = "halo_theme_names" #default for halo
+	}
+
+	HA12_mgalekgolo = {
+		name = Mgalekgolo
+		plural = Mgalekgolo
+		home_planet = "Te"
+		home_system = "Svir"
+		name_list = "halo_theme_names" #default for halo
+	}
+	
+	HA13_sharquoi = {
+		name = Sharquoi
+		plural = Sharquoi
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = "halo_theme_names" #default for halo
+	}
+	
+	HA14_promethean = {
+		name = Promethean
+		plural = Prometheans
+		home_planet = "Ghibalb"
+		home_system = "Ghibalb"
+		name_list = "halo_theme_names" #default for halo
+	}
+	
+	HA_UNCS = {
+		name = UNCS
+		plural = UNCS
+		home_planet = "Earth"
+		home_system = "Sol"
+		name_list = "UNSC_names"
+	}
+
+	HA_prehuman = {
+		name = Prehuman
+		plural = Prehumans
+		home_planet = "Charum Hakkor"
+		home_system = "Charum Hakkor"
+		name_list = "halo_theme_names" #default for halo
+	}
+	
+	
+}
+
+	
+
+
+	

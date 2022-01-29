@@ -1,0 +1,161 @@
+portraits = {
+
+	XC07_ethereal_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/ethereal/ethereal_1.dds"}
+}
+
+portrait_groups = {
+	XC07_ethereal = {
+		default = XC07_ethereal_1
+		game_setup = { 
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					XC07_ethereal_1
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					XC07_ethereal_1
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					XC07_ethereal_1
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

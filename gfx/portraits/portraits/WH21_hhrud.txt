@@ -1,0 +1,42 @@
+portraits = {
+	hhrud01 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/Warhammer_40k/hhrud/hhrud_1.dds"}
+	}
+
+portrait_groups = {
+	WH21_hhrud = {
+	default = hhrud01
+		game_setup = { 
+			add = {
+				portraits = {
+					hhrud01
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					hhrud01
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					hhrud01
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					hhrud01	
+				}
+			}
+		}
+	}
+}
+

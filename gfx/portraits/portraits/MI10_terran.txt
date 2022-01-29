@@ -1,0 +1,191 @@
+portraits = {
+	SC_terran_1 = {greeting_sound = "human_male_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/terran/sc_terran_leader1.dds" }	
+	SC_terran_2 = {greeting_sound = "human_male_greetings_03"   texturefile = "gfx/models/portraits/Miscellaneous/terran/terranmarine_1.dds" }	
+	SC_terran_3 = {greeting_sound = "human_male_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/terran/sc_terran_leader2.dds" }
+	SC_terran_4 = {greeting_sound = "human_male_greetings_03"   texturefile = "gfx/models/portraits/Miscellaneous/terran/sc_terran_leader3.dds" }
+	
+	SC_terran_5f = {greeting_sound = "human_female_greetings_03"   texturefile = "gfx/models/portraits/Miscellaneous/terran/sc_terrran_nova.dds" }
+	
+	SC_terran_6 = {greeting_sound = "human_male_greetings_03"   texturefile = "gfx/models/portraits/Miscellaneous/terran/raynor.dds" }	
+	SC_terran_7 = {greeting_sound = "human_male_greetings_03"   texturefile = "gfx/models/portraits/Miscellaneous/terran/terranmarine_2.dds" }		
+	SC_terran_8 = {greeting_sound = "human_male_greetings_03"   texturefile = "gfx/models/portraits/Miscellaneous/terran/terranmarine_3.dds" }	
+}
+
+portrait_groups = {
+	MI10_terran = {
+		default = SC_terran_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					SC_terran_1
+					SC_terran_3		
+					SC_terran_4 
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					SC_terran_5f
+
+				}
+			}
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					SC_terran_5f
+					SC_terran_1
+					SC_terran_2
+					SC_terran_3		
+					SC_terran_4
+					SC_terran_6 
+					SC_terran_7 
+					SC_terran_8 					
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					SC_terran_5f
+					SC_terran_1
+					SC_terran_2
+					SC_terran_3		
+					SC_terran_4
+					SC_terran_6 
+					SC_terran_7 
+					SC_terran_8 					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					SC_terran_5f		 				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					SC_terran_1
+					SC_terran_3		
+					SC_terran_4
+					SC_terran_6 
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					SC_terran_5f					
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					SC_terran_1
+					SC_terran_3		
+					SC_terran_4
+					SC_terran_6 					
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					SC_terran_5f
+					SC_terran_7
+					SC_terran_8					
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					SC_terran_1
+					SC_terran_3		
+					SC_terran_4
+					SC_terran_6 					
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					SC_terran_5f					
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					SC_terran_1
+					SC_terran_3		
+					SC_terran_4
+					SC_terran_6 	 		
+				}
+			}			
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					SC_terran_5f	 				
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					SC_terran_1
+					SC_terran_3		
+					SC_terran_4
+					SC_terran_6 				
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,162 @@
+
+portraits = {
+	
+	kett_1	= {	entity = "kett_entity"	
+				clothes_selector = "general_no_hair" 
+				hair_selector = "kett_01_hair"   
+				greeting_sound = "human_male_greetings_04"
+				character_textures = { "gfx/models/portraits/Mass_Effect/kett/kett_body_1.dds"
+									   "gfx/models/portraits/Mass_Effect/kett/kett_body_2.dds"
+									   "gfx/models/portraits/Mass_Effect/kett/kett_body_3.dds"
+									   "gfx/models/portraits/Mass_Effect/kett/kett_body_4.dds"
+									   "gfx/models/portraits/Mass_Effect/kett/kett_body_5.dds"									   
+									   } 
+			}
+	
+			
+	}
+portrait_groups = {
+	ME23_kett = {
+		default = 	kett_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					kett_1
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					kett_1
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					kett_1
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					kett_1
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					kett_1
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					kett_1
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					kett_1
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					kett_1
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					kett_1
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					kett_1
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					kett_1
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					kett_1
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					kett_1
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					kett_1
+					
+				}
+			}
+		}		
+	
+	}
+}

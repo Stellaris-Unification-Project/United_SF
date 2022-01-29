@@ -1,0 +1,171 @@
+############################################################## 
+#	texturefile = "gfx/models/portraits/volus/volus1.dds"
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	# Vorcha
+	vorcha_leader = { greeting_sound ="reptilian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/vorcha/vorcha_1.dds"}
+	vorcha_sci = { greeting_sound ="reptilian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/vorcha/vorcha_2.dds" }
+	vorcha_admiral = { greeting_sound ="reptilian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/vorcha/vorcha_1.dds" }
+	vorcha_general = { greeting_sound ="reptilian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/vorcha/vorcha_3.dds" }
+	vorcha_gov = { greeting_sound ="reptilian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/vorcha/vorcha_1.dds" }
+	vorcha_genpop = { greeting_sound ="reptilian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/vorcha/vorcha_4.dds" }
+}
+
+portrait_groups = {
+		ME14_vorcha = {
+		default = vorcha_gov
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					vorcha_leader
+                    vorcha_sci					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					vorcha_leader
+					vorcha_sci
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+				vorcha_genpop
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+				vorcha_genpop				
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					vorcha_sci				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					vorcha_sci			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					vorcha_general				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					vorcha_general			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					vorcha_admiral				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					vorcha_admiral			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					vorcha_gov			
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					vorcha_gov			
+				}
+			}			
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					vorcha_leader				
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					vorcha_leader				
+				}
+			}
+		}
+	}
+}

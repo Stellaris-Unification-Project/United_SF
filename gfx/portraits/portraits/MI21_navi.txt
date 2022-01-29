@@ -1,0 +1,166 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_Miscellaneous.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	navi_female_01 	= {	entity = "portrait_navi_female_01_entity"	
+						clothes_selector = "navi_female_clothes_1" 
+						hair_selector = "navi_female_hair_1"	
+						greeting_sound = "human_female_greetings_02"	
+		character_textures = { "gfx/models/portraits/empty_body.dds"
+		}
+	}
+
+	navi_female_02 	= {	entity = "portrait_navi_female_01_entity"	
+						clothes_selector = "navi_female_clothes_2" 
+						hair_selector = "navi_female_hair_2"	
+						greeting_sound = "human_female_greetings_02"	
+		character_textures = { "gfx/models/portraits/empty_body.dds"
+		}
+	}
+	
+	navi_female_03	= {	entity = "portrait_navi_female_01_entity"	
+						clothes_selector = "navi_female_clothes_3" 
+						hair_selector = "navi_female_hair_3"	
+						greeting_sound = "human_female_greetings_02"	
+		character_textures = { "gfx/models/portraits/empty_body.dds"
+		}
+	}
+	
+	navi_male_01 	= {	entity = "portrait_navi_female_01_entity"	
+						clothes_selector = "navi_male_clothes_1" 
+						hair_selector = "navi_male_hair_1"	
+						greeting_sound = "human_male_greetings_02"	
+		character_textures = { "gfx/models/portraits/empty_body.dds"
+		}
+	}
+
+	navi_male_02 	= {	entity = "portrait_navi_female_01_entity"	
+						clothes_selector = "navi_male_clothes_2" 
+						hair_selector = "navi_male_hair_2"	
+						greeting_sound = "human_male_greetings_02"	
+		character_textures = { "gfx/models/portraits/empty_body.dds"
+		}
+	}
+
+	navi_male_03 	= {	entity = "portrait_navi_female_01_entity"	
+						clothes_selector = "navi_male_clothes_3" 
+						hair_selector = "navi_male_hair_3"	
+						greeting_sound = "human_male_greetings_02"	
+		character_textures = { "gfx/models/portraits/empty_body.dds"
+		}
+	}
+	
+}
+
+portrait_groups = {
+	MI21_navi = {
+		default = navi_female_01
+		game_setup = { 
+			add = {
+				trigger = {
+					ruler = {gender = male}
+				}
+				portraits = {
+					navi_male_01
+					navi_male_02 
+					navi_male_03
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {gender = female}
+				}
+				portraits = {
+					navi_female_01
+					navi_female_02
+					navi_female_03
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { 
+			add = {
+				portraits = {
+					navi_female_01
+					navi_female_02
+					navi_female_03
+					navi_male_01
+					navi_male_02 
+					navi_male_03 
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { 
+			add = {
+				portraits = {
+					navi_female_01
+					navi_female_02
+					navi_female_03
+					navi_male_01
+					navi_male_02 
+					navi_male_03 
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {gender = female}
+				portraits = {
+					navi_female_01
+					navi_female_02
+					navi_female_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					navi_male_01
+					navi_male_02 
+					navi_male_03
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {gender = female}
+				portraits = {
+					navi_female_01
+					navi_female_02
+					navi_female_03
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					navi_male_01
+					navi_male_02 
+					navi_male_03 
+				}
+			}
+		}
+	}
+}
+
+
+

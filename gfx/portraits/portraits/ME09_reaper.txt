@@ -1,0 +1,55 @@
+
+portraits = {
+	# reapers
+	reapers_husk1 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Mass_Effect/reaper/Reapers_husk_1.dds"}
+	reapers_husk2 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Mass_Effect/reaper/Reapers_husk_2.dds"}
+	reapers_husk3 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Mass_Effect/reaper/Reapers_husk_3.dds"}
+	reapers_leader = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Mass_Effect/reaper/reaper_leader.dds"}
+}
+
+portrait_groups = {
+		ME09_reaper = {
+default = reapers_leader
+		game_setup = { 
+			add = {
+				portraits = {
+					reapers_husk1
+					reapers_husk2
+					reapers_husk3
+					reapers_leader
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					reapers_leader
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					reapers_husk1
+					reapers_husk2
+					reapers_husk3
+					reapers_leader
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					reapers_husk1
+					reapers_husk2
+					reapers_husk3
+					reapers_leader
+				}
+			}
+		}
+	}
+}

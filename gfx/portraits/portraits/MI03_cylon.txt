@@ -1,0 +1,61 @@
+portraits = {
+	cylon1 = {greeting_sound = "mammalian_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/cylon/cylon1.dds"}
+	cylonn5 = {greeting_sound = "mammalian_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/cylon/cylonn5.dds"}
+	cylonn6 = {greeting_sound = "mammalian_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/cylon/cylonn6.dds"}
+	cylonn8 = {greeting_sound = "mammalian_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/cylon/cylonn8.dds"}
+	cylonsaul = { greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/cylon/cylonsaul.dds"}
+}
+
+portrait_groups = {
+		MI03_cylon = {
+	default = cylonn6
+		game_setup = { 
+			add = {
+				portraits = {
+					cylon1
+					cylonn5
+					cylonn6
+					cylonn8
+					cylonsaul
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					cylon1
+					cylonn5
+					cylonn6
+					cylonn8
+					cylonsaul
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					cylon1
+					cylonn5
+					cylonn6
+					cylonn8
+					cylonsaul
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					cylon1
+					cylonn5
+					cylonn6
+					cylonn8
+					cylonsaul
+				}
+			}
+		}
+	}
+}

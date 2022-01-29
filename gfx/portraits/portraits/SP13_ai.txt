@@ -1,0 +1,94 @@
+
+portraits = {
+	#Raudonas
+	SP13_ai_1big 	= {	entity = "ai_crisis_room11_entity" 	clothes_selector = "no_texture" hair_selector = "no_texture" 	}
+	
+	SP13_robot_red	= { entity = "portrait_ai_01_entity" clothes_selector = "no_texture"  hair_selector = "no_texture"	greeting_sound = "robot_human_greetings" }
+	
+	#Melynas
+	SP13_ai_2big	= {	entity = "ai_crisis_room_21_entity" clothes_selector = "no_texture" hair_selector = "no_texture" }
+	
+	}	
+	
+
+portrait_groups = {
+	
+	SP13_ai_1  = {
+		default = SP13_ai_1big  
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					SP13_ai_1big 
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+				add = {
+				portraits = {
+					SP13_ai_1big 
+				}
+			}
+		
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					 SP13_robot_red
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					SP13_robot_red
+				}
+			}
+		}
+	}
+################## Melynas AI ###########################	
+	SP13_ai_2  = {
+		default = SP13_ai_2big
+		game_setup = { 
+			add = {
+				portraits = {
+					SP13_ai_2big 
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+				add = {
+				portraits = {
+					SP13_ai_2big 
+				}
+			}
+		
+		}
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					 SP_robot01 #paimtas is defaultiniu robotu
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					SP_robot01
+				}
+			}
+		}
+	}
+	
+}

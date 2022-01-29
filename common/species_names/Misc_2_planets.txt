@@ -1,0 +1,200 @@
+
+Misc2 = {
+	MI01_xenomorph = {
+		name = Xeno
+		plural = Xenos
+		home_planet = "Zeta Reticuli"
+		home_system = "Zeta Reticuli"
+		name_list = "xenomorph_names"
+	}
+	MI02_predator = {
+		name = Predator
+		plural = Predators
+		home_planet = "Hish"
+		home_system = "Hish"
+		name_list = "REP3"
+	}
+		
+	MI03_cylon= {
+		name = Cylon
+		plural = Cylons
+		home_planet = "Kobol"
+		home_system = Cyrannus
+		name_list = "cylon_names"
+	}
+	
+	MI04_jaffa= {
+		name = Jaffa
+		plural = Jaffas
+		home_planet = "Dakara"
+		home_system = Dakara
+		name_list = "HUM1"
+	}
+	
+	MI05_goauld= {
+		name = Goauld
+		plural = Goauld
+		home_planet = "P3X-888"
+		home_system = P3X-888
+		name_list = "HUM2"
+	}
+	
+	MI06_SGC = {
+		name = Human
+		plural = Humans
+		home_planet = "Earth"
+		home_system = Sol
+		name_list = "HUM1"
+	}
+
+	MI07_TR= {
+		name = Terran
+		plural = Terrans
+		home_planet = "Terran Republic"
+		home_system = Terra
+		name_list = "TerranRep_names"
+	}
+	
+	MI08_NC = {
+		name = "Conglomerate Rebel"
+		plural = "Conglomerate Rebels"
+		home_planet = "New Conglomerate"
+		home_system = "New Conglomerate"
+		name_list = "NewConglomerate_names"
+	}
+	
+	MI09_VN = {
+		name = "Vanu Visionary"
+		plural = "Vanu Visionaries"
+		home_planet = "Vanu Sovereignty"
+		home_system = Vanu
+		name_list = "VanuSov_names"
+	}
+	
+	MI10_terran = {
+		name = "Dominion Terran"
+		plural = "Dominion Terrans"
+		home_planet = "Tarsonis"
+		home_system = Tarsonis
+		name_list = "SCterran_names"
+	}
+	
+	MI11_zerg = {
+		name = "Zerg Swarm"
+		plural = "Zerg Swarm"
+		home_planet = "Zerus"
+		home_system = Zerus
+		name_list = "SCzerg_names"
+	}
+	
+	MI12_protoss = {
+		name = "Protoss"
+		plural = "Protoss"
+		home_planet = "Aiur"
+		home_system = Aiur
+		name_list = "SCprotoss_names"
+	}
+	
+	MI13_harvester = {
+		name = "Harvester"
+		plural = "Karvesters"
+		home_planet = "Unknown"
+		home_system = Unknown
+		name_list = "ART3"
+	}
+		
+	MI14_serenity = {
+		name = "Firefly Team"
+		plural = "Firefly Team"
+		home_planet = "Persephone"
+		home_system = "White Sun"
+		name_list = "MAM1"
+	}	
+
+	MI18_combine = {
+		name = "Combine"
+		plural = "Combine"
+		home_planet = "Combine"
+		home_system = "Combine"
+		name_list = "ART3"
+	}	
+
+	MI19_arachnid = {
+		name = "Arachnid"
+		plural = "Arachnids"
+		home_planet = "Klendathu"
+		home_system = "Klendathu"
+		name_list = "ART3"
+	}	
+	
+	MI20_bg_human = {
+		name = "Human"
+		plural = "Humans"
+		home_planet = "Kobol"
+		home_system = "Kobol"
+		name_list = "HUM1"
+	}		
+
+	MI21_navi = {
+		name = "Na'vi"
+		plural = "Na'vi"
+		home_planet = "Pandora"
+		home_system = "Alpha Centauri"
+		name_list = "PLANT"
+	}
+	#for navi later specifi list to be created
+	
+	MI22_amarr = {
+		name = "Amarr"
+		plural = "Amarrians"
+		home_planet = "Amarr Prime"
+		home_system = "Amarr"
+		name_list = "amarr_names"
+	}
+	
+	MI23_minmatar = {
+		name = "Minmatar"
+		plural = "Minmatar"
+		home_planet = "Matar"
+		home_system = "Pator"
+		name_list = "minmatar_anames"
+	}
+
+	MI24_caldari = {
+		name = "Caldari"
+		plural = "Caldari"
+		home_planet = "Caldari Prime"
+		home_system = "Luminaire"
+		name_list = "caldari_names"
+	}
+	
+	MI25_gallente = {
+		name = "Gallente"
+		plural = "Gallenteans"
+		home_planet = "Gallente Prime"
+		home_system = "Luminaire"
+		name_list = "gallente_names"
+	}
+	
+	MI26_terminator = {
+		name = "Terminator"
+		plural = "Terminators"
+		home_planet = "Skynet"
+		home_system = "Skynet"
+		name_list = "hive_robotic_names"
+	}
+
+	MI33_wraith = {
+		name = "Wraith"
+		plural = "Wraiths"
+		home_planet = "Wraith Homeworld"
+		home_system = "Wraith System"
+		name_list = "swarm_names"
+	}
+
+}
+
+	
+
+
+	

@@ -1,0 +1,83 @@
+# This is a template which multiple species can use. 
+
+sectoid_clothes_01 = {
+	default = "gfx/models/portraits/XCOM/sectoid/grey_naked.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/XCOM/sectoid/grey_naked.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/XCOM/sectoid/grey_naked.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/XCOM/sectoid/grey_naked.dds"
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_1.dds"
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_2.dds" 
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_3.dds" 
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_4.dds"
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_orange.dds" 				
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_army.dds" 
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_navy.dds"
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_red.dds"
+
+			}
+		}
+	}
+		
+	
+	
+	#pop scope
+	pop = { #for a specific pop
+				default ="gfx/models/portraits/XCOM/sectoid/grey_uniform_1.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_1.dds"
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_2.dds" 
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_3.dds" 
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_4.dds"
+			}
+		}
+	}
+		
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/XCOM/sectoid/grey_uniform_1.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_1.dds"
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_2.dds" 
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_3.dds" 
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_4.dds"
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_orange.dds" 				
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_army.dds" 
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_navy.dds"
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_red.dds"
+
+			}
+		}
+
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = 	"gfx/models/portraits/XCOM/sectoid/grey_uniform_1.dds"
+		random = {
+			trigger = { always = yes }
+			list = {
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_1.dds"
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_2.dds" 
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_3.dds" 
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_4.dds"
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_orange.dds" 				
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_army.dds" 
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_navy.dds"
+				"gfx/models/portraits/XCOM/sectoid/grey_uniform_red.dds"
+
+			}
+		}
+	}
+}
+
+

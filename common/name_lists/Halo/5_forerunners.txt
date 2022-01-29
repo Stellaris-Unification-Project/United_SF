@@ -1,0 +1,164 @@
+﻿
+forerunners_names = {
+	### SHIPS
+	randomized = no
+	ship_names = {
+
+		generic = { 
+		} 
+
+		corvette = {  "Penance" "Purity of Faith" "Purity of Spirit" "Revenant" "Reverence" "Devotion"
+		}
+
+		destroyer = { "Harbringer of Pity" "Lawgiver" "Bloodied Spirit" "Clarity of Faith"
+		}
+		
+		cruiser = { "Solemn Penance" "Triumphant Declaration" "Unrelenting" 
+		}		
+
+		battleship = { "Long Night of Solace" "Truth and Reconciliation" "Shadow of Intent"
+		}
+		
+		science = { "Sacred Promise"
+		}
+		
+		colonizer = { "Unrelenting Consecration"
+		}
+		
+		constructor = { "Glorius Advance"
+		}
+		
+		
+		mining_station = { }
+		research_station = { }
+
+		observation_station = { }
+
+		
+		
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		random_names = {
+			"Fleet of Retribution" "Fleet of Sacred Consecration" "Fleet of Righteous Vigilance" "Fleet of Profound Solitude" "Fleet of Particular Justice"
+		}
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Covenant Ground Forces"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Swords of Sanghelios"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Bondservants"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Covenant Ground Legion"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Covenant Sentinals"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Covenant Honor Guard"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Prophet of Vengence"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O%  Covenant Brute Legion"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Covenant Hunter Squad"
+		}
+	}
+		
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Joyous Exultation Qikost Suban Buwan Padpad Doisac Warial Solrapt Teash Rantu Uhtua Te Palamok Naxook Oquiu Ka'amoti Chu'ot Eayn
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				"Fito'Sutamee" "Mrepo'Nungam" "Tova'Rehom" "Xatan'Reclam" "Sura'Volkam" "Zyso'Tutanee" "Thyko'Rohomee" "Xaka'Zakam" "Xato'Chafumkevu" "'Mdalkam" "depa'Maramee" "mryze'Dragumai"
+				"luvo'Locamai" "mroko'Rattin" "jako'Vafam" "kivo'Tuhamee" "buto'Wantak" "sisan'Kofam" "cepa'Tasamai"
+			}
+			
+			# Always combined with a second name
+			first_names = {
+			}
+			
+			# Always combined with a first name
+			second_names = {
+			}
+			
+			regnal_first_names = {
+				"Zyva'Valgam" "Zyva'Zumon" "Zyva'Teragg" "Zyva'Sornas" "Zyva'Pagram" "Zyva'Jonnot" "Zyva'Gentar" "Zyva'Birim"
+			}
+			
+			regnal_second_names = {
+				Volkam
+			}
+		}
+	}
+}

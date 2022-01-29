@@ -1,0 +1,30 @@
+# This is a template which multiple species can use. 
+
+kraylor_male_clothes_01 = {
+	default = "gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_01.dds"
+	game_setup = { default = "gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_01.dds" }
+	species = { default = "gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_01.dds" }
+	pop = {
+		default = "gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_01.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_01.dds"
+				"gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_02.dds"
+				"gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_03.dds"
+				"gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_04.dds"
+			}
+		}
+	}
+	leader = {
+			default = "gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_01.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_01.dds"
+				"gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_02.dds"
+				"gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_03.dds"
+				"gfx/models/portraits/Star_Trek/kraylor/kraylor_male_clothes_04.dds"
+			}
+		}
+	}
+}
+

@@ -1,0 +1,221 @@
+portraits = {
+
+	XC01_advent_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/advent/advent_1.dds"}
+	XC01_advent_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/advent/advent_2.dds"}
+	XC01_advent_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/advent/advent_3.dds"}
+	XC01_advent_4 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/advent/advent_4.dds"}
+	XC01_advent_5 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/advent/advent_5.dds"}
+}
+
+portrait_groups = {
+	XC01_advent= {
+		default = XC01_advent_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					XC01_advent_1
+					XC01_advent_2
+					XC01_advent_3
+					XC01_advent_4
+					XC01_advent_5
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

@@ -1,0 +1,108 @@
+portraits = {
+	copon_female_01 	= {	entity = "portrait_mammalian_13_entity"	clothes_selector = "copon_clothes_01" hair_selector = "general_no_hair"	greeting_sound = "avian_01_greetings" 
+		character_textures = {
+			"gfx/models/portraits/Fantasy/copon/copon_female_body_01.dds"
+			"gfx/models/portraits/Fantasy/copon/copon_female_body_02.dds"
+			"gfx/models/portraits/Fantasy/copon/copon_female_body_03.dds"
+			"gfx/models/portraits/Fantasy/copon/copon_female_body_04.dds"
+			"gfx/models/portraits/Fantasy/copon/copon_female_body_05.dds"
+			"gfx/models/portraits/Fantasy/copon/copon_female_body_06.dds"
+		}
+	}	
+	copon_male_01 	= {	entity = "portrait_mammalian_13_entity"	clothes_selector = "copon_clothes_01" hair_selector = "general_no_hair"	greeting_sound = "avian_01_greetings" 
+		character_textures = {
+			"gfx/models/portraits/Fantasy/copon/copon_male_body_01.dds"
+			"gfx/models/portraits/Fantasy/copon/copon_male_body_02.dds"
+			"gfx/models/portraits/Fantasy/copon/copon_male_body_03.dds"
+			"gfx/models/portraits/Fantasy/copon/copon_male_body_04.dds"
+			"gfx/models/portraits/Fantasy/copon/copon_male_body_05.dds"
+			"gfx/models/portraits/Fantasy/copon/copon_male_body_06.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	FAN07_copon = {
+		default = copon_male_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					copon_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					copon_female_01
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					copon_female_01
+					copon_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					copon_female_01
+					copon_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					copon_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					copon_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					copon_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					copon_male_01
+				}
+			}
+		}
+	}
+}

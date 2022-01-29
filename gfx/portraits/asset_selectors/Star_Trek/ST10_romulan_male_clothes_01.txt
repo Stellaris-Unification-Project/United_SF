@@ -1,0 +1,38 @@
+# This is a template which multiple species can use. 
+
+romulan_male_nemesis_01 = {
+	default = "gfx/models/portraits/Star_Trek/romulan/romulan_male_clothes_nem_05.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/Star_Trek/romulan/romulan_male_clothes_nem_05.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/Star_Trek/romulan/romulan_male_clothes_nem_01.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Trek/romulan/romulan_male_clothes_civ_01.dds"
+				"gfx/models/portraits/Star_Trek/romulan/romulan_male_clothes_civ_02.dds"
+				"gfx/models/portraits/Star_Trek/romulan/romulan_male_clothes_civ_03.dds"
+			}
+		}	
+	}
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/Star_Trek/romulan/romulan_male_clothes_nem_01.dds" = { leader_class = admiral }
+		"gfx/models/portraits/Star_Trek/romulan/romulan_male_clothes_nem_03.dds" = { leader_class = scientist }
+		"gfx/models/portraits/Star_Trek/romulan/romulan_male_clothes_nem_04.dds" = { leader_class = general }
+		"gfx/models/portraits/Star_Trek/romulan/romulan_male_clothes_nem_05.dds" = { leader_class = governor }
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Star_Trek/romulan/romulan_male_clothes_nem_05.dds"		
+	}
+}

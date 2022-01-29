@@ -1,0 +1,174 @@
+#su wh turi name listus, kiti neturi
+
+Warhammer2 = {
+	WH01_beast = {
+		name = Beast
+		plural = Beasts
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = "beast_names"
+	}
+	
+	WH02_chaos = {
+		name = Chaos
+		plural = Chaos
+		home_planet = "Adraith"
+		home_system = "Obscurus"
+		name_list = "wh_chaos_names"
+	}	
+	
+	WH03_darkeldar = {
+		name = "Dark Eldar"
+		plural = "Dark Eldars"
+		home_planet = "Craftworld"
+		home_system = "Craftworld"
+		name_list = "wh_dark_eldar"
+	}
+	
+	WH04_eldar = {
+		name = Eldar
+		plural = Eldars
+		home_planet = "Alaitoc" 
+		home_system = "Alaitoc"
+		name_list = "wh_eldar_names"
+	}
+	
+	WH05_human = {
+		name = Human
+		plural = Humans
+		home_planet = "Terra" 
+		home_system = "Sol"
+		name_list = "wh_imperium_names"
+	}	
+	
+	WH06_inquisition = {
+		name = Inquisition
+		plural = Inquisition
+		home_planet = "Terra"
+		home_system = "Sol"
+		name_list = "wh_inquisition_names"
+	}
+	
+	WH08_mechanicus = {
+		name = Mechanicus
+		plural = Mechanicus
+		home_planet = "Mars"
+		home_system = "Sol"
+		name_list = "wh_mechanicus_names"
+	}
+
+	WH15_spacemarine = {
+		name = "Space Marine" 
+		plural = "Space Marines "
+		home_planet = "Terra" 
+		home_system = "Sol"
+		name_list = "spacemarine_names"
+	}	
+
+	WH10_necron = {
+		name = Necron 
+		plural = Necrons 
+		home_planet = "Akator" 
+		home_system = "Akator"
+		name_list = "wh_necron_names"
+	}	
+
+	WH12_ork = {
+		name = Ork 
+		plural = Orks 
+		home_planet = "Octarius" 
+		home_system = "Octarius"
+		name_list = "wh_ork_names"
+	}
+	
+	WH18_tau = {
+		name = Tau 
+		plural = Tau 
+		home_planet = "T'au" 
+		home_system = "T'au"
+		name_list = "wh_tau_names"
+	}
+	
+	WH19_tyranid = {
+		name = Tyranid  
+		plural = Tyranids 
+		home_planet = "Tyran" 
+		home_system = "Tyran"
+		name_list = "wh_tyranid_names"
+	}	
+
+	WH07_kroot = {
+		name = Kroot  
+		plural = Kroots 
+		home_planet = "Pech" 
+		home_system = "Pech"
+		name_list = "kroot_names"
+	}
+
+	WH07_kroot = {
+		name = Kroot  
+		plural = Kroots 
+		home_planet = "Pech" 
+		home_system = "Pech"
+		name_list = "kroot_names"
+	}	
+
+	
+	WH09_jokaero = {
+		name = Jokaero  
+		plural = Jokaero 
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = "jokaero_names"
+	}	
+	
+	WH11_nicassar = {
+		name = Nicassar  
+		plural = Nicassars 
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = "nicassar_names"
+	}
+
+	WH13_rakgol = {
+		name = "Rak'Gol"   
+		plural = "Rak'Gol"  
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = "wh_rakgol_names"
+	}
+	
+	WH14_slaugh = {
+		name = "Slaugth"   
+		plural = "Slaugth"  
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = "wh_slaugth_names"
+	}	
+		
+	WH17_tarellian = {
+		name = "Tarellian"   
+		plural = "Tarellians"  
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = "wh_tarellian_names"
+	}	
+
+	#"WH16_sslyth"	- Unknown
+
+
+	
+	WH20_vespid = {
+		name = Vespid  
+		plural = Vespids
+		home_planet = "Vespid"
+		home_system = "Vespid"
+		name_list = "vespid_names"
+	}
+	
+}
+
+	
+
+
+	

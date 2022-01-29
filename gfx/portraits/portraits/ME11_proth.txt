@@ -1,0 +1,149 @@
+portraits = {
+	
+	#proth
+	#hair_selector = "proth_male_hair_01"  and proth_body_1.dds" are related and must go together - the same phenotype
+	proth_leader = { entity = "portrait_proth_01_entity"   clothes_selector = "proth_male_clothes_01"    hair_selector = "proth_male_hair_01"   greeting_sound = "human_male_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/Mass_Effect/proth/proth_body_1.dds"
+		}
+   }
+   
+   	proth_male_2 = { entity = "portrait_proth_01_entity"   clothes_selector = "proth_male_clothes_01"    hair_selector = "proth_male_hair_02"   greeting_sound = "human_male_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/Mass_Effect/proth/proth_body_2.dds"
+		}
+   }
+   
+   proth_male_3 = { entity = "portrait_proth_01_entity"   clothes_selector = "proth_male_clothes_01"    hair_selector = "proth_male_hair_03"   greeting_sound = "human_male_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/Mass_Effect/proth/proth_body_3.dds"
+		}
+   }
+ 
+	proth_female_1 = { entity = "portrait_proth_01_entity"   clothes_selector = "proth_female_clothes_01"    hair_selector = "proth_male_hair_01"   greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/Mass_Effect/proth/proth_body_1.dds"
+		}
+   } 
+   
+   	proth_female_2 = { entity = "portrait_proth_01_entity"   clothes_selector = "proth_female_clothes_01"    hair_selector = "proth_male_hair_02"   greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/Mass_Effect/proth/proth_body_2.dds"
+		}
+   } 
+   
+    proth_female_3 = { entity = "portrait_proth_01_entity"   clothes_selector = "proth_female_clothes_01"    hair_selector = "proth_male_hair_03"   greeting_sound = "human_female_greetings_02"
+		 character_textures = {
+			 "gfx/models/portraits/Mass_Effect/proth/proth_body_3.dds"
+		}
+   }
+
+}
+
+portrait_groups = {
+	ME11_proth = {
+		default = proth_leader
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					proth_leader
+					proth_male_2
+					proth_male_3
+				}
+			}
+			
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					proth_female_1
+					proth_female_2
+					proth_female_3
+				}
+			}		
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					proth_leader
+					proth_male_2
+					proth_male_3					
+					proth_female_1
+					proth_female_2
+					proth_female_3					
+				}
+			}
+
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					proth_leader
+					proth_male_2
+					proth_male_3					
+					proth_female_1
+					proth_female_2
+					proth_female_3	
+				}
+			}
+
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					proth_female_1
+					proth_female_2
+					proth_female_3					
+				}
+			}
+		add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					proth_leader
+					proth_male_2
+					proth_male_3
+				}
+			}			
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					proth_female_1
+					proth_female_2
+					proth_female_3					
+				}
+			}
+		add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					proth_leader
+					proth_male_2
+					proth_male_3
+				}
+			}
+		}
+	}
+}

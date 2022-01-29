@@ -1,0 +1,92 @@
+### Narn Portraits
+portraits = {
+	narn_gkar = {greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/narn/narn_gkar_1.dds"}
+	narn_natoth = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/narn/narn_natoth_1.dds"}
+
+}
+portrait_groups = {
+	BA04_narn = {
+		default = narn_gkar
+		game_setup = { 
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					narn_gkar
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					narn_natoth
+				}
+			}
+
+		}			
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					narn_gkar
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					narn_gkar
+					narn_natoth
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					narn_natoth
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					narn_gkar
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					narn_natoth
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					narn_gkar
+				}
+			}
+		}
+		
+		
+	}
+}

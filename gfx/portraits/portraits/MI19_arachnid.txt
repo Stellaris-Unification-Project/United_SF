@@ -1,0 +1,133 @@
+  
+   portraits = { 
+			arachnid01 = { greeting_sound ="arthropoid_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/arachnid/arachnid_1.dds"} 
+			arachnid02 = { greeting_sound ="arthropoid_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/arachnid/arachnid_2.dds"} #ruler
+			arachnid03 = { greeting_sound ="arthropoid_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/arachnid/arachnid_3.dds"} 
+			arachnid04 = { greeting_sound ="arthropoid_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/arachnid/arachnid_4.dds"} 
+			arachnid05 = { greeting_sound ="arthropoid_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/arachnid/arachnid_5.dds"} 
+			
+			
+	}
+
+portrait_groups = {
+	MI19_arachnid = {
+		default = arachnid01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					arachnid01
+					arachnid02
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					arachnid01
+					arachnid02
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					arachnid01
+					arachnid01
+					arachnid01
+					arachnid01
+					arachnid01
+					arachnid01
+					arachnid03
+					arachnid04
+					arachnid05
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					arachnid01
+					arachnid03
+					arachnid04
+					arachnid05
+
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					arachnid01
+					arachnid02
+					arachnid03
+					arachnid04
+					arachnid05
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					arachnid01
+					arachnid02
+					arachnid03
+					arachnid04
+					arachnid05
+
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					arachnid01
+					arachnid02
+					arachnid03
+					arachnid04
+					arachnid05
+
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					arachnid01
+					arachnid02
+					arachnid03
+					arachnid04
+					arachnid05
+			}
+			}
+		}
+	}
+}
+   

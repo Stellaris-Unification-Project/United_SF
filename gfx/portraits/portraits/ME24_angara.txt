@@ -1,0 +1,182 @@
+portraits = {
+		
+	#angara_1m	= {	entity = "angara_male_entity"	clothes_selector = "angara_male_hair_1"
+	#			hair_selector = "angara_male_hair_1_hair"  greeting_sound = "human_male_greetings_02"
+	#			character_textures = { "gfx/models/portraits/Mass_Effect/angara/angara_male_1.dds"	} 	}
+			
+	angara_1m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/Mass_Effect/angara/angara_1m.dds"}		
+	angara_2m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/Mass_Effect/angara/angara_2m.dds"}
+	angara_1f = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/Mass_Effect/angara/angara_1f.dds"}
+	angara_2f = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/Mass_Effect/angara/angara_2f.dds"}
+	angara_3f = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/Mass_Effect/angara/angara_3f.dds"}
+	}
+
+portrait_groups = {
+	ME24_angara = {
+		default = 	angara_1f
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					angara_1m
+					angara_2m
+				
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					angara_1f
+					angara_2f
+					angara_3f
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					angara_1m
+					angara_2m
+					angara_1f
+					angara_2f
+					angara_3f
+					}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					angara_1m
+					angara_2m
+					angara_1f
+					angara_2f
+					angara_3f
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					angara_1f
+					angara_2f
+					angara_3f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					angara_1m
+					angara_2m
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					angara_1f
+					angara_2f
+					angara_3f
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					angara_1m
+					angara_2m
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					angara_1f
+					angara_2f
+					angara_3f
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					angara_1m
+					angara_2m
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					angara_1f
+					angara_2f
+					angara_3f
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					angara_1m
+					angara_2m
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					angara_1f
+					angara_2f
+					angara_3f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					angara_1m
+					angara_2m
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

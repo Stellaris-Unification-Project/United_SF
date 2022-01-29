@@ -1,0 +1,53 @@
+portraits = {
+
+	HA_huragok_1 =  {	entity = "huragok_01_entity"	clothes_selector = "general_no_hair" hair_selector = "general_no_hair"	greeting_sound = "fungoid_01_greetings" 
+			character_textures = {
+					"gfx/models/portraits/Halo/huragok/huragok_01.dds"
+					"gfx/models/portraits/Halo/huragok/huragok_02.dds"
+					"gfx/models/portraits/Halo/huragok/huragok_03.dds"
+					"gfx/models/portraits/Halo/huragok/huragok_04.dds"
+					"gfx/models/portraits/Halo/huragok/huragok_05.dds"
+					
+			}
+		}
+}
+
+portrait_groups = {
+	HA02_huragok = {
+	default = HA_huragok_1
+		game_setup = { 
+			add = {
+				portraits = {
+					HA_huragok_1
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					HA_huragok_1
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					HA_huragok_1
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					HA_huragok_1
+				}
+			}
+		}
+	}
+}
+
+

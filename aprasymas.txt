@@ -1,0 +1,57 @@
+This mod is an effort to combine sci-fi related races in one place. The plan is to create, combine, improve and revive portraits from all available science fiction mods specifically the ones that are no longer updated by their creators. It is an independent mod with focus mainly on portraits. Now there are 220+ races (120+ animated) and increasing. This mod as most other mods is not compatible with achievements.
+
+[h1] Content [/h1]
+Current, but not final Sci-Fi sections and animated portraits are listed below: 
+•	Babylon 5 – 1 animated (narn); 
+•	Mass Effect – about half animated (from EDI, prothean to geth, kett)
+•	Star Wars – about half animated (mirialan, zabrak, twi’lek, togruta, sith, chiss, sullustan, jawa, rodian, neimodians, duros)
+•	Star Trek – all races animated;
+•	Miscellaneous races – na'vi from Avatar, xenomorph, terminator, 2 Star Gate races and 3 PlanetSide factions animated, protoss;
+•	Special Stellaris races – all (contingency, unbidden, robots, swarm) races animated;
+•	Halo – Cortana, UNCS, prehuman, covenant races;
+•	Doctor Who – all races static;
+•	Warhammer 40k – all races static;
+•	XCOM – all races static.
+•	Fantasy - all races animated.
+
+There are also included name lists and planets/systems, but other modifications (prescr. empires, race traits, overhauls, predefinitions) are NOT included as my idea is to make it as universal as possible. If you need additional traits, you can get them from this [url=http://steamcommunity.com/sharedfiles/filedetails/?id=850721710] awesome mod [/url] inspired by various sci-fi themes.
+
+[h1] Random spawning and type of races [/h1]
+Random spawning is set to No, so You can decide what races are included in your game. See links to patches:
+•	[url=http://steamcommunity.com/sharedfiles/filedetails/?id=858366182] Activates randomisation for all races[/url]; 
+•	[url=http://steamcommunity.com/sharedfiles/filedetails/?id=876893105] Activates randomisation ONLY for animated races (static ones are hidden) [/url].
+
+Current mod adds races in sections by default considered as for organic races by game, but if you want to play a custom race from this pack as robotic empire (for example, borg, geth and etc.,) subscribe following patch mod [url=http://steamcommunity.com/sharedfiles/filedetails/?edit=true&id=1142647596] United Sci-Fi races: Robots.[/url]
+
+[h1] Conflicting mods [/h1]
+Mass Effect Theme Pack – overwrites Mass Effect races;
+
+[h1] Also:[/h1]
+Please see also what content of other mods were used for this mod in [url=http://steamcommunity.com/workshop/filedetails/discussion/814332008/1842367319511271273] specific discussion thread[/url]. You may also suggest races from outdated mods or new race you have been looking for. No promises, but I consider each suggestion and appreciate your feedback. If You like it, please rate it :).
+
+Naturally I cannot cover all Sci-Fi races/factions, but I will do as much possible from my side to create, animate and improve current mod content that we all could enjoy this awesome game mixed with other sci-fi themes.
+
+[h1] Please check out my mods:[/h1]
+• [url=http://steamcommunity.com/sharedfiles/filedetails/?id=850721710] United traits (70+ traits) [/url]
+• [url=http://steamcommunity.com/sharedfiles/filedetails/?id=873063455] Extended Vanilla Clothes (1100+ clothes)[/url]
+• [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1142647596] United Sci-Fi: Robots (includes extended SD portraits) [/url]
+• [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1160633415] Extended SD Portraits[/url]
+• [url=http://steamcommunity.com/sharedfiles/filedetails/?id=814854383] United Flags (various Sci-Fi and other flag collection)[/url]
+• [url=http://steamcommunity.com/sharedfiles/filedetails/?id=1588415009] United Small Tweaks (minor changes for gameplay)[/url]
+• [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1766559290] Better map - significantly better display of empires in the map.[/url]
+
+[h1] Manuals:[/h1]
+•  [url=http://steamcommunity.com/workshop/filedetails/discussion/814332008/3182216552771790950/] How to hide race you do not want to see in your game play (relevant for randomising patches)?[/url]
+
+
+[h1] Change log (after 1.8 game release only):[/h1]
+• [url=http://steamcommunity.com/workshop/filedetails/discussion/814332008/1519260397786152801/] The list of previous changes (link).[/url]
+• V3.0: Na'vies from Avatar added into Misc category. 3 new name lists for Hives: robotic, swarm, purifiers were also included.
+• V3.1: The Contingency 2 portraits were added under Special races. Animated EDI from ME and terminator added. Eve Online 4 factions were added.
+• V3.2: Female picture for forerunners and animated Cortana were added into Halo section. 3 additional skins of troopers added for Empire of SW. Animated xenomorph added.
+• V3.3: Space Rangers races and Asgard race from SG were added into Misc section.  
+• V3.4: Wraiths from SG added; name list for turians from ME fixed and improved.
+• V3.5: Hhrud and sisters of battle were added to WH section. All WH pictures were revised.
+• V3.6: Silurian added to Doctor Who section. Star Wars section expanded: ortolan, neimodians (animated) and duros (animated) were added.
+• V3.7: Animated Sectoid added for X-COM section. Star Wars section updated: animated hutt and wookiee added.
+• V3.8: new version of animated sectoid added to X-COM section. Also new section Fantasy added. Two new species added for this section: Skeletor and Golden Devil. Also multiple races from StarFall added.

@@ -1,0 +1,108 @@
+portraits = {
+	# lyridian
+	lyridian_female_01 = {
+		entity = "portrait_lyridian_female_01_entity"	clothes_selector = "lyridian_female_clothes_01" 	hair_selector = "lyridian_female_hair_01"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/lyridian/lyridian_female_body_01.dds"
+			"gfx/models/portraits/Star_Trek/lyridian/lyridian_female_body_02.dds"
+			"gfx/models/portraits/Star_Trek/lyridian/lyridian_female_body_03.dds"
+		}
+	}
+	
+	lyridian_male_01 = {	
+		entity = "portrait_lyridian_male_01_entity"	clothes_selector = "lyridian_male_clothes_01" 	hair_selector = "lyridian_male_hair_01"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/lyridian/lyridian_male_body_01.dds"
+			"gfx/models/portraits/Star_Trek/lyridian/lyridian_male_body_02.dds"
+		}
+	}	
+
+}
+
+portrait_groups = {
+	ST33_lyridian = {
+		default = lyridian_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					lyridian_male_01
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					lyridian_female_01
+
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					lyridian_female_01
+					lyridian_male_01
+
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					lyridian_female_01
+					lyridian_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					lyridian_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					lyridian_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					lyridian_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					lyridian_male_01
+				}
+			}
+		}
+	}	
+}

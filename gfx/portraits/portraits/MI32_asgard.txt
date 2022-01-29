@@ -1,0 +1,56 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_Babylon5_Races.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+   portraits = { 
+			asgard01 = {greeting_sound ="human_male_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/asgard/asgard_01.dds"} 
+	}
+
+	
+	
+#"MI31_faeyan"
+portrait_groups = {
+	MI32_asgard = {
+		default = asgard01 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					asgard01 
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					asgard01 
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					asgard01 
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					asgard01 
+				}
+			}
+		}
+	}
+}
+

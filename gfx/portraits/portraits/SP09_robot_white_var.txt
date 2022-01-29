@@ -1,0 +1,55 @@
+
+
+portraits = {	
+
+	SP_robot09	= {	entity =  "portrait_robot_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture" 
+					greeting_sound = "robot_human_greetings"
+					character_textures = {
+						"gfx/models/portraits/Special/robot/Alien_AI_WhiteBlue.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_WhiteGreen.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_WhiteOrange.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_WhitePurple.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_WhiteRed.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_WhiteYellow.dds"						
+					}
+					
+				}
+}
+					
+	portrait_groups = {
+	SP09_robot = {
+		default = SP_robot09
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					SP_robot09
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					SP_robot09
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					SP_robot09
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					SP_robot09
+				}
+			}
+		}
+	}
+}

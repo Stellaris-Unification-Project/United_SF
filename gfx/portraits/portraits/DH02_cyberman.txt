@@ -1,0 +1,69 @@
+portraits = {
+
+	cyberman01 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/cyberman/cyberman1.dds"}
+	cyberman02 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/cyberman/cyberman2.dds"}
+	cyberman03 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/cyberman/cyberman3.dds"}
+	cyberman04 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/cyberman/cyberman4.dds"}
+	cyberman05 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/cyberman/cyberman5.dds"}
+	cyberman06 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/cyberman/cyberman6.dds"}
+	
+	}
+
+portrait_groups = {
+	DH02_cyberman = {
+	default = cyberman05
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					cyberman01 
+					cyberman02
+					cyberman03
+					cyberman04 
+					cyberman05 
+					cyberman06
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					cyberman01 
+					cyberman02
+					cyberman03
+					cyberman04 
+					cyberman05 
+					cyberman06
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					cyberman01 
+					cyberman02
+					cyberman03
+					cyberman04 
+					cyberman05 
+					cyberman06
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					cyberman01 
+					cyberman02
+					cyberman03
+					cyberman04 
+					cyberman05 
+					cyberman06
+				}
+			}
+		}
+	}
+}
+

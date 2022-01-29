@@ -1,0 +1,176 @@
+portraits = {
+
+	XC02_andromedon_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/andromedon/andromedon_1.dds"}
+	XC02_andromedon_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/andromedon/andromedon_2.dds"}
+}
+
+portrait_groups = {
+	XC02_andromedon = {
+		default = XC02_andromedon_1
+		game_setup = { 
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					XC02_andromedon_1
+					XC02_andromedon_2
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

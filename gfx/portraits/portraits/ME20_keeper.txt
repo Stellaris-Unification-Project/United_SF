@@ -1,0 +1,47 @@
+portraits = {
+	keeper01 = {greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/keeper/keeper_01.dds"}
+	keeper02 = {greeting_sound = "arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Mass_Effect/keeper/keeper_02.dds"}
+	}
+
+portrait_groups = {
+	ME20_keeper= {
+	default = keeper02	
+		game_setup = { 
+			add = {
+				portraits = {
+					keeper02
+					keeper01
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					keeper02
+					keeper01
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					keeper02
+					keeper01
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					keeper02
+					keeper01
+				}
+			}
+		}
+	}
+}
+

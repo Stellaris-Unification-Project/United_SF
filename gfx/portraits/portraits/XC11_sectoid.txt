@@ -1,0 +1,104 @@
+
+
+portraits = {
+	sectoid_1 = {
+		entity = "sectoid_portrait_entity" clothes_selector = "sectoid_clothes_01" 
+					hair_selector = "general_no_hair" greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/XCOM/sectoid/grey_naked.dds"
+			"gfx/models/portraits/XCOM/sectoid/grey_uniform_1.dds"
+			"gfx/models/portraits/XCOM/sectoid/grey_uniform_2.dds"
+			"gfx/models/portraits/XCOM/sectoid/grey_uniform_3.dds"
+			"gfx/models/portraits/XCOM/sectoid/grey_uniform_4.dds"
+		}
+	}
+	sectoid_2 = { #leader
+		entity = "sectoid_portrait_entity" clothes_selector = "sectoid_clothes_01" 
+		hair_selector = "general_no_hair" greeting_sound = "plantoid_greetings" 
+		character_textures = {
+			"gfx/models/portraits/XCOM/sectoid/grey_uniform_red.dds"
+		}
+	}
+}			
+
+portrait_groups = {
+	XC11_sectoid = {
+		default = sectoid_1
+		game_setup = { 
+			add = {
+				trigger = {
+					ruler = {gender = male}
+				}
+				portraits = {
+					sectoid_1
+				}
+			}
+			add = {
+				trigger = {
+					ruler = {gender = female}
+				}
+				portraits = {
+					sectoid_1
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { 
+			add = {
+				portraits = {
+					sectoid_1
+					sectoid_2
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { 
+			add = {
+				portraits = {
+					sectoid_1
+					sectoid_2
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {gender = female}
+				portraits = {
+					sectoid_2
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sectoid_2
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {gender = female}
+				portraits = {
+					sectoid_2
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sectoid_2
+				}
+			}
+		}
+	}
+}

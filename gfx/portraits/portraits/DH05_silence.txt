@@ -1,0 +1,43 @@
+portraits = {
+
+	silence01 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/silence/silence.dds"}
+	
+	}
+
+portrait_groups = {
+	DH05_silence = {
+default = silence01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					silence01
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					silence01
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					silence01
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					silence01
+				}
+			}
+		}
+	}
+}

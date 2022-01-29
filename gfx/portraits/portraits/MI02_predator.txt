@@ -1,0 +1,188 @@
+portraits = {
+	female = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/predator/female.dds"}
+	berserker = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/predator/berserker.dds"}
+	classic = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/predator/classic.dds"}
+	elder = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/predator/elder.dds"}
+	falconer = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/predator/falconer.dds"}
+	scar = { greeting_sound ="arthropoid_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/predator/scar.dds"}
+	shadow = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/predator/shadow.dds"}
+	guardian = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/predator/guardian.dds"}
+	tracker = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/predator/tracker.dds"}
+	classicunmasked = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/predator/classicunmasked.dds"}
+	celtic = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/predator/celtic.dds"}
+	cleaner = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/predator/cleaner.dds"}
+}
+
+portrait_groups = {
+	MI02_predator = {
+		default = elder
+	game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					elder
+					shadow
+					berserker
+					classic
+					falconer
+					guardian
+					tracker
+					classicunmasked
+					celtic
+					cleaner
+					scar
+					female 
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					elder
+					shadow
+					berserker
+					classic
+					falconer
+					guardian
+					tracker
+					classicunmasked
+					celtic
+					cleaner
+					scar
+					female 
+
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					elder
+					shadow
+					berserker
+					classic
+					falconer
+					guardian
+					tracker
+					classicunmasked
+					celtic
+					cleaner
+					scar
+					female 
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					elder
+					shadow
+					berserker
+					classic
+					falconer
+					guardian
+					tracker
+					classicunmasked
+					celtic
+					cleaner
+					scar
+					female 
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					elder
+					shadow
+					berserker
+					classic
+					falconer
+					guardian
+					tracker
+					classicunmasked
+					celtic
+					cleaner
+					scar
+					female 
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					elder
+					shadow
+					berserker
+					classic
+					falconer
+					guardian
+					tracker
+					classicunmasked
+					celtic
+					cleaner
+					scar
+					female 
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					elder
+					shadow
+					berserker
+					classic
+					falconer
+					guardian
+					tracker
+					classicunmasked
+					celtic
+					cleaner
+					scar
+					female 
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					elder
+					shadow
+					berserker
+					classic
+					falconer
+					guardian
+					tracker
+					classicunmasked
+					celtic
+					cleaner
+					scar
+					female 
+				}
+			}
+		}
+	}		
+		
+}	
+		

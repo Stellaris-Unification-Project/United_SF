@@ -1,0 +1,87 @@
+# This is a template which multiple species can use. 
+  
+quarian_female_hair_01 = {
+	default = "gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_8.dds"
+	
+	game_setup = {
+		default = "gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_8.dds"
+	}
+	
+	#species scope
+	species = { 
+		default = "gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_8.dds"
+	}
+	
+	#pop scope
+	pop = { 
+	
+		default = "gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_8.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_8.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_2.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_3.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_4.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_5.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_6.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_7.dds"
+				
+			}
+		}	
+	}
+	
+
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_8.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_8.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_2.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_3.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_4.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_5.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_6.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_7.dds"
+			}
+		}		
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_8.dds"	
+				random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+
+			list = {
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_8.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_2.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_3.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_4.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_5.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_6.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_female_hair_7.dds"
+			}
+		}		
+		
+		
+	}
+}
+  

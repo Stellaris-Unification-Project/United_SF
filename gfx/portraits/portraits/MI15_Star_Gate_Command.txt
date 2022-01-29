@@ -1,0 +1,199 @@
+portraits = {
+
+	MI06_SGC01m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/Miscellaneous/Star_Gate_Command/SGC_1.dds"}
+	MI06_SGC02f = {greeting_sound = "human_female_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/Star_Gate_Command/SGC_2F.dds"}
+	MI06_SGC03m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/Miscellaneous/Star_Gate_Command/SGC_3.dds"}
+	MI06_SGC04m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/Miscellaneous/Star_Gate_Command/SGC_4.dds"}
+	MI06_SGC05m = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/Miscellaneous/Star_Gate_Command/SGC_5.dds"}
+	MI06_SGC06f = {greeting_sound = "human_female_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/Star_Gate_Command/SGC_6F.dds"}
+}
+
+portrait_groups = {
+	MI15_SGC = {
+		default = MI06_SGC01m
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					MI06_SGC01m
+					MI06_SGC03m
+					MI06_SGC04m
+					MI06_SGC05m
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					MI06_SGC02f
+					MI06_SGC06f
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					MI06_SGC02f
+					MI06_SGC06f
+					MI06_SGC01m
+					MI06_SGC03m
+					MI06_SGC04m
+					MI06_SGC05m
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					MI06_SGC02f
+					MI06_SGC06f
+					MI06_SGC01m
+					MI06_SGC03m
+					MI06_SGC04m
+					MI06_SGC05m
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					MI06_SGC02f
+					MI06_SGC06f
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					MI06_SGC01m
+					MI06_SGC03m
+					MI06_SGC04m
+					MI06_SGC05m
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					MI06_SGC02f
+					MI06_SGC06f
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					MI06_SGC01m
+					MI06_SGC03m
+					MI06_SGC04m
+					MI06_SGC05m
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					MI06_SGC02f
+					MI06_SGC06f
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					MI06_SGC01m
+					MI06_SGC03m
+					MI06_SGC04m
+					MI06_SGC05m
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					MI06_SGC02f
+					MI06_SGC06f
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					MI06_SGC01m
+					MI06_SGC03m
+					MI06_SGC04m
+					MI06_SGC05m
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					MI06_SGC02f
+					MI06_SGC06f
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					MI06_SGC01m
+					MI06_SGC03m
+					MI06_SGC04m
+					MI06_SGC05m
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

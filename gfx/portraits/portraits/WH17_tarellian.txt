@@ -1,0 +1,194 @@
+portraits = {
+
+	WH_tarellian01 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tarellian/tarellian_ruler1.dds"}
+	WH_tarellian02 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tarellian/tarellian1.dds"}
+	WH_tarellian03 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tarellian/tarellian2.dds"}
+	WH_tarellian04 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tarellian/tarellian3.dds"}
+		
+}
+
+portrait_groups = {
+	WH17_tarellian = {
+		default = WH_tarellian01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					WH_tarellian01
+					WH_tarellian02
+					WH_tarellian03
+					WH_tarellian04
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

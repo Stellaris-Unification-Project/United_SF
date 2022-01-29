@@ -1,0 +1,68 @@
+portraits = {
+
+	WH_mechanicus01 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/mechanicus/mechanicus_ruler1.dds"}
+	WH_mechanicus02 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/mechanicus/mechanicus_ruler2.dds"} 
+	WH_mechanicus03 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/mechanicus/mechanicus1.dds"}
+	WH_mechanicus04 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/mechanicus/mechanicus2.dds"}
+	WH_mechanicus05 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/mechanicus/mechanicus3.dds"}
+	WH_mechanicus06 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/mechanicus/mechanicus4.dds"}	
+	WH_mechanicus07 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/mechanicus/mechanicus5.dds"}	
+}
+
+portrait_groups = {
+	WH08_mechanicus = {
+	default = WH_mechanicus06
+		game_setup = { 
+			add = {
+				portraits = {
+					WH_mechanicus06
+					WH_mechanicus07
+					WH_mechanicus01
+					WH_mechanicus03
+					WH_mechanicus04
+					WH_mechanicus05
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					WH_mechanicus06
+					WH_mechanicus07
+					WH_mechanicus01
+					WH_mechanicus03
+					WH_mechanicus04
+					WH_mechanicus05
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					WH_mechanicus06
+					WH_mechanicus07
+					WH_mechanicus01
+					WH_mechanicus03
+					WH_mechanicus04
+					WH_mechanicus05
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					WH_mechanicus06
+					WH_mechanicus07
+					WH_mechanicus01
+					WH_mechanicus03
+					WH_mechanicus04
+					WH_mechanicus05
+				}
+			}
+		}
+	}
+}

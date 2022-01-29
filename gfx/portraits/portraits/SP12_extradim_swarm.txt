@@ -1,0 +1,448 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+portraits = {
+	
+	exd4 	= {	entity = "portrait_extradimensional_04_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "space_cloud_death" 
+					character_textures = {
+						"gfx/models/portraits/extradimensional/Alien_extradimensional_01.dds"
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_011.dds"				
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_012.dds"	
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_013.dds"
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_014.dds"						
+					}
+	}
+	exd5 	= {	entity = "portrait_extradimensional_05_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "space_cloud_death" 
+					character_textures = {
+						"gfx/models/portraits/extradimensional/extradimensional_02.dds"
+						"gfx/models/portraits/Special/extradimensional/extradimensional_021.dds"				
+						"gfx/models/portraits/Special/extradimensional/extradimensional_022.dds"	
+						"gfx/models/portraits/Special/extradimensional/extradimensional_023.dds"
+						"gfx/models/portraits/Special/extradimensional/extradimensional_024.dds"						
+					}
+	}
+	exd6 	= {	entity = "portrait_extradimensional_06_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "space_cloud_death" 
+					character_textures = {
+						"gfx/models/portraits/extradimensional/extradimensional_03.dds"	
+						"gfx/models/portraits/Special/extradimensional/extradimensional_031.dds"						
+						"gfx/models/portraits/Special/extradimensional/extradimensional_032.dds"	
+						"gfx/models/portraits/Special/extradimensional/extradimensional_033.dds"
+						"gfx/models/portraits/Special/extradimensional/extradimensional_034.dds"						
+					}		
+	}
+	exd7 	= {	entity = "portrait_extradimensional_05_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "space_cloud_death" 
+					character_textures = {
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_04.dds"			
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_041.dds"	
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_042.dds"	
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_043.dds"
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_044.dds"						
+					}		
+	}
+	exd8 	= {	entity = "portrait_extradimensional_05_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "space_cloud_death" 
+					character_textures = {
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_05.dds"
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_051.dds"						
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_052.dds"	
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_053.dds"
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_054.dds"						
+					}		
+	}
+	exd9 	= {	entity = "portrait_extradimensional_04_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "space_cloud_death" 
+					character_textures = {
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_06.dds"	
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_061.dds"						
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_062.dds"	
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_063.dds"
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_064.dds"						
+					}		
+	}
+	exd10 	= {	entity = "portrait_extradimensional_04_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "space_cloud_death" 
+					character_textures = {
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_07.dds"
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_071.dds"							
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_072.dds"	
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_073.dds"
+						"gfx/models/portraits/Special/extradimensional/Alien_extradimensional_074.dds"						
+					}		
+	}
+	exd11 	= {	entity = "portrait_extradimensional_05_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "space_cloud_death" 
+					character_textures = {
+						"gfx/models/portraits/Special/extradimensional/extradimensional_08.dds"
+						"gfx/models/portraits/Special/extradimensional/extradimensional_081.dds"				
+						"gfx/models/portraits/Special/extradimensional/extradimensional_082.dds"	
+						"gfx/models/portraits/Special/extradimensional/extradimensional_083.dds"
+						"gfx/models/portraits/Special/extradimensional/extradimensional_084.dds"	
+						"gfx/models/portraits/Special/extradimensional/extradimensional_085.dds"							
+					}		
+	}
+	swarm2 			= {	entity = "portrait_swarm_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/swarm/Alien_Swarm.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm1.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm2.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm3.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm4.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm5.dds"		
+					}		
+	}
+	swarm2small 	= {	entity = "portrait_swarm_02_small_entity" 	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/swarm/Alien_Swarm.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm1.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm2.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm3.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm4.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm5.dds"		
+					}		
+	}
+	swarm3 			= {	entity = "portrait_swarm_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_2.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_21.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_22.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_23.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_24.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_25.dds"		
+					}		
+	}
+	swarm3small 	= {	entity = "portrait_swarm_02_small_entity" 	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_2.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_21.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_22.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_23.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_24.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_25.dds"		
+					}		
+	}
+	swarm4 			= {	entity = "portrait_swarm_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_3.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_31.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_32.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_33.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_34.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_35.dds"		
+					}		
+	}
+	swarm4small 	= {	entity = "portrait_swarm_02_small_entity" 	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_3.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_31.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_32.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_33.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_34.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_35.dds"		
+					}		
+	}
+	swarm5 			= {	entity = "portrait_swarm_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_4.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_41.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_42.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_43.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_44.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_45.dds"		
+					}		
+	}
+	swarm5small 	= {	entity = "portrait_swarm_02_small_entity" 	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_4.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_41.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_42.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_43.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_44.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_45.dds"		
+					}		
+	}
+	swarm6 			= {	entity = "portrait_swarm_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_5.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_51.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_52.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_53.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_54.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_55.dds"		
+					}		
+	}
+	swarm6small 	= {	entity = "portrait_swarm_02_small_entity" 	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_5.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_51.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_52.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_53.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_54.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_55.dds"		
+					}		
+	}
+
+	
+	swarm7 			= {	entity = "portrait_swarm_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_61.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_62.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_63.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_64.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_65.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_66.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_67.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_68.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_69.dds"						
+					}		
+	}
+	swarm7small 	= {	entity = "portrait_swarm_02_small_entity" 	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_61.dds"				
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_62.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_63.dds"						
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_64.dds"		
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_65.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_66.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_67.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_68.dds"
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_69.dds"			
+					}		
+	}	
+
+	swarm8 			= {	entity = "portrait_swarm_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_71.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_72.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_73.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_74.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_75.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_76.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_77.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_78.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_79.dds"							
+					
+					}		
+	}
+	swarm8small 	= {	entity = "portrait_swarm_02_small_entity" 	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_71.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_72.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_73.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_74.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_75.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_76.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_77.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_78.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_79.dds"				
+			
+					}		
+	}
+
+	swarm9 			= {	entity = "portrait_swarm_02_entity" 		clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_81.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_82.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_83.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_84.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_85.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_86.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_87.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_88.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_89.dds"		
+						
+					
+					}		
+	}
+	swarm9small 	= {	entity = "portrait_swarm_02_small_entity" 	clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "event_swarm" 
+					character_textures = {
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_81.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_82.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_83.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_84.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_85.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_86.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_87.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_88.dds"	
+						"gfx/models/portraits/Special/swarm/Alien_Swarm_89.dds"			
+			
+					}		
+	}
+	
+}
+
+portrait_groups = {
+	
+	swarm2group = {
+		default = swarm2small
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					swarm2
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+				add = {
+				portraits = {
+					swarm2
+				}
+			}
+		
+		}
+	}
+	
+	swarm3group = {
+		default = swarm3small
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					swarm3
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+				add = {
+				portraits = {
+					swarm3
+				}
+			}
+		
+		}
+	}
+	
+	swarm4group = {
+		default = swarm4small
+		game_setup = { 
+			add = {
+				portraits = {
+					swarm4
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+				add = {
+				portraits = {
+					swarm4
+				}
+			}
+		
+		}
+	}
+	
+	swarm5group = {
+		default = swarm5small
+		game_setup = { 
+			add = {
+				portraits = {
+					swarm5
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+				add = {
+				portraits = {
+					swarm5
+				}
+			}
+		
+		}
+	}
+	
+	swarm6group = {
+		default = swarm6small
+		game_setup = {
+			add = {
+				portraits = {
+					swarm6
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+				add = {
+				portraits = {
+					swarm6
+				}
+			}
+		
+		}
+	}
+	
+	swarm7group = {
+		default = swarm7small
+		game_setup = {
+			add = {
+				portraits = {
+					swarm7
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+				add = {
+				portraits = {
+					swarm7
+				}
+			}
+		
+		}
+	}
+
+
+	swarm8group = {
+		default = swarm8small
+		game_setup = {
+			add = {
+				portraits = {
+					swarm8
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+				add = {
+				portraits = {
+					swarm8
+				}
+			}
+		
+		}
+	}
+	
+		swarm9group = {
+		default = swarm9small
+		game_setup = {
+			add = {
+				portraits = {
+					swarm9
+				}
+			}
+		}
+
+		#leader scope 
+		ruler = {
+				add = {
+				portraits = {
+					swarm9
+				}
+			}
+		
+		}
+	}
+	
+}

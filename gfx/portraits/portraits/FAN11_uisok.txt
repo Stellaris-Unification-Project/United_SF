@@ -1,0 +1,107 @@
+
+portraits = {
+	# UISOK
+	uisok_01_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "uisok_01_female_clothes_01" hair_selector = "uisok_01_female_hair_01"
+			greeting_sound = "human_female_greetings_03" 
+			character_textures = {
+				"gfx/models/portraits/Fantasy/uisok/uisok_01_female_body_01.dds"
+				"gfx/models/portraits/Fantasy/uisok/uisok_01_female_body_02.dds"	
+				"gfx/models/portraits/Fantasy/uisok/uisok_01_female_body_03.dds"	
+				"gfx/models/portraits/Fantasy/uisok/uisok_01_female_body_04.dds"	
+			}
+	}
+
+	uisok_01_male_01 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "uisok_01_male_clothes_01" 	hair_selector = "uisok_01_male_hair_01"		
+						greeting_sound = "human_male_greetings_03" 
+	}
+}
+
+portrait_groups = {
+	FAN11_uisok = {
+		default = uisok_01_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					uisok_01_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					uisok_01_female_01
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					uisok_01_female_01
+					uisok_01_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					uisok_01_female_01
+					uisok_01_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					uisok_01_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					uisok_01_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					uisok_01_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					uisok_01_male_01
+				}
+			}
+		}
+	}
+}

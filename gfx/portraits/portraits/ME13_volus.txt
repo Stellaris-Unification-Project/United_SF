@@ -1,0 +1,183 @@
+############################################################## 
+#	texturefile = "gfx/models/portraits/volus/volus1.dds"
+#	greeting_sound ="human_male_greetings_04" 
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	# Volus
+	volus_female_leader = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_lead2.dds"}
+	volus_female_sci = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_sci_mil1.dds" }
+	volus_female_admiral = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_mil2.dds" }
+	volus_female_general = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_mil3.dds" }
+	volus_female_gov = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_lead.dds" }
+	volus_male_leader = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_lead2.dds"}
+	volus_male_sci = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_sci_mil1.dds" }
+	volus_male_admiral = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_mil2.dds" }
+	volus_male_general = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_mil3.dds" }
+	volus_male_gov = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_lead.dds" }
+	volus_gen_pop_male = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_genpop.dds" }
+	volus_gen_pop_female = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_genpop.dds" }
+	volusmainport = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/volus/volus_species_portrait.dds" }
+}
+
+portrait_groups = {
+		ME13_volus = {
+		default = volus_male_leader
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					volus_male_leader	
+					volus_male_gov					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					volus_female_leader
+					volus_female_gov					
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+				volus_gen_pop_male
+				volus_gen_pop_female
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+				volus_gen_pop_male
+				volus_gen_pop_female				
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					volus_female_sci				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					volus_male_sci			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					volus_female_general				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					volus_male_general			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					volus_female_admiral				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					volus_male_admiral			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					volus_female_gov				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					volus_male_gov			
+				}
+			}			
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					volus_female_leader
+					volus_female_gov				
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					volus_male_leader
+					volus_male_gov					
+				}
+			}
+		}
+	}
+}

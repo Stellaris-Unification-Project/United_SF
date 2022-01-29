@@ -1,0 +1,170 @@
+############################################################## 
+#	texturefile = "gfx/models/portraits/volus/volus1.dds"
+#	greeting_sound ="human_male_greetings_04" 
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	# Elcor
+	elcor_leader = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/elcor/elcor4.dds"}
+	elcor_sci = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/elcor/elcor2.dds" }
+	elcor_admiral = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/elcor/elcor3.dds" }
+	elcor_general = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/elcor/elcor1.dds" }
+	elcor_gov = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/elcor/elcor4.dds" }
+	elcor_genpop = { greeting_sound ="mammalian_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/elcor/elcor2.dds" }
+}
+
+portrait_groups = {
+	ME15_elcor = {
+		default = elcor_leader
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					elcor_leader					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					elcor_leader					
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+				elcor_genpop
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+				elcor_genpop				
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					elcor_sci				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					elcor_sci			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					elcor_general				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					elcor_general			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					elcor_admiral				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					elcor_admiral			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					elcor_gov			
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					elcor_gov		
+				}
+			}			
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					elcor_leader				
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					elcor_leader				
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,107 @@
+portraits = {
+	
+	aquan_female_01 	= {	entity = "humanoid_04_female_01_entity"	clothes_selector = "aquan_clothes_01" hair_selector = "general_no_hair"	greeting_sound = "human_female_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/Fantasy/aquan/aquan_01_female_01.dds"
+			"gfx/models/portraits/Fantasy/aquan/aquan_01_female_02.dds"
+			"gfx/models/portraits/Fantasy/aquan/aquan_01_female_03.dds"
+			"gfx/models/portraits/Fantasy/aquan/aquan_01_female_04.dds"
+			"gfx/models/portraits/Fantasy/aquan/aquan_01_female_05.dds"
+		}
+	}	
+	aquan_male_01 	= {	entity = "humanoid_04_male_01_entity"	clothes_selector = "aquan_clothes_01" hair_selector = "general_no_hair"	greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/Fantasy/aquan/aquan_01_male_01.dds"
+			"gfx/models/portraits/Fantasy/aquan/aquan_01_male_02.dds"
+			"gfx/models/portraits/Fantasy/aquan/aquan_01_male_03.dds"
+			"gfx/models/portraits/Fantasy/aquan/aquan_01_male_04.dds"
+			"gfx/models/portraits/Fantasy/aquan/aquan_01_male_05.dds"
+		}
+	}
+}	
+	
+portrait_groups = {
+	FAN03_aquan = {
+		default = aquan_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					aquan_male_01
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					aquan_female_01
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					aquan_female_01
+					aquan_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					aquan_female_01
+					aquan_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					aquan_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					aquan_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					aquan_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					aquan_male_01
+				}
+			}
+		}
+	}
+}

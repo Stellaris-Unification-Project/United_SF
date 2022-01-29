@@ -1,0 +1,127 @@
+portraits = {
+	kioden_female_01 	= {	entity = "humanoid_04_female_01_entity"	clothes_selector = "kioden_clothes_01" hair_selector = "no_texture"	greeting_sound = "human_female_greetings_01" 
+		character_textures = {
+				"gfx/models/portraits/Fantasy/kioden/kioden_female_01.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_female_02.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_female_03.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_female_04.dds"
+		}
+	}	
+	kioden_male_01 	= {	entity = "humanoid_04_male_01_entity"	clothes_selector = "kioden_clothes_01" hair_selector = "general_no_hair" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+				"gfx/models/portraits/Fantasy/kioden/kioden_male_01.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_male_02.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_male_03.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_male_04.dds"
+		}
+	}
+
+	kioden_noble_female_01 	= {	entity = "humanoid_04_female_01_entity"	clothes_selector = "kioden_clothes_01" hair_selector = "general_no_hair" greeting_sound = "human_female_greetings_01" 
+		character_textures = {
+				"gfx/models/portraits/Fantasy/kioden/kioden_female_01_albino.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_female_01_royal.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_female_02_royal.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_female_03_royal.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_female_04_royal.dds"
+		}
+	}	
+	kioden_noble_male_01 	= {	entity = "humanoid_04_male_01_entity" clothes_selector = "kioden_clothes_01" hair_selector = "general_no_hair" greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+				"gfx/models/portraits/Fantasy/kioden/kioden_male_01_albino.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_male_01_royal.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_male_02_royal.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_male_03_royal.dds"
+				"gfx/models/portraits/Fantasy/kioden/kioden_male_04_royal.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	FAN08_kioden = {
+		default = kioden_female_01 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					kioden_noble_male_01 
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					kioden_noble_female_01 
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					kioden_noble_male_01
+					kioden_noble_female_01
+					kioden_female_01
+					kioden_male_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					kioden_female_01
+					kioden_male_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					kioden_female_01
+					kioden_noble_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					kioden_male_01
+					kioden_noble_male_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					kioden_noble_female_01
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					kioden_noble_male_01
+				}
+			}
+		}
+	}
+}

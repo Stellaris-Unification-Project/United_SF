@@ -1,0 +1,76 @@
+portraits = {
+	dalek01 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/dalek/dalek01.dds"}
+	dalek02 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/dalek/dalek02.dds"}
+	dalek03 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/dalek/dalek03.dds"}
+	dalek04 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/dalek/dalek04.dds"}
+	dalek05 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/dalek/dalek05.dds"}
+	dalek06 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/dalek/dalek06.dds"}
+	dalek07 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/dalek/dalek07.dds"}
+	dalek08 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/dalek/dalek08.dds"}	
+	}
+
+portrait_groups = {
+DH03_dalek = {
+		default = dalek03 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					dalek03 
+					dalek01 
+					dalek02
+					dalek04
+					dalek05 
+					dalek06
+					dalek07
+					dalek08	
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					dalek03 
+					dalek01 
+					dalek02
+					dalek04
+					dalek05 
+					dalek06
+					dalek07
+					dalek08	
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					dalek03 
+					dalek01 
+					dalek02
+					dalek04
+					dalek05 
+					dalek06
+					dalek07
+					dalek08	
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					dalek03 
+					dalek01 
+					dalek02
+					dalek04
+					dalek05 
+					dalek06
+					dalek07
+					dalek08	
+				}
+			}
+		}
+	}
+}

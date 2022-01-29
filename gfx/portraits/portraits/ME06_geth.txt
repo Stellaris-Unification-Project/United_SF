@@ -1,0 +1,62 @@
+
+
+portraits = {
+	ME_geth = {	entity = "portrait_geth_entity"  clothes_selector = "general_no_hair" hair_selector = "general_no_hair"	greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+					"gfx/models/portraits/Mass_Effect/geth/geth_dark_blue.dds"
+					"gfx/models/portraits/Mass_Effect/geth/geth_2.dds"
+					"gfx/models/portraits/Mass_Effect/geth/geth_3.dds"
+					"gfx/models/portraits/Mass_Effect/geth/geth_blue.dds"
+					"gfx/models/portraits/Mass_Effect/geth/geth_black.dds"
+                    "gfx/models/portraits/Mass_Effect/geth/geth_grey.dds"
+                    "gfx/models/portraits/Mass_Effect/geth/geth_white.dds"
+                    "gfx/models/portraits/Mass_Effect/geth/geth_red.dds"
+					"gfx/models/portraits/Mass_Effect/geth/geth_4.dds"
+					"gfx/models/portraits/Mass_Effect/geth/geth_5.dds"
+					"gfx/models/portraits/Mass_Effect/geth/geth_6.dds"
+					"gfx/models/portraits/Mass_Effect/geth/geth_7.dds"
+					"gfx/models/portraits/Mass_Effect/geth/geth_8.dds"
+					"gfx/models/portraits/Mass_Effect/geth/geth_9.dds"
+					"gfx/models/portraits/Mass_Effect/geth/geth_10.dds"
+			}
+
+    }
+}	
+
+portrait_groups = {
+		ME06_geth = {
+		default = ME_geth 
+		game_setup = { 
+			add = {
+				portraits = {
+					ME_geth
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					ME_geth
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					ME_geth
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					ME_geth
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+karemma_male_hair_01 = {
+
+	default = "gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_01.dds"
+	
+	game_setup = {
+		default = "gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_01.dds"
+	}
+
+	#species scope
+	species = { 
+		default = "gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_01.dds"
+	}
+	
+	#pop scope
+	pop = { 
+		default = "gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_01.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_01.dds"
+				"gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_02.dds"
+				"gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_03.dds"
+			}
+		}
+	}
+	
+	#leader scope
+	leader = {
+		default = "gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_01.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_01.dds"
+				"gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_02.dds"
+				"gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_03.dds"
+			}
+		}		
+	}
+  
+	#leader scope 
+	ruler = {
+		default = "gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_01.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_01.dds"
+				"gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_02.dds"
+				"gfx/models/portraits/Star_Trek/karemma/karemma_male_hair_03.dds"
+			}
+		}	
+	}
+}

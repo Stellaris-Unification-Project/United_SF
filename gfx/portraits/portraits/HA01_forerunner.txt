@@ -1,0 +1,175 @@
+portraits = {
+
+	HA_forerunner_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/forerunner/forerunner.dds"}
+	HA_forerunner_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/forerunner/forerunner2.dds"}
+	
+	HA_forerunner_f1 {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/forerunner/forerunner_f1.dds"}
+	
+}
+
+portrait_groups = {
+	HA01_forerunner = {
+		default = HA_forerunner_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					HA_forerunner_1
+					HA_forerunner_2
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					HA_forerunner_f1
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					HA_forerunner_1
+					HA_forerunner_2
+					HA_forerunner_f1
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					HA_forerunner_1
+					HA_forerunner_2
+					HA_forerunner_f1
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					HA_forerunner_f1
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					HA_forerunner_1
+					HA_forerunner_2
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					HA_forerunner_f1
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					HA_forerunner_1
+					HA_forerunner_2
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					HA_forerunner_f1
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					HA_forerunner_1
+					HA_forerunner_2
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					HA_forerunner_f1
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					HA_forerunner_1
+					HA_forerunner_2
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+						HA_forerunner_f1
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					HA_forerunner_1
+					HA_forerunner_2
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

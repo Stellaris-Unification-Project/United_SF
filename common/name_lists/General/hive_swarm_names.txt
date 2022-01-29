@@ -1,0 +1,241 @@
+﻿#General name list for united races pack
+
+hive_swarm_names = {
+	randomized = no
+
+	ship_names = {
+		generic = {
+			"Infested Ship" "Swarm Drone" "Swarm Strain"
+		}
+
+		corvette = {
+			"Viper" "Lurker"
+		}
+		
+		destroyer = {
+			"Mutalisk" "Infestor"
+		}
+		
+		cruiser = {
+			"Ravager" "Corruptor"
+		}
+		
+		battleship = {
+			"Overlord" "Leviathan"
+		}
+		
+		science = {
+			"Lurker" 
+		}
+		
+		colonizer = {
+			"Drone" "Broodling"
+		}
+		
+		constructor = {
+			"Larva"
+		}
+		
+		mining_station = { }
+		research_station = { }
+		observation_station = { }
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}
+
+		transport = {
+			"Overlord Carrier" "Mutated Carrier"
+		}
+	}
+
+	ship_class_names = {
+		generic = {
+		"Viper" "Lurker" "Ravager" "Corruptor" "Overlord" "Leviathan"
+		}		
+	}
+
+	fleet_names = {
+		random_names = {"Swarm Brood"  "Prime Brood" "Elite Brood" "Legion Brood" "Wave"
+		}
+		#sequential_name = "%O% Brood" 
+	}
+	
+	### ARMIES
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Husk Defenders"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Husk Attackers"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Infested Husks"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Cloned Husks"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robotic Husks"
+		}
+
+		robotic_defense_army = {
+			sequential_name = "%O% Robotic Husks"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Droid Husks"
+		}
+
+		android_defense_army = {
+			sequential_name = "%O% Android Defence Husks"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psi Husks"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% XenoMorphed Husks"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Gene Husks"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+			    "Prime Nest" "Viper Nest" "Swarm Nest" "Brood Nest" "Overmind Nest" "Dark Nest" "Nest of Queen"  "Ravagious Nest" "Infestation Pit"
+				
+				"Mutation Chamber" "Chamber of Evolution" "Chamber of Legions" "Chamber of Horde" "Gene Chamber" "Egg Chamber" "Chamber of Incubation"
+
+				"Alfa Cluster" "Beta Cluster" "Gamma Cluster" "Delta Cluster" "Epsilon Cluster" "Zeta Cluster" "Eta Cluster" "Theta Cluster" "Tau Cluster" "Sigma Cluster"
+				 
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+
+		pc_savannah = {
+			names = {
+			}
+		}
+
+		pc_alpine = {
+			names = {
+			}
+		}
+
+		### UNINHABITABLE PLANETS
+		
+		pc_gas_giant = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+
+		pc_barren = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+
+		pc_molten = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+
+		pc_barren_cold = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+
+		pc_toxic = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+
+		pc_frozen = {
+			names = {
+			"Alpha" "Beta" "Gamma" "Delta" "Epsilon" "Zeta" "Eta" "Theta" "Iota" "Kappa" "Lambda" "Mu" "Nu" "Xi" "Omicron" "Pi" "Rho" "Sigma" "Tau" "Upsilon" "Phi" "Chi" "Psi" "Omega" "Orb I" "Orb II" "Orb III" "Orb IV" "Orb V" "Orb VI" "Orb VII" "Orb VIII" "Orb IX" "Orb X"
+			}
+		}
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {First Second Theta Uno Prime Central Dark Grey Bloody Sprawling Mutated Red
+			}
+			
+			# Always combined with a first name
+			second_names = {Overseer Overmind Heart Host Locust Queen
+			}
+			
+			regnal_first_names = {
+			}
+			
+			regnal_second_names = {
+			}
+		}
+	}
+
+	ruler_names = {
+		default = {
+			full_names = {
+				"Dark Overseer" "Viper Host" "Red Queen"
+			}
+		}
+	}
+}

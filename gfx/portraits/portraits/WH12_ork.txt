@@ -1,0 +1,327 @@
+portraits = {
+
+	WH_ork01 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork_admiral1.dds"}	
+	WH_ork02 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork_ruler1.dds"}	
+	WH_ork03 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork_ruler2.dds"}	
+	WH_ork04 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork_scientist1.dds"}	
+	WH_ork05 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork1.dds"}	
+	WH_ork06 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork2.dds"}	
+	WH_ork07 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork3.dds"}	
+	WH_ork08 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork4.dds"}	
+	WH_ork09 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork5.dds"}
+	WH_ork10 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork6.dds"}
+    WH_ork11 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork_ruler3.dds"}
+    WH_ork12 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork_ruler4.dds"}
+    WH_ork13 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/ork/ork_ruler5.dds"}	
+}
+
+portrait_groups = {
+	WH12_ork = {
+		default =WH_ork02
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					WH_ork02
+					WH_ork01
+					WH_ork03
+					WH_ork04
+					WH_ork05
+					WH_ork06
+					WH_ork07
+					WH_ork08
+					WH_ork09
+					WH_ork10
+					WH_ork11
+					WH_ork12					
+					WH_ork13
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

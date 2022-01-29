@@ -1,0 +1,124 @@
+portraits = {
+	robot_SF_1 = {	entity = "portrait_plantoid_03_entity" clothes_selector = "no_texture" hair_selector = "general_no_hair" greeting_sound = "event_ai_started" 
+			character_textures = {
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_00.dds"	
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_01.dds"	
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_02.dds"	
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_03.dds"	
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_04.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_05.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_06.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_07.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_08.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_09.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_10.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_11.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_12.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_13.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_14.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_15.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_16.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_17.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_18.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_19.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_20.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_21.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_22.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_23.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_24.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_25.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_26.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_27.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_28.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_29.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_30.dds"
+					"gfx/models/portraits/Fantasy/robot_SF/sphere_robot_31.dds"
+			
+			}
+	}
+}
+
+# to add all robots
+portrait_groups = {
+	FAN12_robot_SF = {
+		default = robot_SF_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					robot_SF_1
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					robot_SF_1
+				}
+			}
+
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					robot_SF_1
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					robot_SF_1
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					robot_SF_1
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					robot_SF_1
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					robot_SF_1
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					robot_SF_1
+				}
+			}
+		}
+	}
+}

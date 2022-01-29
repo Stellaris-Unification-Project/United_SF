@@ -1,0 +1,379 @@
+
+StarTrek2 = {
+	ST01_andorian = {
+		name = Andorian
+		plural = Andorians
+		home_planet = "Andoria"
+		home_system = "Andoria"
+		name_list = "andorian_names"
+	}
+	ST02_bajoran = {
+		name = Bajoran
+		plural = bajorans
+		home_planet = "Bajor"
+		home_system = "Bajor"
+		name_list = "bajoran_names"
+	}	
+
+	ST03_cardassian = {
+		name = Cardassian
+		plural = Cardassians
+		home_planet = "Cardassia Prime"
+		home_system = "Alpha Quadrant"
+		name_list = "cardassian_names"
+	}
+
+	ST04_klingon = {
+		name = Klingon
+		plural = klingon
+		home_planet = "Qo'noS"
+		home_system = "Qo'noS"
+		name_list = "klingon_names"
+	}
+	
+	ST05_starfleet = {
+		name = Starfleet
+		plural = Starfleet
+		home_planet = "Earth"
+		home_system = "Sol"
+		name_list = "human_st_names"
+	}	
+	
+	ST06_vulcan = {
+		name = Vulcan
+		plural = Vulcans
+		home_planet = "Vulcan"
+		home_system = "Vulcan"
+		name_list = "vulcan_names"
+	}
+
+	ST07_tellarite = {
+		name = Tellarite
+		plural = Tellarites
+		home_planet = "Tellar Prime"
+		home_system = "Tellar A"
+		name_list = "tellarite_names"
+	}
+	
+	ST08_bolian = {
+		name = Bolian
+		plural = Bolians
+		home_planet = "Bolarus IX"
+		home_system = "Bolarus"
+		name_list = "bolian_names"
+	}
+	
+	ST09_breen = {
+		name = Breen
+		plural = Breen
+		home_planet = "Breen"
+		home_system = "Breen"
+		name_list = "breen_names"
+	}
+	
+	ST10_romulan = {
+		name = Romulan
+		plural = Romulans
+		home_planet = "Romulus"
+		home_system = "Romulus"
+		name_list = "romulan_names"
+	}
+	
+	ST11_vorta = {
+		name = Vorta
+		plural = Vorta
+		home_planet = "Kurill Prime"
+		home_system = "Kurill"
+		name_list = "vorta_names"
+	}
+	
+	ST12_trill = {
+		name = Trill
+		plural = Trill
+		home_planet = "Trill"
+		home_system = "Trill"
+		name_list = "MAM2"
+	}
+	
+	ST13_aenar = {
+		name = Aenar
+		plural = Aenar
+		home_planet = "Andoria"
+		home_system = "Andoria"
+		name_list = "andorian_names"
+	} 
+	
+	ST14_Argrothian = {
+		name = Argrathian
+		plural = Argrathians
+		home_planet = "Argrathi"
+		home_system = "Argrathi"
+		name_list = "MAM2"
+	}
+
+	ST15_Benzite = {
+		name = Benzite
+		plural = Benzites
+		home_planet = "Benzar"
+		home_system = "Benzar"
+		name_list = "benzite_names"
+	}
+
+	ST16_Borg = {
+		name = Borg
+		plural = Borgs
+		home_planet = "Borg Prime"
+		home_system = "Borg"
+		name_list = "borg_names"
+	}
+	
+	
+	ST17_Brunali = {
+		name = Brunali
+		plural = Brunali
+		home_planet = "Brunali Homeworld"
+		home_system = "Brunali system"
+		name_list = "MAM2"
+	}
+		
+	ST18_caitian = {
+		name = Caitian
+		plural = Caitians
+		home_planet = "Cait"
+		home_system = "Cait"
+		name_list = "MAM2"
+	}
+	
+	ST19_changeling = {
+		name = changeling
+		plural = changeling
+		home_planet = "Changeling Prime"
+		home_system = "Changeling"
+		name_list = "MAM2"
+	}
+	
+	ST20_denobulan = {
+		name = Denobulan
+		plural = Denobulans
+		home_planet = "Denobula"
+		home_system = "Denobula Triaxa"
+		name_list = "MAM1"
+	}
+
+	ST21_devore = {
+		name = Devore 
+		plural = Devore
+		home_planet = "Devore Prime"
+		home_system = "Devore"
+		name_list = "MAM1"
+	}
+	
+	SST22_fen_domar = {
+		name = "Fen Domar"
+		plural = "Fen Domar"
+		home_planet = "Fen Domar"
+		home_system = "Fen Domar"
+		name_list = "MAM1"
+	}
+	
+	ST23_ferengi = {
+		name = Ferengi
+		plural = Ferengi
+		home_planet = "Ferenginar"
+		home_system = "Ferenginar"
+		name_list = "ferengi_names"
+	}
+	
+	ST24_flaxian = {
+		name = "Flaxian"
+		plural = "Flaxians"
+		home_planet = "Flax Prime"
+		home_system = "Flax"
+		name_list = "MAM1"
+	}
+	
+	ST25_garidian = {
+		name = "Garidian"
+		plural = "Garidians"
+		home_planet = "Garid Prime"
+		home_system = "Garid"
+		name_list = "MAM1"
+	}
+		
+	ST26_gorn = {
+		name = Gorn
+		plural = Gorn
+		home_planet = "Gorn"
+		home_system = "Gorn"
+		name_list = "gorn_names"
+	}	
+	
+	ST27_horta = {
+		name = Horta
+		plural = Horta
+		home_planet = "Janus VI"
+		home_system = "Janus"
+		name_list = "ART2"
+	}	
+
+	#ST28_jem_hadar - unknown
+	
+	ST29_karemma = {
+		name = Karemma
+		plural = Karemma
+		home_planet = "Karemma"
+		home_system = "Karemma"
+		name_list = "MAM3"
+	}
+
+	#ST30_kazon  - unknown
+	
+	ST31_Kraylor = {
+		name = Kraylor
+		plural = Kraylor
+		home_planet = "Kraylor"
+		home_system = "Kraylor"
+		name_list = "MAM2"
+	}
+	 
+ 	ST32_krenim = {
+		name = Krenim
+		plural = Krenim
+		home_planet = "Krenim"
+		home_system = "Krenim"
+		name_list = "krenim_names"
+	}
+	
+    #ST33_lyridian - uknown
+
+ 	ST34_nausicaan = {
+		name = Nausicaan
+		plural = Nausicaans
+		home_planet = "Nausicaa"
+		home_system = "Nausicaa"
+		name_list = "nausicaan_names"
+	}
+	
+    #ST35_nyberrite - uknown	
+
+ 	ST36_norcadian = {
+		name = Norcadian
+		plural = Norcadians
+		home_planet = "Norcadia Prime"
+		home_system = "Norcadia"
+		name_list = "MAM2"
+	}
+	
+ 	ST37_orion = {
+		name = Orion
+		plural = Orions
+		home_planet = "Orion"
+		home_system = "Orion"
+		name_list = "orion_names"
+	}	
+
+ 	ST38_reman = {
+		name = Reman
+		plural = Remans
+		home_planet = "Remus"
+		home_system = "Remus"
+		name_list = "romulan_names"
+	}	
+
+  	ST39_sheliak = {
+		name = Sheliak
+		plural = Sheliak
+		home_planet = "Shelia"
+		home_system = "Shelia"
+		name_list = "ART2"
+	}
+
+	ST40_skorr = {
+		name = Skorr
+		plural = Skorr
+		home_planet = "Skorra"
+		home_system = "Skorrel" 
+		name_list = "AVI2" 
+	} 
+	
+	#ST41_humanoid_1-ST50_humanoid_10 - uknown
+
+	ST51_talaxian = {
+		name = Talaxian
+		plural = Talaxians
+		home_planet = "Talax"
+		home_system = "Talax"
+		name_list = "talaxian_names"
+	}
+
+	ST52_tamarian = {
+		name = Tamarian
+		plural = Tamarians
+		home_planet = "Tama IV"
+		home_system = "Tama"
+		name_list = "tamarian_names"
+	}
+	
+	ST53_tholian = {
+		name = Tholian
+		plural = Tholian
+		home_planet = "Tholia Prime"
+		home_system = "Tholia" 
+		name_list = "tholian_names"  
+	}
+	
+	ST54_undine = {
+	    name = Undine
+		plural = Undine
+		home_planet = Unda
+		home_system = "Fluidic Space"
+		name_list = MAM2 
+	}
+	
+	ST55_vaadwaur = {
+		name = Vaadwaur
+		plural = Vaadwaur
+		home_planet = "Vaadwaur"
+		home_system = "Vaadwaur"
+		name_list = "vaadwaur_names"
+	}	
+
+	ST56_voth = {
+		name = Voth
+		plural = Voth
+		home_planet = "Earth"
+		home_system = "Sol"
+		name_list = "voth_names"
+	}	
+
+	ST57_wadi = {
+		name = Wadi
+		plural = Wadi
+		home_planet = "Wadi"
+		home_system = "Wadi"
+		name_list = MAM2
+	}
+	
+	ST58_xindi = {
+		name = Xindi
+		plural = Xindi
+		home_planet = "Xindus"
+		home_system = "Xindus"
+		name_list = "ART2"
+	}
+	
+	ST61_zahl = {
+		name = Zahl
+		plural = Zahl
+		home_planet = "Zahl"
+		home_system = "Zahl"
+		name_list = MAM2
+	}
+
+ 
+}
+
+	
+
+
+	

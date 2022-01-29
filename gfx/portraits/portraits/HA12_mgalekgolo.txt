@@ -1,0 +1,206 @@
+portraits = {
+
+	HA_mgalekgolo_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/mgalekgolo/mgalekgolo_1.dds"}
+	HA_mgalekgolo_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/mgalekgolo/mgalekgolo_2.dds"}
+	HA_mgalekgolo_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/mgalekgolo/mgalekgolo_3.dds"}
+	HA_mgalekgolo_4 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/mgalekgolo/mgalekgolo_4.dds"}
+}
+
+portrait_groups = {
+	HA12_mgalekgolo = {
+		default = HA_mgalekgolo_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					HA_mgalekgolo_1
+					HA_mgalekgolo_2
+					HA_mgalekgolo_3
+					HA_mgalekgolo_4
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

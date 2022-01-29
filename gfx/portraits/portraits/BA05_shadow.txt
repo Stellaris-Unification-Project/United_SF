@@ -1,0 +1,107 @@
+
+### Shadow Portraits
+portraits = {
+	shadow_mother_1 = {greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Babylon5/shadow/shadow_mother_1.dds"}
+	shadow_morden_1 = {greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/shadow/shadow_morden_1.dds"}
+	shadow_civ_1 = {greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Babylon5/shadow/shadow_civ_1.dds"}
+
+}
+portrait_groups = {
+	BA05_shadow = {
+		default = shadow_mother_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					shadow_mother_1
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					shadow_mother_1
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					shadow_civ_1
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					shadow_mother_1
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				portraits = {
+					shadow_mother_1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				portraits = {
+					shadow_mother_1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				portraits = {
+					shadow_mother_1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				portraits = {
+					shadow_mother_1
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				portraits = {
+					shadow_mother_1
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					shadow_mother_1
+				}
+			}
+		}
+		
+		
+	}
+}

@@ -1,0 +1,63 @@
+
+Babylon5 = {
+	BA01_minbari = {
+		name = Minbari
+		plural = Minbari 
+		home_planet = "Minbar"
+		home_system = "Chi Draconis"
+		name_list = "minbari_names"
+	}
+
+	BA02_centauri = {
+		name = Centauri
+		plural = Centauri 
+		home_planet = "Centauri Prime"
+		home_system = "Zeta Tucanae"
+		name_list = "centauri_names"
+	}	
+	
+	BA03_earthalliance = {
+		name = Human
+		plural = Humans 
+		home_planet = "Earth"
+		home_system = "Sol"
+		name_list = "earthalliance_names"
+	}	
+	
+	BA04_narn = {
+		name = Narn
+		plural = Narns 
+		home_planet = "Narn"
+		home_system = "Narn"
+		name_list = "narn_names"
+	}	
+	
+	BA05_shadow = {
+		name = Shadow
+		plural = Shadows 
+		home_planet = "Z'ha'dum"
+		home_system = "Z'ha'dum"
+		name_list = "shadow_names"
+	}	
+	
+	BA06_vorlon = {
+		name = Vorlon
+		plural = Vorlons 
+		home_planet = "Vorlon"
+		home_system = "Vorlon"
+		name_list = "vorlon_names"
+	}	
+
+	BA07_firstone = {
+		name = "First One"
+		plural = "First Ones" 
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = HUM1 #"firstone_names" default added
+	}	
+}
+
+	
+
+
+	

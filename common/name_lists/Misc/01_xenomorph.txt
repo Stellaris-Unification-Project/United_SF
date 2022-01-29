@@ -1,0 +1,149 @@
+﻿### Xenomorph
+xenomorph_names = {	
+	### SHIPS
+	ship_names = {
+	
+		generic = {Hestburster Warrior Praetorian Queen	"Drone Scout" Egg Drone Runner
+			}
+		
+		mining_station = {Drone }
+		research_station = {Queen  }
+
+	
+		observation_station = {Scout }
+
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {Queen Praetorian Warrior Drone Scout Brood Hunter Swarm}
+		sequential_name = "%O% Hive-Fleet"
+	}
+
+	###ARMIES
+	army_names = {
+	
+		defense_army = { 
+			sequential_name = "%O% Hive Cluster Pod"
+		}
+			
+		assault_army = { 
+			sequential_name = "%O% Warrior Pod"
+		}
+		
+		slave_army = { 
+			sequential_name = "%O% Chestbursters"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Xenomorph Clone Pod"
+		}
+		
+		robotic_army = { 
+			sequential_name = "%O% Mechanical Xenomorph Pod"
+		}
+		
+		android_army = { 
+			sequential_name = "%O% Xenomorph Android Pod"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Praetorian Elite Hunter Pod"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Pod"
+		}
+		
+		gene_warrior_army = { 
+			sequential_name = "%O% Predalien Xenomorph Pod"
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				"Hive World" "Hive Cluster" Hive LV-245 LV-567 LV-479 LV-3745 LV-123 LV-99 LV-666 LV-365 LV-345 "Small Hive" "Large Hive" "Huge Hive" "Gigantic Hive" 
+				LV-3467 LV-999 LV-444 LV-450 LV-3433 Grand-Hive-Cluster LV-093 LV-1278 LV-1967 LV-1986 LV-668 LV-1979 LV-1992 LV-2004 LV-1997 LV-1993 LV-1996 LV-1994 LV-1999 LV-2001 LV-1569 LV-3569 LV=4854 LV-751 LV-965 LV-7456 "World Hive" 				Graathu'lreh Zeetrux'it Frrtrixicleh Warldytrach Zrutlzyx Clrrxiatch 
+				Eerythfilath Shyrmptixith Drylytyt Qurlypratyt Zserrtkreh Qurriptmik
+				Yyrlyqen Rfytlytreex Wrptalyt Glglrypmitat Wrrcl'rt Venrretrit
+			}
+		}
+		
+		pc_desert = {
+			names = { LV-158 LV-363 LV-725 LV-944 LV-3457 LV-5695
+			}
+		}
+		
+		pc_tropical = { 
+			names = { Rebellion-001 LV-89 LV-1687 LV-888 LV-645 LV-4127
+			}
+		}
+		
+		pc_arid = { 
+			names = { Fiorina-161 LV-562 LV-654 LV-8599 LV-789 LV-5632
+			}
+		}
+		
+		pc_continental = {
+			names = { LV-777 LV-5956 LV-469 LV-989 LV-UNCHARTED LV-7524 LV-5741
+			}
+		}
+		
+		pc_ocean = {
+			names = { "Hidden Hive" "Grand Hidden Hive" LV-13 LV-7895 LV-984 LV-556 LV-563
+			}
+		}
+		
+		pc_tundra = { 
+			names = { LV-849 LV-659 LV-7984 LV-15688 LV-789 LV-587 "Cave Hives"
+			}
+		}
+		
+		pc_arctic = {
+			names = { LV-56 LV-9845 LV-45611 LV-9898 LV-596
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				Xenomorph
+			}
+			
+			# Always combined with a second name
+			first_names = { 
+			}
+			
+			# Always combined with a first name
+			second_names = { Drone Queen Scout Warrior Runner Praetorian PredAlien Scorpion Gorilla Bull Rhino Mantis Snake Avian Reptillian Molluscoid 
+			Fungoid Plantoid Mammalian Unknown-Genus Space-Whale Avian-Queen Mammalian-Queen Reptillian-Queen Arthropoid Arthropoid-Queen Fungoid-Queen 
+			Plantoid-Queen Molluscoid-Queen Avian-Drone Mammalian-Drone Reptillian-Drone Arthropoid-Drone Fungoid-Drone Plantoid-Drone Molluscoid-Drone
+			Chubretlet Eithu I'botsk Phathosi Rhu'yil Rteli'chuart Schuau Thaugusho Thothot Tuacryplat U'guakek Zokr Zothrileyt
+			Cner'zhorc Kthoughi Griged Vhathla Mhaiopes Ocnurr'ithur Ikhixhil Yonulku Iuxaiolpuh Iumheggubl Mh'uithlo Mlozid Ngaxusz Vughr Ghrouthlag 
+			Edoggu Exydrrexr Iuzarrolbh Iauthaacnis Akthabruh Xipa Niodrr'dri Ghrixl Dydhra D'oulalb Ivagn'kru Aiughrulthi Emhethr'rosz Yocxujhas
+			Ycthiondast Khozt'xa Daiognneth Shycnolbh Shydhux Zhogho Iacthigid Ivrobhaxr Iac'thivhon Engidh'mitl Actidrr'dritl Kthibhin Vhuiggu Kuggor
+			Kthaiozotl Truivh'zhal Iaxudhra Iauvrurr'mu Oz'aioth'rotl Aiuzhoul'dhred Ugrux'xess
+			}
+			
+			regnal_first_names = {
+				
+			}
+			
+			regnal_second_names = {
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,391 @@
+﻿
+turian_names = {
+	randomized = no
+
+	ship_names = {
+
+		corvette = {
+			Agilis Arcaria Sagitta Pulsatrix Cherub Chimaera Spatha Ascia Manuballista Gladius Deterrens Errans Fidelis Ferox Gladius Fera 
+			Corvus Malleus Vampyrus Velox Venatrix Vindicatrix Venerabilis Venenosa Taciturna Suprema Victrix Scinditrix Seraphin Serpens Ignitrix Persecutrix Strategema
+			Cymitharra Flagellum Falx Nuntius Formidabilis Raptrix Prodiga Rapperia Prudens Persistens Incomparabilis Myrmidon Indignans Hasta Eques
+			Lupa Bonaventura Adventura Pugil Pirata Remissa Caelestialis Quadriga Cometa Ordalia Cyclon Decretoria Dextra Diadema Seria Eclipsis Malleatrix Fortunata 
+			Manica Gryphus Horizon Calcar Typhon Jubilans Lanciarius Fulgur Magia Mediatrix Nympha Sirena Meteorum Ministerialis Miranda Mixta Diligens
+		}
+		
+		destroyer = {
+
+			Cyclops Centaurus Adversarius Sicarius Sica Audax Pertinax Officium Strages Naufragium Heros Venator Justitia Impeccabilis Infernalis Fidelis Unica Contundor Malitia
+			Minax Immitis Immisericors Pestis Maleficium Imperator Civis Praedator Potens Punitor Ultor Vindex Atrox Malignus Invidiosus Terminator Terror Triturator Minotauros
+			Mantichora Interdictor Intrusus Hydra Vexator Invictus Versipellis Lycanthropus Studiosus Zelus Petulans Phantasma Phoenix Stylus Secutor Incursor "Arcus Caelestis" Rapidus Redemptio 
+			Implacabilis Superbus Strictus Robustus Machaera Salvatio Sanguineus Scarabaeus Sceptrum Circe Sirena Maga Summitas Spectrum Spiritus Splendidus Admissarius Resistens 
+			Firmus Strenuus Superbus Supernova Miraculum Robustus Talentum Ingenium Fascinum Unguis Taurus Tenax "Filius Jovis" Tonitralis Indefatigabilis Efficax Pius
+		}
+		
+		cruiser = {
+			Acheron Achilles Agamemnon Amphion Aquilon Favonius Auster Aeolus Argonauta Argus Aurora Avernus Bacchus Bucephalus Calliope Calypso Castor Charybdis Circe
+			Cleopatra Constantinus Cordelia Cyrus Damocles Daedalus Darius Diomede Dryades Electra Endymion Erebus Luperca Bellona Hercules Gorgon Alcyone Hecate
+			Hector Hesperus Janus Jason Juno Juppiter Horatius Lazarus Leander Leonidas Lysander Maenas Mars Medea Medusa Menestheus Mercurius Minerva
+			Minos Neptunus Nessus Nestor Niobe Oberon "Juppiter Stator" "Juppiter Caelestis" "Juppiter Optimus Maximus" "Juppiter Terminus" Cassandra 
+			Orestes Orpheus Osiris Pandora Penelope Persephone Perseus Phoebe Pluto Poseidon "Sine Fine"
+			Proteus Pylades Serapis Styx Tantalus Telemachus Theseus Trajanus Triton Venus "Imperator Augustus" Archon Vesta Quirinus Ceres 
+			Liber Libera Diana Eradicator Vulcanus Apollo Saturnus Genius Luna Orcus Imperator Excelsior Volturnus Romulus
+		}
+		
+		battleship = {
+			Concordia Spes Asclepius Lucifer Salus Athenonix Satyra Rhenus Libertas Sol
+			Vindicta Triumphalis Nemesis Ultor Vindex Victor Gloria Immortalis Judicator Praeventor Exculcator Demolitor Draco Executor Furiosus Gladiator
+			Magnificentior Orcus Impetus Injuria Domitor Vehemens Basiliscum Tempestas Imperator Pugnator Titanus Colossus Prometheus Nike Supremus Propulsator
+			Maiestas Avatar Behemoth Centurio Arx Oblivio Praenuntius Pristis Cerberus Hyperion Galatea Insidia Vindicator
+		}
+		
+		science = {
+			Obstinatio Diligens Zephyrus Aenigma Inquisitor Scylla Sanctor Aspera Eminentia Astutia Alacritas Prosperitas Perseverantia Apex Lumen Memoria Peregrinatio
+			 Vagabundus Viator Legatus Emissarius Dubitatio Explorator Vagus Veritas
+		}
+		
+		colonizer = {
+			Salve Prophetia "Sine Fine" Virtus Potentia Expansio Praecursor Prosperitas Culmen Aedis Seminarium Messis Demeter Isis Ceres Exodus
+			Fundatio Stirps Progenies Obligatio Propositus Providentia Adquiritor Agricola Aurora Puritas Communitas Fraternitas
+		}
+		
+		constructor = {
+			Industria Sedulitas Gnavitas Assiduitas Conatus Procuratio Operarius Conditor Aedifex Artifex Opifex Confector Progressus Machinator Promissio Ministerium Tectum Creator Fabrica 
+			Incus Architectus Accommodator Vulcanus
+		}
+		
+		mining_station = { }
+		research_station = { }
+
+		observation_station = { }
+
+		
+		transport = {
+			Xiphos Spatha Pugio Gladius Sica Hasta Pilum Sagitta Plumbata Manica Falcata Kopis Rhomphaia Falx Katzbalger 
+			Scutum Parma Cetra Galea Caliga
+		}
+		
+		military_station_small = {
+			"Castellum I" "Castellum II" "Castellum III" "Castellum IV" "Castellum V" "Castellum VI" "Castellum VII" "Castellum VIII" "Castellum IX" "Castellum X" "Castellum XI" "Castellum XII"
+			"Castellum XIII" "Castellum XIV" "Castellum XV" "Castellum XVI" "Castellum XVII" "Castellum XVIII" "Castellum XIX" "Castellum XX" "Castellum XXI" "Castellum XXII" "Castellum XXIII"
+			"Castellum XXIV" "Castellum XXV" "Castellum XXVI" "Castellum XXVII" "Castellum XXVIII" "Castellum XXIX" "Castellum XXX" "Castellum XXXI" "Castellum XXXII" "Castellum XXXIII" "Castellum XXXIV"
+			"Castellum XXXV" "Castellum XXXVI" "Castellum XXXVII" "Castellum XXXVIII" "Castellum XXXIX" "Castellum XL"
+		}
+		
+		military_station_medium = {
+			"Castra Victoria" "Castra Augusta" "Castra Imperialis" "Castra Superior"
+			"Castra Inexpugnabilis" "Castra Suprema" "Castra Exemplaris" "Castra Optima" "Castra Trajana"
+			"Castra Nova" "Castra Constantia" "Castra Agrippina" "Castra Flavia" "Castra Superba" "Castra Aelia" 
+			"Castra Julia" "Castra Severa" "Castra Alba" "Castra Regina" "Castra Tiberia" "Castra Claudia"
+			"Castra Perfecta" "Castra Aemilia" "Castra Caecilia" "Castra Crispina" "Castra Epidia" 
+			"Castra Fabia" "Castra Fulvia" "Castra Proba" "Castra Galeria" "Castra Herminia" "Castra Livia"
+			"Castra Lucia" "Castra Minucia" "Castra Numeria" "Castra Octavia" "Castra Octaviana"
+			"Castra Petronia" "Castra Pompeia" "Castra Pompilia" "Castra Quirinia" "Castra Rufa" "Castra Salvia"
+			"Castra Scribonia" "Castra Septimia" "Castra Sextia" "Castra Sulpicia" "Castra Tullia" "Castra Valeria"
+		}
+		
+		military_station_large = {
+			Victoria Incolumitas Triumphus Imperium Superior Inexpugnabilis Excelsior Supremus Praevalens Exemplaris Memorandus
+			Acclamatio Honor Nobilitas Gloria Superbia Magnificentia Splendor Paradigma Consummatio Meritus
+			Perfectio Virtus Praevalentia Rectitudo Incorruptibilis Integritas Justitia Probitas Prudentia Puritas Obstinatio
+			Dignitas Distinctio Excellenctia Fides Disciplina Retributio Requiem Fortitudo Valor
+			Audacia Constantia Perseverantia Tenacitas Gnavitas Diligentia Pertinacia Tenax Augusta
+		}
+		
+		
+		
+	}
+
+	fleet_names = {
+		random_names = {
+			"Classis Misenensis" "Classis Africana" "Classis Britannica" "Classis Alexandrina" "Classis Baltica" "Classis Indiana"
+			"Classis Sinica" "Classis Mauretanica" "Classis Syriaca" "Classis Iaponica" "Classis Atlantica" "Classis Malaesiana"
+			"Classis Arabica" "Classis Americana" "Classis Libyca" "Classis Germanica" "Classis Moesica" "Classis Pacifica"
+			"Classis Lunaris" "Classis Martiana" "Classis Venerea" "Classis Jovis" "Classis Neptunia" "Classis Saturni"
+			"Classis Terrestris" "Classis Pontica" "Classis Pannonica"
+		}
+		
+	}
+	
+	army_names = {
+		generic = { 
+			sequential_name = "Praesidium Coloniae %R%"
+		}
+
+		assault_army = {
+			sequential_name = "Cohors %R%"
+		}
+		
+		
+		slave_army = {
+			sequential_name = "Cohors Servorum %R%"
+		}
+		
+		clone_army = {
+			sequential_name = "Milites Cisternenses %R%"
+		}
+		
+		robotic_army = {
+			sequential_name = "Immunes Machinales %R%"
+		}
+		
+		android_army = {
+			sequential_name = "Auxilia Automatica %R%"
+		}
+		
+		psionic_army = { 
+			random_names = { 
+				"Legio Phantasmalis" "Legio Spectralis" "Legio Tartarica" "Legio Lemurica" "Legio Larvarum" "Legio Infernalis" "Legio Diabolica" "Legio Magica"
+				"Legio Malefica" "Legio Parcalis"
+			}
+		
+		}
+		
+		xenomorph_army = {
+		
+			sequential_name = "Praedatores Proteici %R%"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "Praeventores Eugenici %R%"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Aurora Alba "Nova Saguntum" Euterpe Hesperia Ceres Tarraco Osiris Pallas Narbo 
+				Rhea "Nova Genua" "Nova Lutetia" Solaria Tethys Thessalonica "Novum Novum Eboracum" Hesperides Noricum Tyndis "Nova Constantinopolis"
+				Tartessos Agartha "Nova Ephesus" Lugdunum Berolinum Aquisgranum Thebae Castellum Apollonia
+				Holmia Ancyra Philadelphia Angelopolis "Nova Hispania" "Nova Germania" "Nova Gallia" "Nova Italia" 
+				"Nova Africa" "Nova Graecia" "Novae Sinae" "Nova Britannia" Acropolis Abdera Acinipo Allabo Arunda
+				Asturica Baelo Baetulo Barcino Baria Beligio Bilbilis Brigantium Bursao Caesaraugusta Calagurris
+				"Carthago Nova" "Colonia Victrix" Complutum Corduba Dertusa Egara "Emerita Augusta" Flaviobriga Gades
+				Gerunda Granata Hispalis Jacca Ilerda "Iria Flavia" Labitolosa Legio Lucentum "Lucus Augusti" Malaca
+				Minorisa Numantia Pompaelo Salmantica Segeda Toletum Tude Turiaso Valentia Virgis Aeminium "Aquae Flaviae"
+				Arabriga Arandis Aretium Aviarium "Bracara Augusta" Brigantia Caeciliana Caetobriga Caliopolis 
+				Cilpes "Castra Leuca" Conimbriga Ebora Egiptania Vimaranis Laccobriga Lorica Malateca Mondobriga
+				"Myrtilis Julia" Nabantia Olissipo "Pax Julia" "Pax Augusta" "Portus Cale" Talabriga Juvavum 
+				Bruxellae Leodium Lovanium Orolaunum "Nova Domus" Adiacium "Aquae Sextiae" Arelate Atrebatum Argentoratum
+				"Augusta Argentorate" Augustodunum Aurelianum Burdigala Catalaunum Crisenaria Divio Flaviacum Bononia
+				Lemonum Massilia Medicinum Mediolanum Nemausus Nicaea Noviodunum Rotomagus Tolosa Verodunum Vesontio
+				Vierium Monaecum "Silva Ducis" Trajectum Tingis "Numerus Syrorum" "Portus Magnus" "Castellum Tingitanum" 
+				Caesarea Imonium "Hippo Regius" Theveste "Hippo Diarrhytus" "Leptis Minor" Cyrene Gortyna Tyrus Tripolis
+				Byblos Damascus Cyprus Rhodos Byzantium Marcianopolis Chersonesos Syracusae Salernum Salona Patavium
+				Placentia Verulamium
+			}
+		}
+		
+		pc_desert = {
+			names = {
+				"Nova Persis" "Nova Aegyptus" "Nova Alexandria" Inferno Memphis Palmyra
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				Themiscyra Sylvana Silvestris
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				Tartarus Carthago "Nova Antiochia"
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				Arcadia Brittia "Nova Roma" "Novum Londinium"
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				Elysium Abundantia "Nova Babylon"
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				Hydra Atlantis "Novum Sciamhaevum" "Nova Venetia" Ostia Capri "Nova Corsica" Creta
+				Fontus Lesbos Rhodus Salacia Anticythera Zacynthus
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				Hyperborea "Nova Samarcanda" 
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				Baltia Hibernia Basilia "Terra Borealis"
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+		character_names = {
+	
+		names1 = {
+			weight = 40
+			first_names_male = {
+				Agrippa Aurelius Anastasius Adrien Alsadrus Astrae
+				Claudius Chisilix
+				Decimus Desolas Daherax Derius Delwian
+				Enterus Ellis Etarn Elanos Extan Elgus
+				Gaius Garrus Garkko Grizz Gradius
+				Hanae Huck Hexnar Hunner
+				Illo Irix Idus Iustinix
+				Joram Janus Jaxum Joppa
+				Faustus  Flavius Faros Ferrus
+				Kihilix
+				Lucius Lantar Lorik Lilihierax Lahere Ledius Eratian
+				Mamercus Manius Marcus Mehrkuri Meln Minador Marnek
+				Numerius Nihlus Neno
+				Paullus Publius Preitior
+				Razun Rolan
+				Statius Sextus Servius Sato Saren Severus Septimus Serus Sanus Sanex Salur
+				Octavius Ogrinn
+				Quintus Quart
+				Tactus Tarquin Titus Tiberius Timus Tonn Titrinus Teheris Ternitus Tobestick
+				Valerius Vamire Vibius Venari Vertin Volesus Vopiscus  
+				Uvalum Ulrixen 
+
+			}
+			first_names_female = {
+				Agrippina Anastasia  Aelia  Agrippina Acacia Abrudas Anela Arayna Abrureen Abruvan Abrutina Abrura Abruta Appia Aponia Adventa Aula Aurelia
+				Claudia
+				Dinara Dixali Decima
+				Fulvia Fausta
+				Ennia
+				Himar
+				Gnaea Gorgonia Gaia				
+				Livia Lilira Lana Lucia
+				Irene
+				Julia				    
+				Mamerca Maxivia Mania Melissa Marcella Marcia
+				Numeria Nyreen Nyvan Nytina Nydas Nyra Nyta
+				Paulla Pavan Pareen Patina Padas Para Pata Publia				
+				Sexta Sylvia Severa Shastina Solana Shasreen Shasvan Shasdas Shasra Shasta
+				Octa Octavia Orinia Ocreen Ocvan Octina Ocdas Ocra
+				Quinta 
+				Valeria Vetra Vitola
+				Theodora Theodosia Tiberia Titia
+			}
+			second_names = {
+				#ABC
+				Arrianus Arruntius Actus Acilianus Adepphius Adjutor Arterius Aurelos Augendus Antivus Arborandum 
+				Bartus Belletor Bellicus Bellus Borlin Bonus Brocchus Brucetus Betto Bestia Buteo
+				Cyprias Cerialis Coronati Chellick Corinthus Cicero Cimber Cinnianus Cervidus Cornix
+				Didicus Dignus Dannicus Damasus Dalmatius Dacianus Dexion Dianix Daphnon Dellk Darikun Damianus Disertus Docilus   
+				Esdras Emperus Egnadus Eudoxius Eugenius Eulogius Elvorix Emeritus Ennecus Encratis
+				Genchak Gavrus Gavorn Gaudium Gallus Gallio Germanicus Glabrio Glaucia Globulus Gluvias Gelasius
+				Igennus Ignatius Ingenvinus Indus Invectus Iheras Irvinus Iherax Ixiri
+				Yahirix				
+				Haliat Haron Hanus Herculius
+				Fedorian Fructosis Frumentius Fulvianus
+				Jovius Juncinus Julianus Jacobus
+				Lartius Lilix Latronus Lux Lepidus Lunaris
+				Machaera Metilius Marcellus	Martianus Martius Martius Mercator Minicianus			
+				Nepos Numonis Numerianus Nonius Nazario Nyrek
+				Kandros Korilius				
+				Pallin Palanurus Partinax Pagasi Partainis Patathor Paramon Primus Proxsimus Protus
+				Raxirian Relius Ravidus Riten Raedun Rubicum Reginus
+				Oraka Orissus Orientius Otho Ovidus Oceanus Ordius
+				Quirinalis Quintillius Quintillus Quiriac Quarn "Qui'in" Quentiys
+				Talid Tiron Tanus Tertius Tuticanus Tutor Tremerus Trenico
+				Kryik  Kuril Korlick
+				Sidonius Sidonis Sahira Scartos Saneraxis Sylvatus Septimax Satorim Siyan Sycoram Septimas Squaron Spartarus Sorex
+				Valterus Valen Victus Vakarian Vyrnnus Vidinos Vadus Vinicianus Vespasianus Vindex Victricius Vopiscus
+				Ursinus Ulpianus Urbicus Ursinus Ursus Uticensis
+			}
+			
+			####### leader names
+			
+			regnal_first_names_male = {
+				Agrippa Aurelius Anastasius Adrien Alsadrus Astrae
+				Claudius Chisilix
+				Decimus Desolas Daherax Derius Delwian
+				Enterus Ellis Etarn Elanos Extan Elgus
+				Gaius Garrus Garkko Grizz Gradius
+				Hanae Huck Hexnar Hunner
+				Illo Irix Idus Iustinix
+				Joram Janus Jaxum Joppa
+				Faustus  Flavius Faros Ferrus
+				Kihilix
+				Lucius Lantar Lorik Lilihierax Lahere Ledius Eratian
+				Mamercus Manius Marcus Mehrkuri Meln Minador Marnek
+				Numerius Nihlus Neno
+				Paullus Publius Preitior
+				Razun Rolan
+				Statius Sextus Servius Sato Saren Severus Septimus Serus Sanus Sanex Salur
+				Octavius Ogrinn
+				Quintus Quart
+				Tactus Tarquin Titus Tiberius Timus Tonn Titrinus Teheris Ternitus Tobestick
+				Valerius Vamire Vibius Venari Vertin Volesus Vopiscus  
+				Uvalum Ulrixen           
+			}
+			
+			regnal_first_names_female = {
+				#ABC
+				
+				Agrippina Anastasia  Aelia  Agrippina Acacia Abrudas Anela Arayna Abrureen Abruvan Abrutina Abrura Abruta Appia Aponia Adventa Aula Aurelia
+				Claudia
+				Dinara Dixali Decima
+				Fulvia Fausta
+				Ennia
+				Himar
+				Gnaea Gorgonia Gaia				
+				Livia Lilira Lana Lucia
+				Irene
+				Julia				    
+				Mamerca Maxivia Mania Melissa Marcella Marcia
+				Numeria Nyreen Nyvan Nytina Nydas Nyra Nyta
+				Paulla Pavan Pareen Patina Padas Para Pata Publia				
+				Sexta Sylvia Severa Shastina Solana Shasreen Shasvan Shasdas Shasra Shasta
+				Octa Octavia Orinia Ocreen Ocvan Octina Ocdas Ocra
+				Quinta 
+				Valeria Vetra Vitola
+				Theodora Theodosia Tiberia Titia 	    
+				 
+			}
+			
+			regnal_second_names = {
+				#ABC
+				Arrianus Arruntius Actus Acilianus Adepphius Adjutor Arterius Aurelos Augendus Antivus Arborandum 
+				Bartus Belletor Bellicus Bellus Borlin Bonus Brocchus Brucetus Betto Bestia Buteo
+				Cyprias Cerialis Coronati Chellick Corinthus Cicero Cimber Cinnianus Cervidus Cornix
+				Didicus Dignus Dannicus Damasus Dalmatius Dacianus Dexion Dianix Daphnon Dellk Darikun Damianus Disertus Docilus   
+				Esdras Emperus Egnadus Eudoxius Eugenius Eulogius Elvorix Emeritus Ennecus Encratis
+				Genchak Gavrus Gavorn Gaudium Gallus Gallio Germanicus Glabrio Glaucia Globulus Gluvias Gelasius
+				Igennus Ignatius Ingenvinus Indus Invectus Iheras Irvinus Iherax Ixiri
+				Yahirix				
+				Haliat Haron Hanus Herculius
+				Fedorian Fructosis Frumentius Fulvianus
+				Jovius Juncinus Julianus Jacobus
+				Lartius Lilix Latronus Lux Lepidus Lunaris
+				Machaera Metilius Marcellus	Martianus Martius Martius Mercator Minicianus			
+				Nepos Numonis Numerianus Nonius Nazario Nyrek
+				Kandros Korilius				
+				Pallin Palanurus Partinax Pagasi Partainis Patathor Paramon Primus Proxsimus Protus
+				Raxirian Relius Ravidus Riten Raedun Rubicum Reginus
+				Oraka Orissus Orientius Otho Ovidus Oceanus Ordius
+				Quirinalis Quintillius Quintillus Quiriac Quarn "Qui'in" Quentiys
+				Talid Tiron Tanus Tertius Tuticanus Tutor Tremerus Trenico
+				Kryik  Kuril Korlick
+				Sidonius Sidonis Sahira Scartos Saneraxis Sylvatus Septimax Satorim Siyan Sycoram Septimas Squaron Spartarus Sorex
+				Valterus Valen Victus Vakarian Vyrnnus Vidinos Vadus Vinicianus Vespasianus Vindex Victricius Vopiscus
+				Ursinus Ulpianus Urbicus Ursinus Ursus Uticensis
+	       
+			}
+		}
+
+	}
+}

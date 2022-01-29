@@ -1,0 +1,198 @@
+############################################################## 
+#	greeting_sound ="human_female_greetings_03" / human_male_greetings_03
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	#minbari
+	minbari_f1 = { greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/minbari/minbari_delenn_1.dds"}
+	minbari_f2 = { greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/minbari/minbari_delenn_2.dds"}
+	minbari_m1 = { greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/minbari/minbari_dukhat_1.dds"}
+	minbari_m2 = { greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/minbari/minbari_lennier_1.dds"}
+	minbari_m3 = { greeting_sound ="human_male_greetings_03"  texturefile = "gfx/models/portraits/Babylon5/minbari/minbari_ruler1.dds"}
+	#other intances to be added in similar manner.
+}
+
+portrait_groups = {
+	BA01_minbari = {
+		default = minbari_f1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					minbari_m1
+					minbari_m2
+					minbari_m3
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					minbari_f1
+					minbari_f2			
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					minbari_m1
+					minbari_m2
+					minbari_m3
+					minbari_f1
+					minbari_f2					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					minbari_m1
+					minbari_m2
+					minbari_m3
+					minbari_f1
+					minbari_f2		
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					minbari_m1
+					minbari_m2
+					minbari_m3
+					minbari_f1
+					minbari_f2				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					minbari_m1
+					minbari_m2
+					minbari_m3		
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					minbari_f1
+					minbari_f2				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					minbari_m1
+					minbari_m2
+					minbari_m3		
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					minbari_f1
+					minbari_f2				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					minbari_m1
+					minbari_m2
+					minbari_m3
+		
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					minbari_f1
+					minbari_f2		
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					minbari_m1
+					minbari_m2
+					minbari_m3	
+				}
+			}			
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					minbari_f1
+					minbari_f2				
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					minbari_m1
+					minbari_m2
+					minbari_m3				
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+# This is a template which multiple species can use. 
+  
+ilium_female_clothes_01 = {default = "gfx/models/portraits/Fantasy/ilium/ilium_01_female_clothes_01.dds"} 
+  
+ilium_female_hair_01 = {default = "gfx/models/portraits/Fantasy/ilium/ilium_01_female_hair_01.dds" }
+
+ilium_male_clothes_01 = {default = "gfx/models/portraits/Fantasy/ilium/ilium_01_male_clothes_01.dds"}
+  
+ilium_male_hair_01 = {default = "gfx/models/portraits/Fantasy/ilium/ilium_01_male_hair_01.dds"}

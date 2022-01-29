@@ -1,0 +1,172 @@
+﻿### Sangheili
+sangheili_names = {
+
+randomized = no
+	### SHIPS
+
+	ship_names = {
+
+		generic = {
+			"A Psalm Every Day" "Commitment and Patience" "Devotion" "Infinite Spoils" "Minor Transgression" "Pitiless" "Valorous Salvation"
+		}
+
+		corvette = {
+			"Contrition" "Penance" "Tenebrous" "Twilight Compunction" "Revenant" "Ardent Prayer" "Mayhem"
+		}
+		
+		destroyer = {
+			"Bloodied Spirit" "Esteem" "Reverence" "Absolution" "Far Sight Lost" "Rapturous Arc" "Retribution's Thunder"
+		}
+		
+		cruiser = {
+			"Incorruptible" "Harbringer of Piety" "Indulgence of Conviction" "Pious Inquisitor" "Purity of Spirit" "Sacred Promise" "Triumphant Declaration" "Truth and Reconciliation" "Undiminished Entelechy" "Unrelenting" "Infinite Sacrifice" "Rapid Conversion"
+		}
+		
+		battleship = {
+			"Clarity of Faith" "Resplendent Fervor" "Shadow of Intent" "Solemn Penance" "Lonh Night of Solace" "Sublime Transcendence" "Lawgiver" "Ascendant Justive" "Splendid Intention"
+		}
+		
+		science = {
+			"Seeker of Truth"
+		}
+		
+		colonizer = {
+			"Infinite Succor"
+		}
+		
+		constructor = {
+			"Unyielding Hierophant"
+		}
+		
+		
+		mining_station = { }
+		research_station = { }
+		observation_station = { }
+		
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		random_names = {
+			"Righteous Purpose" "Inner Knowledge" "Furious Redemption" "Furious Retribution" "Glorius Interdiction" "Holy Respite" "Particular Justice" "Profound Solitude" "Retribution" "Rigorous Prayer" "Righteous Vigilance" "Sacred Consecration" "Tranquil Composute" "Valiant Prudence"
+		}
+		sequential_name = "%O% Stellar Fleet"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Honor Guard"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Legion"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Penal Corps"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Tankbred Regulars"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Battle Drone Wing"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Droid Commando"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psi-Ops Command"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Shock Swarm"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Purebloods"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+			 "Sanghelios" "Suban" "Qikost" "Ahrmonro" "Crolun" "Chavam" "Fulsam" "Ikaporam" "Inanrar" "Jeqkogo" "Kasam" "Konar" "Losona" "Mantakr" "Moram" "Mortum" "Nbek" "Nosul" "Ontom" "Pewtruno" "Putom" "Qualom" "Refum" "Sraom" "Sumai" "Taham" "Umam" "Vadam" "Vadum" "Wamik" "Wattinr" "Xellus" "Zamam" "Zule"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Ado Ardo Bako Isna Thel Ripa Rtas Sesa Cutan N'tho Luro Usze Fal Zuka "Voro Nar" Jul "Avu Mud" Rho Xytan Ther Raia Lat Lak Jora Soha Ussa Vata Quno Orna Chur Bero Toha
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				'Mdama 'Vadamee 'Vadumee 'Moramee 'Refumee 'Mortumee 'Nosulee 'Talamee 'Mantakree "'Jar Wattinree" 'Xellus 'Rolamee 'Gajar 'R-Yar 'R-Mut 'Kusovai 'Sumai
+			}
+			
+			regnal_first_names = {
+				Ado Ardo Bako Isna Thel Ripa Rtas Sesa Cutan N'tho Luro Usze Fal Zuka "Voro Nar" Jul "Avu Mud" Rho Xytan Ther Raia Lat Lak Jora Soha Ussa Vata Quno Orna Chur Bero Toha
+			}
+			
+			regnal_second_names = {
+				'Mdama 'Vadamee 'Vadumee 'Moramee 'Refumee 'Mortumee 'Nosulee 'Talamee 'Mantakree "'Jar Wattinree" 'Xellus 'Rolamee 'Gajar 'R-Yar 'R-Mut 'Kusovai 'Sumai
+			}
+		}
+	}
+}

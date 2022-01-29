@@ -1,0 +1,176 @@
+portraits = {
+
+	XC06_chryssalid_1 = {greeting_sound = "arthropoid_01_greetings"  texturefile = "gfx/models/portraits/XCOM/chryssalid/chryssalid_1.dds"}
+	XC06_chryssalid_2 = {greeting_sound = "arthropoid_01_greetings"  texturefile = "gfx/models/portraits/XCOM/chryssalid/chryssalid_2.dds"}
+}
+
+portrait_groups = {
+	XC06_chryssalid = {
+		default = XC06_chryssalid_1
+		game_setup = { 
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					XC06_chryssalid_1
+					XC06_chryssalid_2
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

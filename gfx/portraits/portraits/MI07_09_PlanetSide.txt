@@ -1,0 +1,337 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+
+portraits = {
+
+	terran_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "terran_female_clothes_01" hair_selector = "terran_female_hair_01"	greeting_sound = "human_female_greetings_03"}
+	terran_female_02 = {	entity = "portrait_human_female_02_entity"	clothes_selector = "terran_female_clothes_01" hair_selector = "terran_female_hair_01"	greeting_sound = "human_female_greetings_04"}
+	terran_female_03 = {	entity = "portrait_human_female_03_entity"	clothes_selector = "terran_female_clothes_01" hair_selector = "terran_female_hair_01"	greeting_sound = "human_female_greetings_05"}	
+	terran_female_04 = {	entity = "portrait_human_female_04_entity"	clothes_selector = "terran_female_clothes_01" 	hair_selector = "terran_female_hair_01"	greeting_sound = "human_female_greetings_01"}
+	
+	
+	terran_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "terran_male_clothes_01" hair_selector = "terran_male_hair_01"	greeting_sound = "human_male_greetings_03" }	
+	terran_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "terran_male_clothes_01" hair_selector = "terran_male_hair_01"	greeting_sound = "human_male_greetings_04" }
+	terran_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "terran_male_clothes_01" hair_selector = "terran_male_hair_01"	greeting_sound = "human_male_greetings_05" }		
+	terran_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "terran_male_clothes_01" hair_selector = "terran_male_hair_01"	greeting_sound = "human_male_greetings_01" }
+	
+	nc_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "nc_male_clothes_01" hair_selector = "nc_male_hair_01"	greeting_sound = "human_male_greetings_03" }	
+	nc_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "nc_male_clothes_01" hair_selector = "nc_male_hair_01"	greeting_sound = "human_male_greetings_04" }
+	nc_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "nc_male_clothes_01" hair_selector = "nc_male_hair_01"	greeting_sound = "human_male_greetings_05" }		
+	nc_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "nc_male_clothes_01" hair_selector = "nc_male_hair_01"	greeting_sound = "human_male_greetings_01" }
+	vs_male_01 = {	entity = "portrait_human_male_01_entity"	clothes_selector = "vs_male_clothes_01" hair_selector = "vs_male_hair_01"	greeting_sound = "human_male_greetings_03" }	
+	vs_male_02 = {	entity = "portrait_human_male_02_entity"	clothes_selector = "vs_male_clothes_01" hair_selector = "vs_male_hair_01"	greeting_sound = "human_male_greetings_04" }
+	vs_male_03 = {	entity = "portrait_human_male_03_entity"	clothes_selector = "vs_male_clothes_01" hair_selector = "vs_male_hair_01"	greeting_sound = "human_male_greetings_05" }		
+	vs_male_04 = {	entity = "portrait_human_male_04_entity"	clothes_selector = "vs_male_clothes_01" hair_selector = "vs_male_hair_01"	greeting_sound = "human_male_greetings_01" }
+	
+}
+
+portrait_groups = {
+	MI07_PlanetSide_TR = {
+		default = terran_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					terran_male_01
+					terran_male_02
+					terran_male_03
+					terran_male_04
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					terran_female_01
+					terran_female_02
+					terran_female_03					
+					terran_female_04
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					terran_female_01
+					terran_female_02
+					terran_female_03					
+					terran_female_04
+					terran_male_01
+					terran_male_02
+					terran_male_03
+					terran_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					terran_female_01
+					terran_female_02
+					terran_female_03					
+					terran_female_04
+					terran_male_01
+					terran_male_02
+					terran_male_03
+					terran_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					terran_female_01
+					terran_female_02
+					terran_female_03					
+					terran_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					terran_male_01
+					terran_male_02
+					terran_male_03
+					terran_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					terran_female_01
+					terran_female_02
+					terran_female_03					
+					terran_female_04
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					terran_male_01
+					terran_male_02
+					terran_male_03
+					terran_male_04
+				}
+			}
+		}
+	}
+
+############	
+	MI08_PlanetSide_NC = {
+		default = nc_male_02
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					nc_male_01
+					nc_male_02
+					nc_male_03
+					nc_male_04
+				}
+			}
+			
+		add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					nc_male_01
+					nc_male_02
+					nc_male_03
+					nc_male_04
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					nc_male_01
+					nc_male_02
+					nc_male_03
+					nc_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					nc_male_01
+					nc_male_02
+					nc_male_03
+					nc_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					nc_male_01
+					nc_male_02
+					nc_male_03
+					nc_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					nc_male_01
+					nc_male_02
+					nc_male_03
+					nc_male_04
+				}
+			}
+		}
+	}
+###############################
+	
+	MI09_PlanetSide_VS = {
+		default = vs_male_03
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					vs_male_01
+					vs_male_02
+					vs_male_03
+					vs_male_04
+				}
+			}
+			
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					vs_male_01
+					vs_male_02
+					vs_male_03
+					vs_male_04
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					vs_male_01
+					vs_male_02
+					vs_male_03
+					vs_male_04
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					vs_male_01
+					vs_male_02
+					vs_male_03
+					vs_male_04
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					vs_male_01
+					vs_male_02
+					vs_male_03
+					vs_male_04
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					vs_male_01
+					vs_male_02
+					vs_male_03
+					vs_male_04
+				}
+			}
+			
+		
+		}
+	}	
+}

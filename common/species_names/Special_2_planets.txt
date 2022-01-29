@@ -1,0 +1,31 @@
+
+SpecialRaces2 = {
+	SP01_robot = {
+		name = "AI Robot"
+		plural = "AI Robots"
+		home_planet = "Central Core"
+		home_system = "Core"
+		name_list = "robot_names"
+	}
+	SP12_extradim = {
+		name = ExtraDimensional 
+		plural = ExtraDimensionals
+		home_planet = "Total Void"
+		home_system = "Void"
+		name_list = "extradim_names"
+	}
+		
+	SP12_swarm= {
+		name = Swarm
+		plural = Swarm
+		home_planet = "Nest"
+		home_system = "Infestation"
+		name_list = "swarm_names"
+	}
+		
+}
+
+	
+
+
+	

@@ -1,0 +1,59 @@
+# This is a template which multiple species can use. 
+
+mammalian_bolian_female_clothes_01 = {
+	default = "gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_ruler.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_ruler.dds"
+	}
+	
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_governer.dds"
+	}
+	
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_governer.dds"
+		
+	}
+
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_governer.dds" = { leader_class = scientist }
+		"gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_general.dds" = { leader_class = general }
+		"gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_admiral.dds" = { leader_class = admiral }
+		"gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_ruler.dds" = { leader_class = governor }
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_ruler.dds"
+		
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+
+			list = {
+					"gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_general.dds" 
+					"gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_admiral.dds"
+					"gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_ruler.dds"
+					"gfx/models/portraits/Star_Trek/bolian/bolian_female_clothes_governer.dds"
+				
+				}
+			}	
+		}
+}
+
+bolian_male_hair_1 = { 
+	default = "no_texture"
+}

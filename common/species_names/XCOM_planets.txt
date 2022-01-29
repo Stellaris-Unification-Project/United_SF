@@ -1,0 +1,106 @@
+#su wh turi name listus, kiti neturi
+
+XCOM = {
+	XC01_advent = {
+		name = Advent
+		plural = Advent
+		home_planet = Advent
+		home_system = Advent
+		name_list = "advent_names"
+	}
+
+	XC02_andromedon = {
+		name = Andromedon
+		plural = Andromedons
+		home_planet = Andromeda
+		home_system = Andromeda
+		name_list = "andromedon_names"
+	}	
+
+	XC03_archon = {
+		name = Archon
+		plural = Archons
+		home_planet = Archon
+		home_system = Archon
+		name_list = "archon_names"
+	}
+
+	XC04_avatar_xcom = {
+		name = Avatar
+		plural = Avatars
+		home_planet = Avatar 
+		home_system = Avatar
+		name_list = "avatar_names"
+	}
+
+	XC05_berserker = {
+		name = Berserker
+		plural = Berserkers
+		home_planet = Unknown 
+		home_system = Unknown
+		name_list = "berserker_names"
+	}
+
+	XC06_chryssalid = {
+		name = Chryssalid
+		plural = Chryssalids
+		home_planet = Chryssa
+		home_system = Chryssa
+		name_list = "chryssalid_names"
+	}	
+
+	XC07_ethereal = {
+		name = Ethereal
+		plural = Ethereals
+		home_planet = Ethera
+		home_system = Ethera
+		name_list = "ethereal_names"
+	}
+
+	XC08_faceless = {
+		name = Faceless
+		plural = Faceless
+		home_planet = "Faceless planet"
+		home_system = "Faceless system"
+		name_list = "faceless_names"
+	}
+	
+	XC09_gatekeeper = {
+		name = Gatekeeper 
+		plural = Gatekeepers
+		home_planet = Gate 
+		home_system = Gate
+		name_list = "gatekeeper_names"
+	}		
+
+	XC10_muton = {
+		name = Muton
+		plural = Mutons
+		home_planet = Muton 
+		home_system = Muton
+		name_list = "muton_names"
+	}
+	
+	XC11_sectoid = {
+		name = "Sectoid" 
+		plural = "Sectoids"
+		home_planet = "Xnth Dimension"
+		home_system = Sect
+		name_list = "sectoid_names"
+	}	
+	
+	XC12_viper = {
+		name = "Viper" 
+		plural = "Vipers"
+		home_planet = "Viper planet" 
+		home_system = Viper
+		name_list = "viper_names"
+	}	
+
+	
+}
+
+	
+
+
+	

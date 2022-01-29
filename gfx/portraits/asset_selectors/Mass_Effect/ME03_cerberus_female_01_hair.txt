@@ -1,0 +1,102 @@
+# This is a template which multiple species can use. 
+  
+cerberus_female_hair_01 = {
+	default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_01.dds"
+	
+	game_setup = {
+		default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_01.dds"
+	}
+	
+	species = { 
+		default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_01.dds"
+	}
+	
+	pop = { 
+	
+		default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_01.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_03.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_04.dds"
+				
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_brown_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_brown_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_brown_style_03.dds"
+
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_cendre_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_cendre_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_cendre_style_03.dds"
+
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor		
+		
+		default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_01.dds"
+		
+		random = {
+			list = {
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_03.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_04.dds"
+				
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_brown_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_brown_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_brown_style_03.dds"
+
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_cendre_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_cendre_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_cendre_style_03.dds"				
+
+			}
+		}
+	}
+  
+	ruler = { 
+		default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_01.dds"
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+
+			list = {
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_03.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_black_style_04.dds"
+				
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_brown_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_brown_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_brown_style_03.dds"
+
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_cendre_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_cendre_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_female_hair_cendre_style_03.dds"
+			}
+		}		
+		
+	}
+}
+
+
+  

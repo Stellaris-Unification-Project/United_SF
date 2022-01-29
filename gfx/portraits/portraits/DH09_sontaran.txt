@@ -1,0 +1,177 @@
+portraits = {
+
+	sontaran01 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/sontaran/sontaran1.dds"}
+	sontaran02 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/sontaran/sontaran2.dds"}
+	sontaran03 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/sontaran/sontaran3.dds"}
+	}
+
+portrait_groups = {
+	DH09_sontaran = {
+		default = sontaran03	 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02
+	
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02 					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02	
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02	
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02	
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02	
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02	
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02	
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02	
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02	
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02	
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02	
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					sontaran03
+					sontaran01
+					sontaran02
+				}
+			}
+		}		
+	
+	}
+}
+
+

@@ -1,0 +1,622 @@
+# Miscellaneous
+
+portraits = {
+
+	
+	amarr_male1 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_male1.dds"}
+	amarr_male2 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_male2.dds"}
+	amarr_male3 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_male3.dds"}
+	amarr_male4 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_male4.dds"}
+	amarr_male5 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_male5.dds"}
+	amarr_male6 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_male6.dds"}
+	amarr_female1 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_female1.dds"}
+	amarr_female2 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_female2.dds"}
+	amarr_female3 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_female3.dds"}
+	amarr_female4 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_female4.dds"}
+	amarr_female5 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_female5.dds"}
+	amarr_female6 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/amarr_female6.dds"}
+	
+	minmatar_male1 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_male1.dds"}
+	minmatar_male2 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_male2.dds"}
+	minmatar_male3 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_male3.dds"}
+	minmatar_male4 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_male4.dds"}
+	minmatar_male5 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_male5.dds"}
+	minmatar_male6 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_male6.dds"}
+	minmatar_female1 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_female1.dds"}
+	minmatar_female2 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_female2.dds"}
+	minmatar_female3 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_female3.dds"}
+	minmatar_female4 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_female4.dds"}
+	minmatar_female5 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_female5.dds"}
+	minmatar_female6 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/minmatar_female6.dds"}
+
+	#caldari
+	eve03_m1 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_male1.dds"}
+	eve03_m2 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_male2.dds"}
+	eve03_m3 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_male3.dds"}
+	eve03_m4 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_male4.dds"}
+	eve03_m5 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_male5.dds"}
+	eve03_m6 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_male6.dds"}
+
+	eve03_f1 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_female1.dds"}
+	eve03_f2 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_female2.dds"}
+	eve03_f3 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_female3.dds"}
+	eve03_f4 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_female4.dds"}
+	eve03_f5 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_female5.dds"}
+	eve03_f6 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/caldari_female6.dds"}
+	
+	#gallente
+	eve04_m1 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_male1.dds"}
+	eve04_m2 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_male2.dds"}
+	eve04_m3 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_male3.dds"}
+	eve04_m4 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_male4.dds"}
+	eve04_m5 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_male5.dds"}
+	eve04_m6 = {greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_male6.dds"}
+	
+	eve04_f1 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_female1.dds"}
+	eve04_f2 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_female2.dds"}
+	eve04_f3 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_female3.dds"}
+	eve04_f4 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_female4.dds"}
+	eve04_f5 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_female5.dds"}
+	eve04_f6 = {greeting_sound ="human_female_greetings_03"  texturefile = "gfx/models/portraits/Miscellaneous/eve_online/gallente_female6.dds"}
+	
+}
+
+portrait_groups = {	
+	MI22_amarr = {
+		default = amarr_male1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+			trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					amarr_male1	
+					amarr_male2
+					amarr_male3
+					amarr_male4
+					amarr_male5
+					amarr_male6					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					amarr_female1
+					amarr_female2
+					amarr_female3
+					amarr_female4
+					amarr_female5
+					amarr_female6					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					amarr_male1	
+					amarr_male2
+					amarr_male3
+					amarr_male4
+					amarr_male5
+					amarr_male6
+					amarr_female1
+					amarr_female2
+					amarr_female3
+					amarr_female4
+					amarr_female5
+					amarr_female6
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					amarr_male1	
+					amarr_male2
+					amarr_male3
+					amarr_male4
+					amarr_male5
+					amarr_male6
+					amarr_female1
+					amarr_female2
+					amarr_female3
+					amarr_female4
+					amarr_female5
+					amarr_female6
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					amarr_male1	
+					amarr_male2
+					amarr_male3
+					amarr_male4
+					amarr_male5
+					amarr_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					amarr_female1
+					amarr_female2
+					amarr_female3
+					amarr_female4
+					amarr_female5
+					amarr_female6
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					amarr_male1	
+					amarr_male2
+					amarr_male3
+					amarr_male4
+					amarr_male5
+					amarr_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					amarr_female1
+					amarr_female2
+					amarr_female3
+					amarr_female4
+					amarr_female5
+					amarr_female6
+				}
+			}
+		}
+	}		
+		
+
+################### Minmatar ####################
+
+
+	MI23_minmatar = {
+		default = minmatar_male1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+			trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					minmatar_male1	
+					minmatar_male2
+					minmatar_male3
+					minmatar_male4
+					minmatar_male5
+					minmatar_male6					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					minmatar_female1
+					minmatar_female2
+					minmatar_female3
+					minmatar_female4
+					minmatar_female5
+					minmatar_female6					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					minmatar_male1	
+					minmatar_male2
+					minmatar_male3
+					minmatar_male4
+					minmatar_male5
+					minmatar_male6
+					minmatar_female1
+					minmatar_female2
+					minmatar_female3
+					minmatar_female4
+					minmatar_female5
+					minmatar_female6
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					minmatar_male1	
+					minmatar_male2
+					minmatar_male3
+					minmatar_male4
+					minmatar_male5
+					minmatar_male6
+					minmatar_female1
+					minmatar_female2
+					minmatar_female3
+					minmatar_female4
+					minmatar_female5
+					minmatar_female6
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					minmatar_male1	
+					minmatar_male2
+					minmatar_male3
+					minmatar_male4
+					minmatar_male5
+					minmatar_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					minmatar_female1
+					minmatar_female2
+					minmatar_female3
+					minmatar_female4
+					minmatar_female5
+					minmatar_female6
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					minmatar_male1	
+					minmatar_male2
+					minmatar_male3
+					minmatar_male4
+					minmatar_male5
+					minmatar_male6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					minmatar_female1
+					minmatar_female2
+					minmatar_female3
+					minmatar_female4
+					minmatar_female5
+					minmatar_female6
+				}
+			}
+		}
+	}		
+		
+#######################caldari##############################
+
+	MI24_caldari = {
+		default = eve03_m1 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					eve03_f1
+					eve03_f2
+					eve03_f3
+					eve03_f4
+					eve03_f5
+					eve03_f6					
+					
+				}
+			}
+			
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					eve03_m1
+					eve03_m2 
+					eve03_m3 
+					eve03_m4 
+					eve03_m5 
+					eve03_m6					
+
+					
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					eve03_m1
+					eve03_m2 
+					eve03_m3 
+					eve03_m4 
+					eve03_m5 
+					eve03_m6
+					eve03_f1
+					eve03_f2
+					eve03_f3
+					eve03_f4
+					eve03_f5
+					eve03_f6					
+				
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					eve03_m1
+					eve03_m2 
+					eve03_m3 
+					eve03_m4 
+					eve03_m5 
+					eve03_m6
+					eve03_f1
+					eve03_f2
+					eve03_f3
+					eve03_f4
+					eve03_f5
+					eve03_f6					
+     
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					eve03_f1
+					eve03_f2
+					eve03_f3
+					eve03_f4
+					eve03_f5
+					eve03_f6	
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					eve03_m1
+					eve03_m2 
+					eve03_m3 
+					eve03_m4 
+					eve03_m5 
+					eve03_m6		
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					eve03_m1
+					eve03_m2 
+					eve03_m3 
+					eve03_m4 
+					eve03_m5 
+					eve03_m6		
+					
+				}
+			}
+
+		     add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					eve03_f1
+					eve03_f2
+					eve03_f3
+					eve03_f4
+					eve03_f5
+					eve03_f6	
+
+					
+				}
+			}
+
+		}
+	}		
+		#########################################
+
+	 MI25_gallente = {
+		default = 	eve04_m1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+			trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					eve04_m1
+					eve04_m2
+					eve04_m3
+					eve04_m4
+					eve04_m5
+					eve04_m6					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					eve04_f1
+					eve04_f2
+					eve04_f3
+					eve04_f4
+					eve04_f5
+					eve04_f6						
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					eve04_m1
+					eve04_m2
+					eve04_m3
+					eve04_m4
+					eve04_m5
+					eve04_m6
+					eve04_f1
+					eve04_f2
+					eve04_f3
+					eve04_f4
+					eve04_f5
+					eve04_f6
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					eve04_m1
+					eve04_m2
+					eve04_m3
+					eve04_m4
+					eve04_m5
+					eve04_m6
+					eve04_f1
+					eve04_f2
+					eve04_f3
+					eve04_f4
+					eve04_f5
+					eve04_f6
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					eve04_m1
+					eve04_m2
+					eve04_m3
+					eve04_m4
+					eve04_m5
+					eve04_m6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					eve04_f1
+					eve04_f2
+					eve04_f3
+					eve04_f4
+					eve04_f5
+					eve04_f6
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					eve04_m1
+					eve04_m2
+					eve04_m3
+					eve04_m4
+					eve04_m5
+					eve04_m6
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					eve04_f1
+					eve04_f2
+					eve04_f3
+					eve04_f4
+					eve04_f5
+					eve04_f6
+				}
+			}
+		}
+	}		
+		
+}

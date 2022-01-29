@@ -1,0 +1,47 @@
+
+
+portraits = {
+	ME_edi_1 = {	entity = "portrait_human_female_01_entity"  clothes_selector = "edi_clothes_1" 	hair_selector = "edi_hair_1" greeting_sound = "human_female_greetings_03" 
+			character_textures = {
+					"gfx/models/portraits/empty_body.dds"
+			}
+    }
+}	
+
+portrait_groups = {
+		ME25_edi = {
+		default = ME_edi_1 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					ME_edi_1
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					ME_edi_1
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					ME_edi_1
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					ME_edi_1
+				}
+			}
+		}
+	}
+}

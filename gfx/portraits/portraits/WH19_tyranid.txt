@@ -1,0 +1,305 @@
+portraits = {
+
+	WH_tyranid01 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid_ruler1.dds"}
+	WH_tyranid02 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid_admiral1.dds"}
+	WH_tyranid03 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid_general1.dds"}
+	WH_tyranid04 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid_general2.dds"}
+	WH_tyranid05 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid_general3.dds"}
+	WH_tyranid06 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid_general4.dds"}
+	WH_tyranid07 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid_scientist1.dds"}
+	WH_tyranid08 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid1.dds"}
+	WH_tyranid09 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid2.dds"}
+	WH_tyranid10 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid3.dds"}
+	WH_tyranid11 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid4.dds"}
+	WH_tyranid12 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid5.dds"}
+	WH_tyranid13 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tyranid/tyranid6.dds"}	
+ 		
+}
+
+portrait_groups = {
+	WH19_tyranid = {
+		default = WH_tyranid01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+					WH_tyranid08
+					WH_tyranid09
+					WH_tyranid10
+					WH_tyranid11
+					WH_tyranid13
+					WH_tyranid12
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+					WH_tyranid08
+					WH_tyranid09
+					WH_tyranid10
+					WH_tyranid11
+					WH_tyranid13
+					WH_tyranid12
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+					WH_tyranid08
+					WH_tyranid09
+					WH_tyranid10
+					WH_tyranid11
+					WH_tyranid13
+					WH_tyranid12
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+					WH_tyranid08
+					WH_tyranid09
+					WH_tyranid10
+					WH_tyranid11
+					WH_tyranid13
+					WH_tyranid12
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+					WH_tyranid08
+					WH_tyranid09
+					WH_tyranid10
+					WH_tyranid11
+					WH_tyranid13
+					WH_tyranid12
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+					WH_tyranid08
+					WH_tyranid09
+					WH_tyranid10
+					WH_tyranid11
+					WH_tyranid13
+					WH_tyranid12
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+					WH_tyranid08
+					WH_tyranid09
+					WH_tyranid10
+					WH_tyranid11
+					WH_tyranid13
+					WH_tyranid12
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+					WH_tyranid08
+					WH_tyranid09
+					WH_tyranid10
+					WH_tyranid11
+					WH_tyranid13
+					WH_tyranid12
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+					WH_tyranid08
+					WH_tyranid09
+					WH_tyranid10
+					WH_tyranid11
+					WH_tyranid13
+					WH_tyranid12
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+					WH_tyranid08
+					WH_tyranid09
+					WH_tyranid10
+					WH_tyranid11
+					WH_tyranid13
+					WH_tyranid12
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					WH_tyranid01
+					WH_tyranid02
+					WH_tyranid03
+					WH_tyranid04
+					WH_tyranid05
+					WH_tyranid06
+					WH_tyranid07
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

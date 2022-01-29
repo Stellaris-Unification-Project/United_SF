@@ -1,0 +1,192 @@
+############################################################## 
+#	texturefile = "gfx/models/portraits/volus/volus1.dds"
+#	greeting_sound ="human_male_greetings_04" 
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	# Batarian
+	batarian_female_leader1 = { greeting_sound = "human_female_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarian2.dds"}
+	batarian_female_sci = { greeting_sound = "human_female_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarian3.dds" }
+	batarian_female_gen = { greeting_sound = "human_female_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarianf4.dds" }
+	batarian_female_admiral = { greeting_sound = "human_female_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarianf5.dds" }
+	batarian_female_admiral2 = { greeting_sound = "human_female_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarianf6.dds" }
+	batarian_female_genpop1 = { greeting_sound = "human_female_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarian3.dds" }
+	batarian_male_leader1 = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarian1.dds"}
+	batarian_male_leader2 = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarian9.dds"}
+	batarian_male_leader3 = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarian10.dds"}
+	batarian_male_sci = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarian11.dds" }	
+	batarian_male_gen = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarian8.dds" }
+	batarian_male_admiral = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarian14.dds" }
+	batarian_male_genpop1 = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarian12.dds" }
+	batarian_male_genpop2 = { greeting_sound = "human_male_greetings_03" texturefile = "gfx/models/portraits/Mass_Effect/batarian/batarian11.dds" }	
+}
+
+portrait_groups = {
+	ME12_batarian = {
+		default = batarian_male_leader2
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					batarian_male_leader1
+					batarian_male_leader2
+					batarian_male_leader3
+					batarian_male_gen
+					batarian_male_genpop2
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					batarian_female_leader1
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+				batarian_male_genpop1
+				batarian_male_genpop2
+				batarian_female_genpop1
+				
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+				batarian_male_genpop1
+				batarian_male_genpop2
+				batarian_female_genpop1			
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					batarian_female_sci		
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					batarian_male_sci			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					batarian_female_gen			
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					batarian_male_gen			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					batarian_female_admiral
+					batarian_female_admiral2					
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					batarian_male_admiral			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					batarian_female_leader1	
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					batarian_male_leader1				
+					batarian_male_leader3
+					batarian_male_leader2	
+				}
+			}			
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					batarian_female_leader1		
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					batarian_male_leader1				
+					batarian_male_leader3
+					batarian_male_leader2			
+				}
+			}
+		}
+	}
+}

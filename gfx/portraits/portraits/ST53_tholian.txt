@@ -1,0 +1,12 @@
+portraits = {
+
+	# Arthropoid
+	
+	ST53_tholian = {	entity = "portrait_tholian_01_entity" clothes_selector = "general_no_hair" hair_selector = "general_no_hair"	greeting_sound = "arthropoid_01_greetings" 
+			character_textures = {
+					"gfx/models/portraits/Star_Trek/tholian/tholian_01.dds"
+					"gfx/models/portraits/Star_Trek/tholian/tholian_02.dds"
+					"gfx/models/portraits/Star_Trek/tholian/tholian_03.dds"
+			}
+	}	
+}

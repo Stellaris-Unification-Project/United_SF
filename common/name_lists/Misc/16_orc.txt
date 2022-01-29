@@ -1,0 +1,236 @@
+﻿### Orc name list
+orc_names = {
+	randomized = no
+
+	ship_names = {
+		generic = {
+			"Mod'rik" Spanok "Grock'tal" "Mun'dal" Ogris Tarduk Steelfoot Spikefist Bloodred Mudrock Gorelon
+		}
+		
+		corvette = {
+			Rattlesnake Venomblade Biter Choppa Cutthroat "Gor'lun" Tanak Bloodred Bloodblade Trashfoot "Zum'gan" 
+		}
+		
+		constructor = {
+			Umnog Buzog Carzog Dugroth Gard Garnikh Gashzug Glaz Glurnt
+		}
+		
+		colonizer = {
+			"Shugza's Settler" "Settler" "Moda's Scout" "Mohkta's Settler" "Bashag's Settler" "Bazgulub's Settler" 
+		}
+		
+		science = {
+			Mak'dar Sor'nak Torlo Murlok'a Sweettooth Brokebranch 
+		}
+		
+		destroyer = {
+			Durgob Grul Mog Othmash Ramolg Shelakh Uzgak'a Magrish Agum Agadba Azorku Shula Shugham Sharbag Shak Shazog Mog'duko Murog Mulakh Murz Murug Gushagub Atulg Azuk Bagamul Bakh Baronk Bashag Bazgulub Bogakh Bologra Borug Bugdul Bugharz Bugrash Bugrol Bumbub Burul Dul Dular Duluk Duma Dumbuk Dumburz Dur Durbul Durgash Durz Durzol Durzub Durzum Garothmuk Garzonk Gashna Ghamborz Ghamonk Ghoragdush Ghorlorz Glush Grat Gruzgob Guarg Gurak Khadba Khagra Khargol Koffutto Largakh Lorbumol Lorzub Lugdum Lugrub Lurog Mash Matuk Mauhul Mazorn Mol Morbash Mug Mugdul Muk Murag Murkub Murzol Muzgonk Nag Nar Nash Ogrul Ogrumbu Olfin
+		}
+		
+		cruiser = {
+			"King Roo'da" Brokehand Killsaw "Cpt. Bloodfist" "Burna Crew" "Mood'a Biter" Choppa Cutthroat "Gor'lun" Tanak Bloodred Bloodblade Trashfoot
+		}
+		
+		battleship = {
+			Ragerock Burnhand Mog'doona Firefly Burnfist "Rokta's Fury" Blazefist Flame-eater Bloodbone Brokeskull
+		}
+	
+		
+		transport = {
+				"Far Blade" Rockbone Mil'drak Sizzlerock "Watchful Eye" Spikefoot "Trasher Thrash Crew" "Captain End'ok" Divider Bastion "Home Turf" Wildeye Bonebreak Bloodbreak Tormundo Bak'tal Ruk'tor
+		Til'dun Maka'jon Biterock Trashheap Boilbones Scrapscraper Jetherder Steelfoot Steeleye Metaleye Crackskull Mallo Tull'dar Cutdown Rockspitter Hammerhead Blackeye Bloodnose Facebroke
+		}
+
+		military_station_small = { 
+			"Char Point" Shatterstar Shipbreaker 
+		}
+		
+		
+		military_station_medium = { 
+			Burnspot "Bloodynose Post" Murdarhole "Mal'doon Post" "Mak'doon Post" "Rok'da Post" "Rool'dan Post" "Groktar Post" "Hellsmack Post" "Shatterhead Post"
+		}
+
+		
+		military_station_large = { 
+			Burnspot "Bloodynose Post" Murdarhole "Mal'doon Post" "Mak'doon Post" "Rok'da Post" "Rool'dan Post" "Groktar Post" "Hellsmack Post" "Shatterhead Post"
+		}
+		
+	}
+
+	fleet_names = {
+			random_names = { "The Ragecage Clan" "Brokenose Clan" "Bitlip Clan" "Mok'da's Clan" "Mur'dul's Clan" "Farnorth Clan" "Tusker Clan" "Skin'ta Clan" "Steeleye Clan"}
+			
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Tribal Home Defenders"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Clashblades"
+		}
+		berserker_army = {
+			sequential_name = "%O% Clashblades"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Chief Infantry"
+		}
+		
+		clone_army = { 
+			sequential_name = "%O% Inbred Scum Fighters"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Assassin Squad"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Beep-Boop Fighters"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Psi Commando"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Bio-Warfare Division"
+		}
+		
+		gene_warrior_army = {
+			random_names = {
+				"SARC-A 'Gladiators'"
+			}
+			sequential_name = "%O% Vat-made Squadron"
+		}
+	}
+
+	planet_names = {
+
+		generic = {
+			names = {
+				Mon'dak "Nova Thrallon" "Chief Tun'aldan's Rock" "Chief Dak's Battlegrounds" "Shatterstar" "Burnland Star" "Oakvale Moon" "Splitaxe" Khargol Koffutto Largakh Lorbumol Lorzub Lugdum  			}
+		}
+		
+		pc_desert = {
+			names = {
+				Mon'dak "Nova Thrallon" "Chief Tun'aldan's Rock" "Chief Dak's Battlegrounds" "Shatterstar" "Burnland Star" "Oakvale Moon" "Splitaxe" Khargol Koffutto Largakh Lorbumol Lorzub Lugdum Blood Moon
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				Mon'dak "Nova Thrallon" "Chief Tun'aldan's Rock" "Chief Dak's Battlegrounds" "Shatterstar" "Burnland Star" "Oakvale Moon" "Splitaxe" Khargol Koffutto Largakh Lorbumol Lorzub Lugdum 
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				Mon'dak "Nova Thrallon" "Chief Tun'aldan's Rock" "Chief Dak's Battlegrounds" "Shatterstar" "Burnland Star" "Oakvale Moon" "Splitaxe" Khargol Koffutto Largakh Lorbumol Lorzub Lugdum 
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				Albion Amor Dawn Horizon Asgard "Terra Nova" Kongzi Zoroaster "Tian Yi" 
+				"Wu Ding" Zheng "Gao Zu" Tokugawa Oda Toyotomi Rama Vishnu Soma Pangea
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				Eden'ak Shambhala Xanadu Shangri-La
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				"Wavecrash Rock" "Water Planet" "Azula'kor"
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				Dustrock "Maki'dol's Paradise"
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				Icerock Coldsphere Glacierton "Frostbiter Valleys" 
+			}
+		}
+	}
+
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 50
+			first_names_male = {
+				"Mak'dar" "Muk'doon" Mildur Breakneck "Tom'ga" Rondak Mordamur Modabur "Burk'ta" Murgal Azog "Balk'meg" Gorgal Gorbag Lagduf "Muz'dan" 
+				Radbug Shagrat Snaga Uthak "Gor'kil" Krashnak Gorwin Nazug "Nil'zag" Nazalo "Fin'bul" Bloodbone
+			}
+			first_names_female = {
+				"Mel'dora" Azog Balk'meg Gorgal Gorbag Lagduf Muz'dan Radbug Shagrat Snaga Uthak "Gor'kil" Krashnak Gorwin Nazug "Nil'zag" Nazalo "Fin'bul"
+
+			}
+			second_names = {
+				Brokeblade Jetburn Skyburn Skullfist Shredbone Bloodgor "the Mad" "the Furious" "the Claw" "the Broken" "the Jetbuilder" "Earthcleaver" "Alienfire" Doon'ak Doon'al Do'rok
+			}
+			regnal_first_names_male = {
+				Mak'daro
+			}
+			regnal_first_names_female = {
+				"Coldblood" Gronta'al "the Weary" "the Patchmaker"
+			}
+			regnal_second_names = {
+				Hak'ta "the Wealthy" "the Eagle" "the Ghost" Fadestar
+			}
+		}
+		
+		names2 = {
+			weight = 50
+			first_names_male = {
+				Krul Krok Kunda Kilda Morda Lagduf "Muz'dan" Radbug Shagrat Snaga Uthak Gor'kil Krashnak Gorwin Nazug "Nil'zag" Nazalo "Fin'bul"
+
+			}
+
+			first_names_female = {
+				"Mel'dora" Shagrata Gorwa "Gor'kila" Nulzaga Maldura Durbul Durgash Durz Durzol Durzub Durzum Garothmuk Garzonk Gashna Ghamborz Ghamonk 
+				Ghoragdush Durgob Grul Mog Othmash Ramolg Shelakh Uzgak'a Magrish Agum Agadba Azorku Shula Shugham Sharbag Shak Shazog "Mog'duko" Murog Mulakh
+				Murz Murug Gushagub Atulg Azuk Bagamul Bakh Baronk Bashag Bazgulub Bogakh Bologra Borug Bugdul Bugharz Bugrash Bugrol Bumbub Burul Dul Dular Duluk 
+				Duma Dumbuk Dumburz Dur Durbul Durgash Durz Durzol Durzub Durzum Garothmuk Garzonk Gashna Ghamborz Ghamonk Ghoragdush Ghorlorz Glush Grat Gruzgob 
+				Guarg Gurak Khadba Khagra Khargol Koffutto Largakh Lorbumol Lorzub Lugdum Lugrub Lurog Mash Matuk Mauhul Mazorn Mol Morbash Mug Mugdul Muk Murag 
+				Murkub Murzol Muzgonk Nag Nar Nash Ogrul Ogrumbu Olfin
+				
+			}
+			second_names = {
+				"Mak'dar" "Muk'doon" Mildur Breakneck Tom'ga Rondak Mordamur Modabur "Burk'ta" Murgal Azog "Balk'meg" Gorgal Gorbag
+				Lagduf Muz'dan Radbug Shagrat Snaga Uthak Gor'kil Krashnak Gorwin Nazug Nil'zag Nazalo Fin'bul
+			}
+			regnal_first_names_male = {
+				  Mazgro Mekag Molg Ograt Olfim Othbug Ragbur Rhosh Rogurog Rozag Rugmeg Shagrod
+			}
+			regnal_first_names_female = {
+				Miranda "Cordel'ak" "Muri'ala" "Tem'da" Kelda Kulda Durgob Grul Mog Othmash Ramolg Shelakh "Uzgak'a" Magrish Agum 
+				Agadba Azorku Shula Shugham Sharbag Shak Shazog Mog'duko Murog Mulakh Murz Murug Gushagub Atulg Azuk Bagamul 
+				Bakh Baronk Bashag Bazgulub Bogakh  Bologra Borug Bugdul Bugharz Bugrash Bugrol Bumbub Burul Dul Dular Duluk 
+				Duma Dumbuk Dumburz Dur Durbul Durgash Durz Durzol Durzub Durzum Garothmuk Garzonk Gashna Ghamborz Ghamonk 
+				Ghoragdush Ghorlorz Glush Grat Gruzgob Guarg Gurak Khadba Khagra Khargol Koffutto Largakh Lorbumol Lorzub 
+				Lugdum Lugrub Lurog Mash Matuk Mauhul Mazorn Mol Morbash Mug Mugdul Muk Murag Murkub Murzol Muzgonk Nag Nar 
+				Nash Ogrul Ogrumbu Olfin
+			}
+			regnal_second_names = {
+				"the Dreadwing" "from the Abyss" "Deathsteel" "the Hellfyre" "the Dreadwing" "from the Abyss"
+				"Deathsteel" "the Hellfyre" "Coldblood" "Gronta'al" "the Weary" "the Patchmaker" "the Workhorse" "the Wretched" "the Craftsman"
+			}
+		}
+		
+		
+	}
+}

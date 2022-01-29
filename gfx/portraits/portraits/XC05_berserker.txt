@@ -1,0 +1,191 @@
+portraits = {
+
+	XC05_berserker_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/berserker/berserker_1.dds"}
+	XC05_berserker_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/berserker/berserker_2.dds"}
+	XC05_berserker_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/berserker/berserker_3.dds"}
+}
+
+portrait_groups = {
+	XC05_berserker = {
+		default = XC05_berserker_1
+		game_setup = { 
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					XC05_berserker_1
+					XC05_berserker_2
+					XC05_berserker_3
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

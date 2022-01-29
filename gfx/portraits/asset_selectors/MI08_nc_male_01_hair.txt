@@ -1,0 +1,109 @@
+# This is a template which multiple species can use. 
+  
+nc_male_hair_01 = {
+	default = "gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_1.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_1.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_1.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_1.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_1.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_2.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_3.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_4.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_5.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_6.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_7.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_8.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_9.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_10.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_11.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_12.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_13.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_14.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_15.dds"
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_1.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_1.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_2.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_3.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_4.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_5.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_6.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_7.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_8.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_9.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_10.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_11.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_12.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_13.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_14.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_15.dds"
+					
+			}
+		}		
+				
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		#default = "gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_1.dds"
+		
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes	
+					}
+				}
+			}
+		list = {
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_1.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_2.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_3.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_4.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_5.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_6.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_7.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_8.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_9.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_10.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_11.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_12.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_13.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_14.dds"
+				"gfx/models/portraits/Miscellaneous/PlanetSide/NC_Male_Hair_15.dds"
+		
+		}
+	}		
+}
+}
+  

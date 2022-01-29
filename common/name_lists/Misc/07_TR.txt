@@ -1,0 +1,333 @@
+﻿### Terran Republic
+TerranRep_names = {
+	randomized = no
+
+	ship_names = {
+
+		generic = { Werner Emerald Gemini Johrai Konried Markov Vaemar Stilwater Saerro Morgannis "Jagged Lance" "Black Ridge" Alkali Briggs Snowshear "Rust Mesa" Mallory Lithcorp Ceres Woodman Miller Cobalt Voight Torremar Palos Helios Genudine Everett Benson Connery Waterson SolTech "Snake Ravine" Mattherson Jaeger DeepCore AuraxiCom Apex
+			
+		}
+
+		corvette = { Mao Allatum Saurva Peris Rashnu Dahaka Tawrich Zurvan Connery "Crimson Bluff" "Defense of the Crown" Crossroads "Indar Bay" "Vanu Archives" "Regent Rock" Feldspar Arroyo Overflow Helios Alkali CoraMed Benson Briggs "Howling Pass" Quartz "West Highlands" Seabed "Ti Alloys" Ceres "Galaxy Solar" Palisade Highland Ayani "Snake Ravine" Xenotech "Broken Arch" "Gravel Pass" "Rust Mesa" Stockpile Scar Auraxium Copper Blackshard Iridium Sharpe Edgewater Wainwright "Offal Pit" Armoury "Kessel's Crossing" Hossin Vex Bunker Fallbridge Halcyon "OMR Terraforming" Iron "Broken Vale" Woodman Roothouse "Hunter's Blind" Gourney "SRP Hydroponics" Nettlemire "Whispering Pass" "Four Fingers" Genudine Cairn Southgate Bravata Matsuda Hayd Hatcher Nason Naum Harukan Ixtab Acan
+			
+		}
+		
+		destroyer = { Bitol Zotz Ghanan Mulac Chac Takkon Zeta Ikanam Heyoka Sungrey Mekala Onatha Wokuk Tumas Xelas LithCorp Crux Splitpeak Granite Jagged Lance "Hidden Ridge" Soltech Deserted AuraxiCom Cobalt DeepCore "Silver Valley" "Chimney Rock" Torremar Highroads Aramax Raven Moss Shroud Skyway Scarfield LithCorp Eastshore Barrik Kwahtee Onatha 
+
+		}
+		
+		cruiser = { "Crystal Ridge" Haven Aurora Apex Stillwater "Grey Heron" Traverse "Jaeger's Crossing" "Pale Canyon" "Old Shore" Everett Elli Frostfall Snowshear Mattherson Northpoint Saerro Waterson Redemption Bulwark Andvari Freyr Eisa Nott "Bridge-ward" Frostbite "East River" "Two Stone" Mani Nott Ymir Rime Rink
+			
+		}
+		
+		battleship = { Werner Emerald Gemini Johrai Konried Markov Vaemar Stilwater Saerro Morgannis "Jagged Lance" "Black Ridge" Alkali Briggs Snowshear "Rust Mesa" Mallory Lithcorp Ceres Woodman Miller Cobalt Voight Torremar Palos Helios Genudine Everett Benson Connery Waterson SolTech "Snake Ravine" Mattherson Jaeger DeepCore AuraxiCom Apex
+			
+		}
+		
+		science = { Helium Neon Krypton Xenon Ion Nitrogen Carbon Excimer Deuterium Coil Agil Strontium Manganese Ruby Ytterbium Thulium Chromium Promethium Erbium Samarium "F-Center"
+			
+		}
+		
+		colonizer = { Wrel Alarox Visigodo Wisdom Jaroostine Sinist Brutus Kelv Phaetonevl Guildion Dirdra Bequ Arevok Torok Takumi Moha Asveri Gornn Breizhpower Krodin PoleShift Andrus Lallerpan Earlino Keirus Krups Binary 
+			
+		}
+		
+		constructor = { Kriegshaser Hoffman Jones Bishop Champion Miranda Sites Burness Yeatts Sherman Clauss Good Diamond Kerr Sigmund Wells Hackney Schenck Elam Clegg Wisenhunt Krohn Bennett Issac Higby Carey Dowell James Anderson Moyer Lichty Vu Owens Navage Lafontaine Worley Smedley
+			
+		}
+		
+		mining_station = { }
+		research_station = { }
+		observation_station = { }
+		
+		transport = {Galaxy}
+		
+		military_station_small = {}
+		
+
+		
+		military_station_medium = {}
+		
+
+		
+		military_station_large = {
+			Victory Success Triumph Supremacy Superior Adventure Ascendancy Paramount Preponderous Exemplary Eximious
+			Acclaim Honor Renown Glory Superb Magnificence Majestic Splendor Paradigm Flawless Consummate Merit
+			Perfection Virtue Advantage Rectitude Incorruptible Integrity Justice Probity Prudence Purity Resolute
+			Dignity Distinction Excellence Faithful Discipline Recompense Retribution Requiem Courage Valor Gallant
+			Daring Constancy Perseverence Tenacity Sedulity Diligence Pertinacity Steadfast
+		}
+
+		
+	}
+
+	fleet_names = {
+		random_names = {
+			"Republic Battlefleet Glory" "Republic Battlefleet Honor" "Republic Battlefleet Victory" "Republic Battlefleet Courage" "Republic Battlefleet Unconquerable" "Republic Battlefleet Implacable" "Republic Battlefleet Inexorable" "Republic Battlefleet Inflexible" "Republic Battlefleet Unyielding" "Republic Battlefleet Resolute" "Republic Battlefleet Dignity" "Republic Battlefleet Diligence" "Republic Battlefleet Flawless" "Republic Battlefleet Splendour" "Republic Battlefleet Tenacity" "Republic Battlefleet Perserverence" "Republic Battlefleet Unbreakable" "Republic Battlefleet Endless" "Republic Battlefleet Crown" "Republic Battlefleet Auraxium" "Republic Battlefleet Hossin" "Republic Battlefleet Esamir" "Republic Battlefleet Indar" "Republic Battlefleet Amerish" "Republic Battlefleet Steadfast"
+		}
+		sequential_name = "%O% Republic Battlefleet"
+	}
+	
+	army_names = {
+		generic = { 
+			sequential_name = "%O% TR Garrison Outfit"
+		}
+
+		assault_army = {
+			sequential_name = "%O% TR Assault Outfit"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Mindblank Auxiliary Division"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% TR Nanite-Reborn Assault Outfit"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% SolTech Robotics Division"
+		}
+		
+		android_army = {
+			sequential_name = "%O% LithCorp Android Division"
+		}
+		
+		psionic_army = { 
+			sequential_name = "%O% Infiltrator Outfit"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Vanu-tech Experimental Division"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% TR Nanite-Enhanced Assault Outfit"
+		}
+	}
+
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = { Gailamir Gailar Gaiseric Gento Gunderic Gunthamund Hilderic Huneric Thrasamund Genseric Burvista Decebal Decebalus Dorpaneus Sitalkes Zamolxis Feletheus Feva Aspar Chagan Galindo Oroctulf Rechiarius Ricimer Wehha Wuffa Tytila Raedwald Eorpwald Ricbehrt Sigeberht Ecgric Aethelhere AEthelwold Eadwulf Aefwald Beonna Aethelred Offa Ceolwulf Beornwulf Aethelstan Eadmund Aethelweard Guthrum Eohric
+
+			}
+		}
+		
+		pc_desert = {
+			names = { Set Geb Anput Anubis Anuket Aten Hapi Hathor Heket Khnum Khonsu Maat Mafdet Menhit Nephthys Nekhbet Ptah Ra Serqet Shu Sobek Tawaret Tefnut Wadjet
+				
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+				Sinharaja "Santa Elena" Kinabalu Tongass Daintree Valdivian Karri "Valley of Giants" Dampier Wandella Tallaganda Gondwana Yakushima
+			}
+		}
+		
+		pc_arid = {
+			names = {
+				Set Geb Anput Anubis Anuket Aten Hapi Hathor Heket Khnum Khonsu Maat Mafdet Menhit Nephthys Nekhbet Ptah Ra Serqet Shu Sobek Tawaret Tefnut Wadjet
+			}
+		}
+		
+		pc_continental = {
+			names = {
+				Basiliscae Zeno Anastasius Leona Romula Nepos Julius Glycerion Olybria Anthemia Severa Majorian Avita Petronia Valentinia Constantinia Honoria Theodosia Magna Arcadia Gratia Jovia Vetrania Constans Licinia Maxentia Maximinia Galeria Diocletia
+			}
+		}
+		
+		pc_gaia = {
+			names = {
+				Sanctuary Serendipity Deliverance Apollonia Eden Saggitaron Plenty Refuge Progress "New Earth" "New Terra"
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+				Letica "Zheng He" Togo Nelson Cunningham "Yi Sun Shin" Fletcher Lepanto Tsushima Midway Farragut Yamamoto Duilius
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+				Kangchenjunga Parbat Lhotse Manaslu Makalu Oyu Nanda Dablam Kailash "Broad Peak" Kamet Machapuchare Gasherbrum Kamet "Kala Patthar" "Gyachung Kang" "Imja Tse"
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+				Everest Hillary K2 Tenzing Norgay Percival Mallory Ruttledge Namba Fischer Hall Hansen Harris Paljor Morup Smanla
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+
+		names1 = {
+			weight = 100
+			first_names_male = { Private Private Private Private Private Private Private Private Private PFC PFC PFC PFC PFC PFC PFC PFC PFC PFC Specialist "Lance Corporal" Sergeant "Staff Sergeant" "Tech Sergeant" "Sergeant 1st Class" "Master Sergeant" "First Sergeant" "Sergeant Major" "Command Sergeant Major" "Warrant Officer" "Second Lieutenant" "First Lieutenant" "Lieutenant Commander" Commander Captain Major "Lieutenant Colonel" Commissar Veteran Founder Exterminator
+				
+			}
+			first_names_female = { Private Private Private Private Private Private Private Private Private PFC PFC PFC PFC PFC PFC PFC PFC PFC PFC Specialist "Lance Corporal" Sergeant "Staff Sergeant" "Tech Sergeant" "Sergeant 1st Class" "Master Sergeant" "First Sergeant" "Sergeant Major" "Command Sergeant Major" "Warrant Officer" "Second Lieutenant" "First Lieutenant" "Lieutenant Commander" Commander Captain Major "Lieutenant Colonel" Commissar Veteran Founder Exterminator
+				
+			}
+			second_names = { 
+Abse Abt Ackermann Adelung Adenauer Adler Adlard Alflatt Allnatt Allwright Almer Almond Alred Alston Alvar Alvey Alwin Ammon
+Arbon Ashwin Averay Aylward Aylwin Azo Badrick Baldey Balding Balman Balston Bedloe
+Brightmore Brunger Brunker Brunwin Burchard Burrage Burward Cobbald Cutteridge Darwin Dearman Dewdney
+Eastman Eddols Eddy Ellwood Elphee Elsegood Elsey Elvey Elward Erwin Freegard Freelove
+Frewer Frewin Gladman Gladwin Godbert Godhold Godwin Goldbard Goldburg Goldhawk Goldwin Gomer
+Goodliffe Goodwin Gumbold Gummer Halding Hulbert Isgar Kenward Kenway Kerrich Kinsey Lambrick
+Leaves Leavey Leavins Leavold Lemmer Lilleyman Litwin Lovegod Loveguard Medwin Milborrow
+Ordway Orrick Osmer Othen Outridge Quenell Redway Seavers Sherrard Siggers Sirett Stannard
+Stidolph Trumble Utteridge Wackrill Walwin Wennell Whatman Whittard Wilmer Winbolt Winbow Winmer
+Winney Wolnoth Wolsey Woolgar Wyard Wyberg Wyman Wymer Yonwin Youngmay Abbott Aguilar Alderman
+Ambler Archer Arkwright Armer Armour Arrowsmith Ashburner Ashman Aurifaber Ayler Bacchus Bachelor
+Backer Bacon Bailey Baker Ballester Balmer Banister Bannerman Barber Barker Baron Barrell
+Barter Baxter Bayliss Beamer Bean Beeman Bellringer Belt Berryman Bessemer Bishop Bisp
+Blacker Blaker Blaxter Blecher Bloom Bloomer Boatswain Boatwright Bond Bookbinder Booker Boorman
+Boot Boote Boothman Botwright Boucher Boulter Bourchier Bowerman Bowler Bowmaker Bowman Bowring
+Bowyer Boyter Brasher Brasseur Brayer Brazier Brewer Brewster Bridgeman Bridger Bridle Brownsmith
+Buckler Buckman Bulger Bullinger Bulmer Burgess Burl Burle Burman Bushell Buss Butcher
+Butler Butner Butters Buttery Button Cake Cakebread Calverd Camp Cann Cannel Cannell
+Canter Caperon Capon Capper Card Carder Carpenter Carter Cartwright Carver Catchpole Cater
+Century Chafer Chaffer Chalker Challender Challenger Challinor Chalmers Chamberlain Chambers Chancellor Chandler
+Chaplin Chapman Chase Chaucer Chauncellor Chaundler Cheator Cheese Cheeseman Cheesewright Chenevix Clarges
+Clark Clarke Cleaver Clerk Clothier Cloutman Coke Collier Colthard Coltman Conner Constable
+Cook Cooke Cooper Copestake Coppersmith Corden Cordiner Cordwainer Corker Costner Cotter Cotterill Cottier Cotton Couch
+Coucher Couchman Coulthard Coultman Counter Courtiour Cowper Coxetter Cribb Crocker Croker Cropper
+Crowther Crozier Cryer Culpepper Cuss Cutter Dance Dancer Day Dayman Daymond Deacon
+Deathridge Demmer Dempster Dethewright Dexter Digweed Diver Draper Drapper Drawer Dray Dring
+Driver Dyer Earl Earle Ewer Faber Falconar Falconer Falder Falkner Farman Farmer
+Farrar Farrier Faulkner Fearon Feather Feaver Femister Fender Fennell Ferrier Fewster Fewtrell
+Fiddler Fielder Filer Finesilver Fisher Fisk Fiske Fitter Flann Flanner Flaxman Flesher
+Fletcher Flinter Floater Flower Footman Foreman Forest Forester Forestier Forster Fournier Fowler
+Franklin Frankling Franklyn Frater Freebody Freeland Freeman Frere Freshwater Frobisher Fuller Furber
+Furminger Galley Galpin Gard Gardiner Gardner Garland Garlic Garlicke Garnet Garnett Gaylor
+Gilder Gilroy Ginger Girdler Glaisher Glass Glover Goatman Goldsmith Gossard Grainger Grave
+Gravenor Greensmith Grieve Groom Groser Grosvenor Grunsell Guild Hacker Hansard Harper Hawker
+Hayward Hensman Herd Hewer Hine Hollier Hollister Hooper Hopper Horder Hornblower Horner
+Hotter Hucker Hunt Hunter Husband Hussey Inman Iremonger Jagger Jenner Joiner Judge
+Keech Kellogg Kember Kemp Kempe Kempster Kew Kilner Kiss Kisser Knight Labbett
+Ladel Ladell Lander Langcake Larbalestier Larner Latimer Latter Lavender Lawman Le Mare Le Patourel
+Le Sueur Leach Leadbeater Leadbetter Leadbitter Leaker Leaper Leather Lecomber Ledbetter Leech Legate
+Limer Lister Loader Lockhart Locksmith Lockyear Lodder Lorimer Lusher Luther Lymburner Machin
+Maidman Malter Mangall Mangold Marbler Marchant Mariner Marker Marler Marner Marshall Mason
+Massinger Masters Mather Mercer Merchant Messenger Mew Meystre Miller Millman Mills
+Milner Minter Molyneaux Monger Monk Mower Moyne Mulliner Mustard Mutter Naismith Napier
+Napper Naylor Neate Needler Nunn Nurse Offer Officer Osler Ostler Ostridge Otter
+Oxnard Oyler Packer Page Paget Paige Painter Pakeman Pallister Palmer Paniers Panter
+Panther Pape Pardner Pargeter Parker Parkman Parmenter Paroissien Parson Parsons Partner Patten
+Pattern Pearl Pearman Pease Peever Pegler Pelter Pepper Peppercorn Perrier Pestell Pester
+Petcher Peutherer Physick Pilcher Pillinger Pinder Pinn Piper Pitman Plater Player Pledger Plowman Plowright Plum Plumer Plummer Porcher
+Porter Pothecary Potter Pottinger Poulter Priest Prince Prior Procter Provost Punter Purser
+Purves Quaif Quaife Quarrell Quarry Quilter Raper Rastel Rastell Ratter Reader Redman
+Reeve Renner Restler Retter Rider Ridler Rimmer Ringer Ripper Roadnight Roller Roope
+Roper Rover Rower Rozier Runciman Rutter Rymer Sacker Sadler Sailer Salter Sanger
+Sangster Sapper Sargent Sawyer Sayer Scrimgeor Scrimgeour Scrimshaw Scullion Scutt Seaman Secker
+Sedgman Sellar Sellars Senior Service Sevier Sewer Sexton Seyler Sharman Sheather Shepherd
+Sheriff Shingler Ship Shipman Shipwright Shoesmith  Shooter Shopper Shutler Shuttle Sievewright Sievwright
+Silk Silver Silversmith Simister Singer Sixsmith Sizer Skinner Slater Slaymaker Slipper Sloper
+Smith Smither Smithers Snider Sniders Soper Spence Spencer Spender Spice Spicer Spier
+Spindler Spooner Spurrier Squier Squiers Squires Stainer Steadman Stearman Steel Steele Steward
+Stocker Stockfish Storer Stringer Sucksmith Summer Sumner Surgeon Sutler Swingler Tabberner Taberer
+Tanner Taper Tapper Tasker Taverner Taylor Teacher Tector Tennant Thatcher Thaxter Theaker
+Thew Threader Thresher Thrower Tiller Tillman Timberman Tinker Tinkler Tisser Tisserand Todhunter
+Toller Tolman Toner Tozer Tranter Trenchard Trencher Tricker Trinder Tripe Trippe Tripper
+Trist Trouncer Trumper Tubman Tucker Tuckerman Tumman Tunnah Tunnard Tupper Turner Tyler
+Ulman Usher Vavasour Vavasseur Veck Veil Vender Venner Verrier Vicar Vicars Vickers
+Vickery Vinter Voller Wafer Wager Waggoner Waghorn Waghorne Wagstaff Wagstaffe Wain Waine
+Wainman Wainwright Wait Waite Wakeman Walker Waller Want Ward Warde Warden Warman
+Warner Warrender Warrener Washer Watchman Waterer Waterman Wax Weather Weaver Webb
+Webbe Webber Webster Wheeler Wheelwright Whistler Whitbread Whitcher Whiter Whitesmith Whittier Wicker
+Wildsmith Woodger Woodman Woodward Woodyer Wooler Wooller Woolman Workman Wort Wright Wrighte Yeoman 
+
+				
+			}
+			regnal_first_names_male = { Thomas Henry Benjamin Samuel Joshua Alex Tony Christopher James Gary Andy Bryan Bill Matthew Jason Richard Matthew Luke Ryan Tom Adam James David Kevin Corey Clint John Justin Lucas Marcus Max Severin Eric Ronan Eamon Thorsten Philippe Luc
+				
+			}
+			regnal_first_names_female = { Elizabeth Victoria Camille Sarah Katharine Margaret Samantha Margeaux Meghan Alexandra Emma Aelia Flavia Honoria Herennia Carolena
+				
+			}
+			regnal_second_names = {
+Abse Abt Ackermann Adelung Adenauer Adler Adlard Alflatt Allnatt Allwright Almer Almond Alred Alston Alvar Alvey Alwin Ammon
+Arbon Ashwin Averay Aylward Aylwin Azo Badrick Baldey Balding Balman Balston Bedloe
+Brightmore Brunger Brunker Brunwin Burchard Burrage Burward Cobbald Cutteridge Darwin Dearman Dewdney
+Eastman Eddols Eddy Ellwood Elphee Elsegood Elsey Elvey Elward Erwin Freegard Freelove
+Frewer Frewin Gladman Gladwin Godbert Godhold Godwin Goldbard Goldburg Goldhawk Goldwin Gomer
+Goodliffe Goodwin Gumbold Gummer Halding Hulbert Isgar Kenward Kenway Kerrich Kinsey Lambrick
+Leaves Leavey Leavins Leavold Lemmer Lilleyman Litwin Lovegod Loveguard Medwin Milborrow
+Ordway Orrick Osmer Othen Outridge Quenell Redway Seavers Sherrard Siggers Sirett Stannard
+Stidolph Trumble Utteridge Wackrill Walwin Wennell Whatman Whittard Wilmer Winbolt Winbow Winmer
+Winney Wolnoth Wolsey Woolgar Wyard Wyberg Wyman Wymer Yonwin Youngmay Abbott Aguilar Alderman
+Ambler Archer Arkwright Armer Armour Arrowsmith Ashburner Ashman Aurifaber Ayler Bacchus Bachelor
+Backer Bacon Bailey Baker Ballester Balmer Banister Bannerman Barber Barker Baron Barrell
+Barter Baxter Bayliss Beamer Bean Beeman Bellringer Belt Berryman Bessemer Bishop Bisp
+Blacker Blaker Blaxter Blecher Bloom Bloomer Boatswain Boatwright Bond Bookbinder Booker Boorman
+Boot Boote Boothman Botwright Boucher Boulter Bourchier Bowerman Bowler Bowmaker Bowman Bowring
+Bowyer Boyter Brasher Brasseur Brayer Brazier Brewer Brewster Bridgeman Bridger Bridle Brownsmith
+Buckler Buckman Bulger Bullinger Bulmer Burgess Burl Burle Burman Bushell Buss Butcher
+Butler Butner Butters Buttery Button Cake Cakebread Calverd Camp Cann Cannel Cannell
+Canter Caperon Capon Capper Card Carder Carpenter Carter Cartwright Carver Catchpole Cater
+Century Chafer Chaffer Chalker Challender Challenger Challinor Chalmers Chamberlain Chambers Chancellor Chandler
+Chaplin Chapman Chase Chaucer Chauncellor Chaundler Cheator Cheese Cheeseman Cheesewright Chenevix Clarges
+Clark Clarke Cleaver Clerk Clothier Cloutman Coke Collier Colthard Coltman Conner Constable
+Cook Cooke Cooper Copestake Coppersmith Corden Cordiner Cordwainer Corker Costner Cotter Cotterill Cottier Cotton Couch
+Coucher Couchman Coulthard Coultman Counter Courtiour Cowper Coxetter Cribb Crocker Croker Cropper
+Crowther Crozier Cryer Culpepper Cuss Cutter Dance Dancer Day Dayman Daymond Deacon
+Deathridge Demmer Dempster Dethewright Dexter Digweed Diver Draper Drapper Drawer Dray Dring
+Driver Dyer Earl Earle Ewer Faber Falconar Falconer Falder Falkner Farman Farmer
+Farrar Farrier Faulkner Fearon Feather Feaver Femister Fender Fennell Ferrier Fewster Fewtrell
+Fiddler Fielder Filer Finesilver Fisher Fisk Fiske Fitter Flann Flanner Flaxman Flesher
+Fletcher Flinter Floater Flower Footman Foreman Forest Forester Forestier Forster Fournier Fowler
+Franklin Frankling Franklyn Frater Freebody Freeland Freeman Frere Freshwater Frobisher Fuller Furber
+Furminger Galley Galpin Gard Gardiner Gardner Garland Garlic Garlicke Garnet Garnett Gaylor
+Gilder Gilroy Ginger Girdler Glaisher Glass Glover Goatman Goldsmith Gossard Grainger Grave
+Gravenor Greensmith Grieve Groom Groser Grosvenor Grunsell Guild Hacker Hansard Harper Hawker
+Hayward Hensman Herd Hewer Hine Hollier Hollister Hooper Hopper Horder Hornblower Horner
+Hotter Hucker Hunt Hunter Husband Hussey Inman Iremonger Jagger Jenner Joiner Judge
+Keech Kellogg Kember Kemp Kempe Kempster Kew Kilner Kiss Kisser Knight Labbett
+Ladel Ladell Lander Langcake Larbalestier Larner Latimer Latter Lavender Lawman Le Mare Le Patourel
+Le Sueur Leach Leadbeater Leadbetter Leadbitter Leaker Leaper Leather Lecomber Ledbetter Leech Legate
+Limer Lister Loader Lockhart Locksmith Lockyear Lodder Lorimer Lusher Luther Lymburner Machin
+Maidman Malter Mangall Mangold Marbler Marchant Mariner Marker Marler Marner Marshall Mason
+Massinger Masters Mather Mercer Merchant Messenger Mew Meystre Miller Millman Mills
+Milner Minter Molyneaux Monger Monk Mower Moyne Mulliner Mustard Mutter Naismith Napier
+Napper Naylor Neate Needler Nunn Nurse Offer Officer Osler Ostler Ostridge Otter
+Oxnard Oyler Packer Page Paget Paige Painter Pakeman Pallister Palmer Paniers Panter
+Panther Pape Pardner Pargeter Parker Parkman Parmenter Paroissien Parson Parsons Partner Patten
+Pattern Pearl Pearman Pease Peever Pegler Pelter Pepper Peppercorn Perrier Pestell Pester
+Petcher Peutherer Physick Pilcher Pillinger Pinder Pinn Piper Pitman Plater Player Pledger Plowman Plowright Plum Plumer Plummer Porcher
+Porter Pothecary Potter Pottinger Poulter Priest Prince Prior Procter Provost Punter Purser
+Purves Quaif Quaife Quarrell Quarry Quilter Raper Rastel Rastell Ratter Reader Redman
+Reeve Renner Restler Retter Rider Ridler Rimmer Ringer Ripper Roadnight Roller Roope
+Roper Rover Rower Rozier Runciman Rutter Rymer Sacker Sadler Sailer Salter Sanger
+Sangster Sapper Sargent Sawyer Sayer Scrimgeor Scrimgeour Scrimshaw Scullion Scutt Seaman Secker
+Sedgman Sellar Sellars Senior Service Sevier Sewer Sexton Seyler Sharman Sheather Shepherd
+Sheriff Shingler Ship Shipman Shipwright Shoesmith  Shooter Shopper Shutler Shuttle Sievewright Sievwright
+Silk Silver Silversmith Simister Singer Sixsmith Sizer Skinner Slater Slaymaker Slipper Sloper
+Smith Smither Smithers Snider Sniders Soper Spence Spencer Spender Spice Spicer Spier
+Spindler Spooner Spurrier Squier Squiers Squires Stainer Steadman Stearman Steel Steele Steward
+Stocker Stockfish Storer Stringer Sucksmith Summer Sumner Surgeon Sutler Swingler Tabberner Taberer
+Tanner Taper Tapper Tasker Taverner Taylor Teacher Tector Tennant Thatcher Thaxter Theaker
+Thew Threader Thresher Thrower Tiller Tillman Timberman Tinker Tinkler Tisser Tisserand Todhunter
+Toller Tolman Toner Tozer Tranter Trenchard Trencher Tricker Trinder Tripe Trippe Tripper
+Trist Trouncer Trumper Tubman Tucker Tuckerman Tumman Tunnah Tunnard Tupper Turner Tyler
+Ulman Usher Vavasour Vavasseur Veck Veil Vender Venner Verrier Vicar Vicars Vickers
+Vickery Vinter Voller Wafer Wager Waggoner Waghorn Waghorne Wagstaff Wagstaffe Wain Waine
+Wainman Wainwright Wait Waite Wakeman Walker Waller Want Ward Warde Warden Warman
+Warner Warrender Warrener Washer Watchman Waterer Waterman Wax Weather Weaver Webb
+Webbe Webber Webster Wheeler Wheelwright Whistler Whitbread Whitcher Whiter Whitesmith Whittier Wicker
+Wildsmith Woodger Woodman Woodward Woodyer Wooler Wooller Woolman Workman Wort Wright Wrighte Yeoman 
+			}
+		}
+	}
+}

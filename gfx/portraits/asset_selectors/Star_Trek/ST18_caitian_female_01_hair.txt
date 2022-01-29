@@ -1,0 +1,56 @@
+caitian_female_hair_01 = {
+	default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_01.dds"
+	game_setup = { default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_01.dds" }
+	species = { default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_01.dds" }
+	pop = {
+		default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_01.dds"
+		random = {
+			list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_01.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" }
+		}
+	}
+	leader = { random = { list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_01.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" } } }
+	ruler = { random = { list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_01.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" } } }
+}
+
+caitian_female_hair_02 = {
+	default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_02.dds"
+	game_setup = { default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_02.dds" }
+	species = { default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_02.dds" }
+	pop = {
+		default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_02.dds"
+		random = {
+			list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_02.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" }
+		}
+
+	}
+	leader = { random = { list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_02.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" } } }
+	ruler = { random = { list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_02.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" } } }
+}
+
+caitian_female_hair_03 = {
+	default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_03.dds"
+	game_setup = { default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_03.dds" }
+	species = { default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_03.dds" }
+	pop = {
+		default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_03.dds"
+		random = {
+			list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_03.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" }
+		}
+	}
+	leader = { random = { list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_03.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" } } }
+	ruler = { random = { list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_03.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" } } }
+}
+
+caitian_female_hair_04 = {
+	default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_04.dds"
+	game_setup = { default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_04.dds" }
+	species = { default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_04.dds" }
+	pop = {
+		default = "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_04.dds"
+		random = {
+			list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_04.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" }
+		}
+	}
+	leader = { random = { list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_04.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" } } }
+	ruler = { random = { list = { "gfx/models/portraits/Star_Trek/caitian/caitian_female_hair_style_04.dds" "gfx/models/portraits/Star_Trek/caitian/caitian_female_bald.dds" } } }
+}

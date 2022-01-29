@@ -1,0 +1,200 @@
+portraits = {
+
+	doctor01 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/doctorwho_team/doctor1.dds"}
+	doctor02 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/doctorwho_team/doctor2.dds"}
+	doctor03 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/doctorwho_team/doctor3.dds"}
+	doctor04 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/doctorwho_team/doctor4.dds"}
+	doctor01f = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/doctorwho_team/doctorgirl1.dds"}
+	doctor02f = {greeting_sound = "human_female_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/doctorwho_team/doctorgirl2.dds"}
+	
+	}
+
+portrait_groups = {
+	DH01_doctorwho_team = {
+		default = doctor01 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					doctor01 
+					doctor02
+					doctor03
+					doctor04
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					doctor01f
+					doctor02f
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					doctor01 
+					doctor02
+					doctor03
+					doctor04
+					doctor01f
+					doctor02f					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					doctor01 
+					doctor02
+					doctor03
+					doctor04
+					doctor01f
+					doctor02f
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					doctor01f
+					doctor02f
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					doctor01 
+					doctor02
+					doctor03
+					doctor04
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					doctor01f
+					doctor02f
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					doctor01 
+					doctor02
+					doctor03
+					doctor04
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					doctor01f
+					doctor02f
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					doctor01 
+					doctor02
+					doctor03
+					doctor04
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					doctor01f
+					doctor02f
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					doctor01 
+					doctor02
+					doctor03
+					doctor04
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					doctor01f
+					doctor02f
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					doctor01 
+					doctor02
+					doctor03
+					doctor04
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

@@ -1,0 +1,297 @@
+############################################################## 
+#	greeting_sound ="arthropoid_01_greetings"
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_species_classes.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+
+	combine_1 = {greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/combine/combine_1.dds"}
+	combine_2 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/combine/combine_2.dds"}
+	combine_3 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/combine/combine_3.dds"}
+	combine_4 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/combine/combine_4.dds"}
+	combine_5 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/combine/combine_5.dds"}
+	combine_6 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/combine/combine_6.dds"}
+	combine_7 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/combine/combine_7.dds"}
+	combine_8 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/combine/combine_8.dds"}
+	combine_9 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/combine/combine_9.dds"}
+	combine_10 = { greeting_sound ="arthropoid_01_greetings"  texturefile = "gfx/models/portraits/Miscellaneous/combine/combine_10.dds"}
+		
+			
+	#other intances to be added in similar manner.
+}
+
+portrait_groups = {
+	MI18_combine = {
+		default = combine_2
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10		 				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10					
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10					
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10					
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10					
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10					
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10					
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10	 		
+				}
+			}			
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10	 				
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					combine_2
+					combine_1
+					combine_3
+					combine_4
+					combine_5
+					combine_6
+					combine_7
+					combine_8
+					combine_9
+					combine_10				
+				}
+			}
+		}
+	}
+}

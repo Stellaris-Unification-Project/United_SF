@@ -1,0 +1,201 @@
+### MA races
+
+MassEffect = {
+	ME01_asari = {
+		name = Asari
+		plural = Asari 
+		home_planet = Thessia
+		home_system = Parnitha
+		name_list = "asari_names"
+	}
+
+	ME02_salarian = {
+		name = Salarian
+		plural = Salarians
+		home_planet = "Sur Kesh"
+		home_system = Pranas
+		name_list = "salarian_names"
+	}
+
+	ME03_cerberus = {
+		name = Cerberus
+		plural = Cerberus
+		home_planet = Cronos
+		home_system = Anadius
+		name_list = "cerberus_names"
+	}
+	
+
+	ME04_quarian = { 
+		name = Quarian
+		plural = Quarians
+		home_planet = Rannoch
+		home_system = Xotranehika
+		name_list = "quarian_names"
+	}
+	
+	ME05_turian = { 
+		name = Turian
+		plural = Turians
+		home_planet = Palaven
+		home_system = Trebia
+		name_list = "turian_names"
+	}
+	
+	ME06_geth = { 
+		name = Geth
+		plural = Geths
+		home_planet = Rannoch
+		home_system = Tikkun
+		name_list = "geth_names"
+	}
+
+    ME07_krogan = {
+		name = Krogan
+		plural = Krogans
+		home_planet = Tuchanka
+		home_system = Tuchanka
+		name_list = "krogan_names"
+	}
+		
+	ME08_yahg = {
+		name = Yahg 
+		plural = Yahgs
+		home_planet = "Parnac"
+		home_system = "Parnac"
+		name_list = "yahg_names"
+	}
+	
+	ME09_reaper = {
+		name = Reaper 
+		plural = Reapers
+		home_planet = "Dark World"
+		home_system = "Dark System"
+		name_list = "reaper_names"
+	}
+
+	ME10_drell = {
+		name = Drell 
+		plural = Drells
+		home_planet = Rakhana
+		home_system = "Drell Rakhana"
+		name_list = "drell_names"
+	}
+	
+	ME11_proth = {
+		name = Prothean 
+		plural = Protheans
+		home_planet = "Fehl Prime"
+		home_system = "Prothean Fehl Prime"
+		name_list = "proth_names"
+	}
+	
+	ME12_batarian = {
+		name = Batarian 
+		plural = Batarians
+		home_planet = "Khar'shan"
+		home_system = Harsa
+		name_list = "batarian_names"
+	}
+	
+    ME13_volus = {
+		name = Volus 
+		plural = Volus
+		home_planet = "Irune"
+		home_system = "Aru"
+		name_list = "Volus_names"
+	}
+	
+	ME14_vorcha = {
+		name = Vorcha 
+		plural = Vorcha
+		home_planet = "Heshtok"
+		home_system = "Kyzil"
+		name_list = "vorcha_names"
+	}
+	
+	ME15_elcor = {
+		name = Elcor 
+		plural = Elcors
+		home_planet = "Dekuuna"
+		home_system = "Phontes "
+		name_list = "elcor_names"
+	}
+	
+	ME16_hanar = {
+		name = Hanar 
+		plural = Hanars
+		home_planet = "Kahje"
+		home_system = "Hanar Kahje"
+		name_list = "hanar_names"
+	}	
+
+	ME17_collector = {
+		name = Collector 
+		plural = Collectors
+		home_planet = "Unknown"
+		home_system = "Unknown"
+		name_list = "collector_names"
+	}
+	
+	
+	ME18_alliance = {
+		name = Human
+		plural = Humans
+		home_planet = Earth
+		home_system = Sol
+		name_list = "cerberus_names"
+	}
+	
+	
+	ME19_rachni = {
+		name = Rachni 
+		plural = Rachni
+		home_planet = Suen
+		home_system = "Maskim Xul" 
+		name_list = "rachni_names"
+	}
+	
+	ME20_keeper = {
+		name = Keeper 
+		plural = Keeperes
+		home_planet = Citadel
+		home_system = Widow
+		name_list = "keeper_names"
+	}
+	
+	ME21_leviathan = {
+		name = Leviathan 
+		plural = Leviathans
+		home_planet = "2181 Despoina"
+		home_system = Despoina
+		name_list = "leviathan_names"
+	}
+	
+	#kue 22-24
+	
+	ME25_edi = {
+		name = EDI
+		plural = EDI
+		home_planet = "EDI"
+		home_system = EDI
+		name_list = "hive_robotic_names "
+	}
+	
+# TO BE ADDED FOR NEW RACES incl. name lists
+	
+#       EXAMPLE below	
+#	new_race = {
+#		name = single_name 
+#		plural = plural_name
+#		home_planet = "name"
+#		home_system = "name"
+#		name_list = "ref_names"
+#	}
+
+
+
+
+
+
+}

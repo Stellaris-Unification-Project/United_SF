@@ -1,0 +1,191 @@
+portraits = {
+
+	HA_tvaoan_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/tvaoan/tvaoan_1.dds"}
+	HA_tvaoan_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/tvaoan/tvaoan_2.dds"}
+	HA_tvaoan_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Halo/tvaoan/tvaoan_3.dds"}
+}
+
+portrait_groups = {
+	HA11_tvaoan = {
+		default = HA_tvaoan_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					HA_tvaoan_1
+					HA_tvaoan_2
+					HA_tvaoan_3
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

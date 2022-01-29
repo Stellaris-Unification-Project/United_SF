@@ -1,0 +1,28 @@
+objectTypes = {
+	
+# can be added more if needed pdxmesh
+
+	pdxmesh = {
+		name = "collector_01_mesh"
+		file = "gfx/models/portraits/fungoid/fungoid_10_portrait.mesh"
+		animation = { id = "idle"	type = "fungoid_10_happy_animation" }
+		animation = { id = "idle2"	type = "fungoid_10_happy_2_animation" }
+		animation = { id = "sad"	type = "fungoid_10_sad_animation" }
+		animation = { id = "sad2"	type = "fungoid_10_sad_2_animation" }
+		#scale = 1.0
+	}
+
+	pdxmesh = {
+		name = "collector_02_mesh"
+		file = "gfx/models/portraits/fungoid/fungoid_10_portrait.mesh"
+		animation = { id = "idle"	type = "fungoid_10_happy_animation" }
+		animation = { id = "idle2"	type = "fungoid_10_happy_2_animation" }
+		animation = { id = "sad"	type = "fungoid_10_sad_animation" }
+		animation = { id = "sad2"	type = "fungoid_10_sad_2_animation" }
+		#scale = 1.0
+	}
+	
+
+}
+
+

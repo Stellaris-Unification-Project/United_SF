@@ -1,0 +1,35 @@
+# This is a template which multiple species can use. 
+
+vulcan_male_clothes_01 = {
+	default = "gfx/models/portraits/Star_Trek/vulcan/vulcan_male_clothes_tos_ambassador.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/Star_Trek/vulcan/vulcan_male_clothes_tos_ambassador.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/Star_Trek/vulcan/vulcan_male_clothes_tos_ambassador.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default =  "gfx/models/portraits/Star_Trek/vulcan/vulcan_male_clothes_tos_ambassador.dds"
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/Star_Trek/vulcan/vulcan_male_clothes_captain_02.dds" = { leader_class = admiral }
+		"gfx/models/portraits/Star_Trek/vulcan/vulcan_male_clothes_scientist.dds" = { leader_class = scientist }
+		"gfx/models/portraits/Star_Trek/vulcan/vulcan_male_clothes_captain.dds" = { leader_class = general }
+		"gfx/models/portraits/Star_Trek/vulcan/vulcan_male_clothes_tng_ambassador.dds" = { leader_class = governor }
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Star_Trek/vulcan/vulcan_male_clothes_tos_ambassador.dds"		
+	}
+}
+
+human_male_hair_1 = { 
+	default = "gfx/models/portraits/Star_Trek/vulcan/vulcan_male_hair_black_style_01.dds"
+}

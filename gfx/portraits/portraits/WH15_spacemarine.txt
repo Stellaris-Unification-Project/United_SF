@@ -1,0 +1,509 @@
+portraits = {
+
+	WH_spacemarine01 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine_ruler1.dds"}	
+	WH_spacemarine02 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine_ruler2.dds"}	
+	WH_spacemarine03 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine_ruler3.dds"}
+	WH_spacemarine04 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine_ruler4.dds"}
+	WH_spacemarine05 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine_ruler5.dds"}
+	WH_spacemarine06 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine_ruler6.dds"}
+	WH_spacemarine07 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine_ruler7.dds"}
+	WH_spacemarine08 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine_ruler8.dds"}
+	WH_spacemarine09 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine_scientist1.dds"}
+	WH_spacemarine10 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine_scientist2.dds"}
+	WH_spacemarine11 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine1.dds"}
+	WH_spacemarine12 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine2.dds"}
+	WH_spacemarine13 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine3.dds"}
+	WH_spacemarine14 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine4.dds"}
+	WH_spacemarine15 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine5.dds"}
+	WH_spacemarine16 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine6.dds"}
+	WH_spacemarine17 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine7.dds"}
+	WH_spacemarine18 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine8.dds"}
+	WH_spacemarine19 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarinescout1.dds"}
+	WH_spacemarine20 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarinescout2.dds"}
+	WH_spacemarine21 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarinescout3.dds"}
+	WH_spacemarine22 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarinescout4.dds"}
+	WH_spacemarine23 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarinescout5.dds"}
+	WH_spacemarine24 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/silvercondor1.dds"}	
+	WH_spacemarine25 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/spacemarine/spacemarine9.dds"}						
+	
+}
+
+portrait_groups = {
+	WH15_spacemarine = {
+		default = WH_spacemarine01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					WH_spacemarine01
+					WH_spacemarine02
+					WH_spacemarine03
+					WH_spacemarine04
+					WH_spacemarine05
+					WH_spacemarine06
+					WH_spacemarine07
+					WH_spacemarine08
+					WH_spacemarine09
+					WH_spacemarine10
+					WH_spacemarine11
+					WH_spacemarine12
+					WH_spacemarine13
+					WH_spacemarine14
+					WH_spacemarine15
+					WH_spacemarine16
+					WH_spacemarine17
+					WH_spacemarine18
+					WH_spacemarine19
+					WH_spacemarine20
+					WH_spacemarine21
+					WH_spacemarine22
+					WH_spacemarine23
+					WH_spacemarine24
+					WH_spacemarine25
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

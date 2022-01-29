@@ -1,0 +1,42 @@
+portraits = {
+	whispermen01 = {greeting_sound = "human_male_greetings_05" texturefile = "gfx/models/portraits/DoctorWho/whispermen/whispermen.dds"}
+	}
+
+portrait_groups = {
+	DH04_whispermen = {
+	default = whispermen01
+		game_setup = { 
+			add = {
+				portraits = {
+					whispermen01
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					whispermen01
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					whispermen01
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					whispermen01	
+				}
+			}
+		}
+	}
+}
+

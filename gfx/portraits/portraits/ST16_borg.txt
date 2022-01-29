@@ -1,0 +1,136 @@
+portraits = {
+	borg_female_01 = {	
+		entity = "portrait_borg_female_01_entity"	clothes_selector = "borg_female_clothes" 	hair_selector = "borg_female_prosthetics"	greeting_sound = "human_female_greetings_01"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/borg/borg_female_body_01.dds"
+		}
+	}
+	borg_female_02 = {	
+		entity = "portrait_borg_female_02_entity"	clothes_selector = "borg_female_clothes" 	hair_selector = "borg_female_prosthetics"	greeting_sound = "human_female_greetings_02"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/borg/borg_female_body_02.dds"
+		}
+	}
+	borg_female_03 = {	
+		entity = "portrait_borg_female_03_entity"	clothes_selector = "borg_female_clothes" 	hair_selector = "borg_female_prosthetics"	greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/borg/borg_female_body_03.dds"
+		}
+	}
+	borg_female_04 = {	
+		entity = "portrait_borg_female_04_entity"	clothes_selector = "borg_female_clothes" 	hair_selector = "borg_female_prosthetics"	greeting_sound = "human_female_greetings_04"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/borg/borg_female_body_04.dds"
+		}
+	}
+	borg_female_05 = {	
+		entity = "portrait_borg_female_05_entity"	clothes_selector = "borg_female_clothes" 	hair_selector = "borg_female_prosthetics"	greeting_sound = "human_female_greetings_05"
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/borg/borg_female_body_05.dds"
+		}
+	}
+	borg_male_01 = {	
+		entity = "portrait_borg_male_01_entity"	clothes_selector = "borg_male_clothes" 	hair_selector = "borg_male_prosthetics"		greeting_sound = "human_male_greetings_01" 
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/borg/borg_male_body_01.dds"
+		}
+	}
+	borg_male_02 = {	
+		entity = "portrait_borg_male_02_entity"	clothes_selector = "borg_male_clothes" 	hair_selector = "borg_male_prosthetics"		greeting_sound = "human_male_greetings_02" 
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/borg/borg_male_body_02.dds"
+		}
+	}
+	borg_male_03 = {	
+		entity = "portrait_borg_male_03_entity"	clothes_selector = "borg_male_clothes" 	hair_selector = "borg_male_prosthetics"		greeting_sound = "human_male_greetings_03" 
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/borg/borg_male_body_03.dds"
+		}
+	}
+	borg_male_04 = {	
+		entity = "portrait_borg_male_04_entity"	clothes_selector = "borg_male_clothes" 	hair_selector = "borg_male_prosthetics"		greeting_sound = "human_male_greetings_04" 
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/borg/borg_male_body_04.dds"
+		}
+	}
+	borg_male_05 = {	
+		entity = "portrait_borg_male_05_entity"	clothes_selector = "borg_male_clothes" 	hair_selector = "borg_male_prosthetics"		greeting_sound = "human_male_greetings_05" 
+		character_textures = {
+			"gfx/models/portraits/Star_Trek/borg/borg_male_body_05.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	ST16_borg = {
+	default = borg_male_01
+		game_setup = { 
+			add = {
+				portraits = {
+					borg_female_01
+					borg_female_02
+					borg_female_03
+					borg_female_04
+					borg_female_05
+					borg_male_01
+					borg_male_02
+					borg_male_03
+					borg_male_04
+					borg_male_05
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					borg_female_01
+					borg_female_02
+					borg_female_03
+					borg_female_04
+					borg_female_05
+					borg_male_01
+					borg_male_02
+					borg_male_03
+					borg_male_04
+					borg_male_05
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					borg_female_01
+					borg_female_02
+					borg_female_03
+					borg_female_04
+					borg_female_05
+					borg_male_01
+					borg_male_02
+					borg_male_03
+					borg_male_04
+					borg_male_05
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					borg_female_01
+					borg_female_02
+					borg_female_03
+					borg_female_04
+					borg_female_05
+					borg_male_01
+					borg_male_02
+					borg_male_03
+					borg_male_04
+					borg_male_05
+				}
+			}
+		}
+	}
+}

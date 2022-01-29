@@ -1,0 +1,234 @@
+portraits = {
+
+	WH_inquisition01 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/inquisition/inquisition_admiral1.dds"}
+	WH_inquisition02f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/inquisition/inquisition_fem_general1.dds"}
+	WH_inquisition03f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/inquisition/inquisition_fem1.dds"}
+	
+	WH_inquisition09f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/sister_of_battle/inquisition_f1.dds"}
+	WH_inquisition10f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/sister_of_battle/inquisition_f2.dds"}
+	WH_inquisition11f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/sister_of_battle/inquisition_f3.dds"}
+	
+	WH_inquisition04 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/inquisition/inquisition_general1.dds"}
+	WH_inquisition05 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/inquisition/inquisition_governor1.dds"}
+	WH_inquisition06 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/inquisition/inquisition1.dds"}
+	WH_inquisition07 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/inquisition/inquisition2.dds"}
+	WH_inquisition08 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/inquisition/inquisition3.dds"}
+}
+
+portrait_groups = {
+	WH06_inquisition = {
+		default = WH_inquisition01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					WH_inquisition01
+					WH_inquisition04
+					WH_inquisition05
+					WH_inquisition06
+					WH_inquisition07
+					WH_inquisition08
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					WH_inquisition02f
+					WH_inquisition03f
+					WH_inquisition09f
+					WH_inquisition10f
+					WH_inquisition11f
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					WH_inquisition01
+					WH_inquisition04
+					WH_inquisition05
+					WH_inquisition06
+					WH_inquisition07
+					WH_inquisition08
+					WH_inquisition02f
+					WH_inquisition03f
+					WH_inquisition09f
+					WH_inquisition10f
+					WH_inquisition11f
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					WH_inquisition01
+					WH_inquisition04
+					WH_inquisition05
+					WH_inquisition06
+					WH_inquisition07
+					WH_inquisition08
+					WH_inquisition02f
+					WH_inquisition03f
+					WH_inquisition09f
+					WH_inquisition10f
+					WH_inquisition11f
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					WH_inquisition02f
+					WH_inquisition03f
+					WH_inquisition09f
+					WH_inquisition10f
+					WH_inquisition11f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					WH_inquisition01
+					WH_inquisition04
+					WH_inquisition05
+					WH_inquisition06
+					WH_inquisition07
+					WH_inquisition08
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					WH_inquisition02f
+					WH_inquisition03f
+					WH_inquisition09f
+					WH_inquisition10f
+					WH_inquisition11f
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					WH_inquisition01
+					WH_inquisition04
+					WH_inquisition05
+					WH_inquisition06
+					WH_inquisition07
+					WH_inquisition08
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					WH_inquisition02f
+					WH_inquisition03f
+					WH_inquisition09f
+					WH_inquisition10f
+					WH_inquisition11f
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					WH_inquisition01
+					WH_inquisition04
+					WH_inquisition05
+					WH_inquisition06
+					WH_inquisition07
+					WH_inquisition08
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					WH_inquisition02f
+					WH_inquisition03f
+					WH_inquisition09f
+					WH_inquisition10f
+					WH_inquisition11f
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					WH_inquisition01
+					WH_inquisition04
+					WH_inquisition05
+					WH_inquisition06
+					WH_inquisition07
+					WH_inquisition08
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					WH_inquisition02f
+					WH_inquisition03f
+					WH_inquisition09f
+					WH_inquisition10f
+					WH_inquisition11f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					WH_inquisition01
+					WH_inquisition04
+					WH_inquisition05
+					WH_inquisition06
+					WH_inquisition07
+					WH_inquisition08
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

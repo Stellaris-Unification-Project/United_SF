@@ -1,0 +1,148 @@
+﻿### Extradimensional Invaders
+extradim_names = {
+	
+	### SHIPS
+
+	
+		ship_names = {
+	
+		generic = {
+			Cultivator Educator Developer Enlightener Informer Instructor Trainer Tutor Civilizer Edifier Nurturer Propagator Teacher Instructor Improver Qualifier Schooler Molder Guider Habituator Sharpener Worker 
+			Advancer Ager Builder Expander Flourisher Multiplier Producer Raiser Sprouter Thriver Amplifier Augmenter Ripener Extender Heightener Thickener Progressor Lifter Reformer Reviser Emender Purifier Rectifier
+			Amender Elevator Refiner Sharpener Mender 
+		}
+		
+		construction_ship_ed = {
+			"Void Shaper"
+		}
+		
+		mining_station = { }
+		research_station = { }
+
+		observation_station = { }
+
+		
+		transport = {
+			"Wormhole Relocator"
+		}
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+
+	fleet_names = {
+		random_names = {
+				"Cultivator Plasmoid Armada" "Educator Plasmoid Armada" "Developer Plasmoid Armada" "Enlightener Plasmoid Armada" "Informer Plasmoid Armada" "Instructor Plasmoid Armada" "Trainer Plasmoid Armada" "Tutor Plasmoid Armada" "Civilizer Plasmoid Armada" "Edifier Plasmoid Armada" "Nurturer Plasmoid Armada" "Propagator Plasmoid Armada" "Teacher Plasmoid Armada" "Instructor Plasmoid Armada" "Improver Plasmoid Armada" "Qualifier Plasmoid Armada" "Schooler Plasmoid Armada" "Molder Plasmoid Armada" "Guider Plasmoid Armada" "Habituator Plasmoid Armada" "Sharpener Plasmoid Armada" "Worker Plasmoid Armada" "Advancer Plasmoid Armada" "Ager Plasmoid Armada" "Builder Plasmoid Armada" "Expander Plasmoid Armada" "Flourisher Plasmoid Armada" "Multiplier Plasmoid Armada" "Producer Plasmoid Armada" "Raiser Plasmoid Armada" "Sprouter Plasmoid Armada" "Thriver Plasmoid Armada" "Amplifier Plasmoid Armada" "Augmenter Plasmoid Armada" "Ripener Plasmoid Armada" "Extender Plasmoid Armada" "Heightener Plasmoid Armada" "Thickener Plasmoid Armada" "Progressor Plasmoid Armada" "Lifter Plasmoid Armada" "Reformer Plasmoid Armada" "Reviser Plasmoid Armada" "Emender Plasmoid Armada" "Purifier Plasmoid Armada" "Rectifier Plasmoid Armada" "Amender  Plasmoid Armada"Elevator "Refiner Plasmoid Armada" "Sharpener Plasmoid Armada" "Mender Plasmoid Armada" 
+		}
+		#sequential_name = "Extradimensional Armada %CC%"
+		sequential_name = "%O% Plasmoid Armada"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Defense Energoids"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Assault Energoids"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Slave Energoids"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Clone Energoids"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Droid Energoids"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Android Energoids"
+		}
+		
+		psionic_army = {
+			sequential_name = "%O% Psi-Commando Energoids"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Energoids"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Gene-Commando Energoids"
+		}
+	}
+	
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				"Strength" "Passion" "Inspiration" "Wisdom" "Patience" "Innocence" "Sympathy" "Honesty" "Empathy" "Devotion"
+				"Moderation" "Charity" "Affection" "Nobility" "Honesty" "Flexibility" "Resilience" "Sense" "Tolerance" "Loyalty" "Confidence" "Generosity"
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+		
+			full_names = {
+				
+			}
+			
+			first_names = {
+				Joyous Wondorous Heavenly Serene Ethereal Glorious Enlightened Ascended Glowing Placid Wise Transient Sublime Celestial Intangible Supernal Refined Light Poised Quiescent Clear Halcyon Hopeful Faithful Emboldened Cultivated Temporal Evanescent Vacating Momentary Humble Overt Thankful Mindful Laudable
+			}
+			
+			second_names = {
+				Spark Exultation Jolt Flare Ray Portal Elation Glory Joy Jolt Lightning Thunder Ignition Volt Dimension Nebula Galaxy Driver Mass Hole Tear Warp Automation Greeting Ovation Reception Salute Herald Salutation Usher Respect Gratitude Praise Grace Thanks Cheer Tribute Eulogy Regard Extolment Homage 
+			}
+			
+		}
+	}
+}

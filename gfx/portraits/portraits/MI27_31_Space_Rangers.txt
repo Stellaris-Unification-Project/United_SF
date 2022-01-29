@@ -1,0 +1,221 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_Babylon5_Races.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+
+   portraits = { 
+			faeyan01 = {greeting_sound ="human_male_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/Space_Rangers/faeyan_01.dds"} 
+			faeyan02 = {greeting_sound ="human_male_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/Space_Rangers/faeyan_02.dds"} 
+ 			gaalian01 = {greeting_sound ="human_male_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/Space_Rangers/gaalian_01.dds"} 
+			maloq01 = {greeting_sound ="human_male_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/Space_Rangers/maloq_01.dds"} 
+			peleng01 = {greeting_sound ="human_male_greetings_01" texturefile = "gfx/models/portraits/Miscellaneous/Space_Rangers/peleng_01.dds"} 
+			dominator01	= {greeting_sound = "robot_mammalian_greetings" texturefile = "gfx/models/portraits/Miscellaneous/Space_Rangers/dominator_01.dds"}	
+	}
+
+	
+	
+#"MI31_faeyan"
+portrait_groups = {
+	MI31_faeyan = {
+		default = faeyan01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					faeyan01
+					faeyan02
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					faeyan01
+					faeyan02
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					faeyan01
+					faeyan02
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					faeyan01
+					faeyan02
+				}
+			}
+		}
+	}
+}
+
+
+	
+portrait_groups = {
+	MI27_gaalian = {
+		default = gaalian01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					gaalian01
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					gaalian01
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					gaalian01
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					gaalian01
+				}
+			}
+		}
+	}
+}
+
+
+	
+
+portrait_groups = {
+	MI28_maloq = {
+		default = maloq01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					maloq01
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					maloq01
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					maloq01
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					maloq01
+				}
+			}
+		}
+	}
+}
+
+portrait_groups = {
+	MI29_peleng = {
+		default = peleng01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					peleng01
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					peleng01
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					peleng01
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					peleng01
+				}
+			}
+		}
+	}
+}
+
+portrait_groups = {
+	MI30_dominator = {
+		default = dominator01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					dominator01
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					dominator01
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					dominator01
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					dominator01
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,116 @@
+portraits = {
+	harvester01 = { texturefile = "gfx/models/portraits/Miscellaneous/harvester/harvester01.dds"}
+	harvester02 = { texturefile = "gfx/models/portraits/Miscellaneous/harvester/harvester02.dds"}
+
+}
+
+portrait_groups = {
+	MI13_harvester = {
+		default = harvester02
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					harvester02
+					harvester01
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			set = {
+				portraits = {
+					harvester02
+					harvester01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					harvester02
+					harvester01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			set = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					harvester02
+					harvester01
+				}
+			}
+			
+			set = {
+				trigger = {
+					leader_class = general
+				}
+				portraits = {
+					harvester02
+					harvester01
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				portraits = {
+					harvester02
+					harvester01
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = scientist
+				}
+				portraits = {
+					harvester02
+					harvester01
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = governor
+				}
+				portraits = {
+					harvester02
+					harvester01
+				}
+			}
+			
+			add = {
+				trigger = {
+					leader_class = ruler
+				}
+				portraits = {
+					harvester02
+					harvester01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					harvester02
+					harvester01
+				}
+			}
+		}
+		
+		
+	}
+}

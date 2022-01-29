@@ -1,0 +1,55 @@
+
+portraits = {						
+	SP_robot02	= {	entity =  "portrait_robot_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture" greeting_sound = "robot_human_greetings"
+					character_textures = {
+						"gfx/models/portraits/AI/robot_blue.dds" #default red color orange suit robot
+						"gfx/models/portraits/Special/robot/robot_blue2.dds"
+						"gfx/models/portraits/Special/robot/robot_blue3.dds"
+						"gfx/models/portraits/Special/robot/robot_blue4.dds"
+						"gfx/models/portraits/Special/robot/robot_blue5.dds"
+						"gfx/models/portraits/Special/robot/robot_blue6.dds"
+						"gfx/models/portraits/Special/robot/robot_blue7.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_red6.dds"	
+						"gfx/models/portraits/Special/robot/Alien_AI_red61.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_red62.dds"							
+					}
+				}
+}
+					
+portrait_groups = {
+	SP02_robot = {
+		default = SP_robot02
+		game_setup = {
+			add = {
+				portraits = {
+					 SP_robot02
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					 SP_robot02
+				}
+			}
+		
+		}
+
+		species = {
+			add = {
+				portraits = {
+					 SP_robot02
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					 SP_robot02
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,208 @@
+portraits = {
+
+	leviathan01 = {greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/leviathan/leviathan.dds"}
+	leviathan02 = {greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/leviathan/leviathan_2.dds"}
+	leviathan03 = {greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/leviathan/leviathan_3.dds"}
+	leviathan04 = {greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/leviathan/leviathan_4.dds"}
+	leviathan05 = {greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/leviathan/leviathan_5.dds"}
+	
+	}
+
+portrait_groups = {
+	ME21_leviathan= {
+		default = leviathan01	 
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05
+	
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05 					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05	
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05	
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05	
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05	
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05	
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05	
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					leviathan01
+					leviathan02
+					leviathan03
+					leviathan04
+					leviathan05
+				}
+			}
+		}		
+	
+	}
+}
+
+

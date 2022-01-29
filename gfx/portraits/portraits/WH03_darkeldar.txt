@@ -1,0 +1,223 @@
+portraits = {
+
+	WH_darkeldar01 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/darkeldar/darkeldar1.dds"}
+	WH_darkeldar02 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/darkeldar/darkeldar2.dds"} 
+	WH_darkeldar03 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/darkeldar/darkeldar3.dds"} 
+
+	WH_darkeldar04 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/darkeldar/darkeldar4.dds"} 
+	WH_darkeldar05 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/darkeldar/darkeldar5.dds"}
+	WH_darkeldar06 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/darkeldar/darkeldar6.dds"}
+	WH_darkeldar07 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/darkeldar/darkeldar7.dds"}
+	WH_darkeldar08 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/darkeldar/darkeldar8.dds"}
+	WH_darkeldar09 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/darkeldar/darkeldar9.dds"}
+	WH_darkeldar10f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/darkeldar/darkeldar10.dds"}
+
+}
+
+portrait_groups = {
+	WH03_darkeldar = {
+		default = WH_darkeldar01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					WH_darkeldar01
+					WH_darkeldar02
+					WH_darkeldar03
+					WH_darkeldar04
+					WH_darkeldar05
+					WH_darkeldar06
+					WH_darkeldar07
+					WH_darkeldar08
+					WH_darkeldar09
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					WH_darkeldar10f
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					WH_darkeldar01
+					WH_darkeldar02
+					WH_darkeldar03
+					WH_darkeldar04
+					WH_darkeldar05
+					WH_darkeldar06
+					WH_darkeldar07
+					WH_darkeldar08
+					WH_darkeldar09
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					WH_darkeldar01
+					WH_darkeldar02
+					WH_darkeldar03
+					WH_darkeldar04
+					WH_darkeldar05
+					WH_darkeldar06
+					WH_darkeldar07
+					WH_darkeldar08
+					WH_darkeldar09
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					WH_darkeldar10f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					WH_darkeldar01
+					WH_darkeldar02
+					WH_darkeldar03
+					WH_darkeldar04
+					WH_darkeldar05
+					WH_darkeldar06
+					WH_darkeldar07
+					WH_darkeldar08
+					WH_darkeldar09
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					WH_darkeldar10f
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					WH_darkeldar01
+					WH_darkeldar02
+					WH_darkeldar03
+					WH_darkeldar04
+					WH_darkeldar05
+					WH_darkeldar06
+					WH_darkeldar07
+					WH_darkeldar08
+					WH_darkeldar09
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					WH_darkeldar10f
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					WH_darkeldar01
+					WH_darkeldar02
+					WH_darkeldar03
+					WH_darkeldar04
+					WH_darkeldar05
+					WH_darkeldar06
+					WH_darkeldar07
+					WH_darkeldar08
+					WH_darkeldar09
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					WH_darkeldar10f
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					WH_darkeldar01
+					WH_darkeldar02
+					WH_darkeldar03
+					WH_darkeldar04
+					WH_darkeldar05
+					WH_darkeldar06
+					WH_darkeldar07
+					WH_darkeldar08
+					WH_darkeldar09
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					WH_darkeldar10f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					WH_darkeldar01
+					WH_darkeldar02
+					WH_darkeldar03
+					WH_darkeldar04
+					WH_darkeldar05
+					WH_darkeldar06
+					WH_darkeldar07
+					WH_darkeldar08
+					WH_darkeldar09
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

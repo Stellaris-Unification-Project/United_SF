@@ -1,0 +1,284 @@
+portraits = {
+
+	WH_human_01_ruler = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/emperor1.dds"}
+	WH_human_02 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_admiral1.dds"}
+	WH_human_03 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_admiral2.dds"}
+	WH_human_04 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_admiral3.dds"}
+	WH_human_05f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_fem_admiral1.dds"}
+	WH_human_06f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_fem_admiral2.dds"}
+	WH_human_07f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_fem_governor1.dds"}
+	WH_human_08f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_fem1.dds"}
+	WH_human_09f = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_fem2.dds"}
+	WH_human_10 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_general1.dds"}
+	WH_human_11 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_general2.dds"}
+	WH_human_12 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_governor1.dds"}
+	WH_human_13 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_governor2.dds"}
+	WH_human_14 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human_scientist1.dds"}
+	WH_human_15 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human1.dds"}
+	WH_human_16 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human2.dds"}
+	WH_human_17 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human3.dds"}
+	WH_human_18 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human4.dds"}
+	WH_human_19 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human5.dds"}
+	WH_human_20 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/human/human6.dds"}
+
+}
+
+portrait_groups = {
+	WH05_human = {
+		default = WH_human_01_ruler
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					WH_human_01_ruler
+					WH_human_02
+					WH_human_03
+					WH_human_04
+					WH_human_10
+					WH_human_11
+					WH_human_12
+					WH_human_13
+					WH_human_14 					
+					WH_human_15
+					WH_human_16
+					WH_human_17
+					WH_human_18
+					WH_human_19
+					WH_human_20
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					WH_human_05f
+					WH_human_06f
+					WH_human_07f
+					WH_human_08f
+					WH_human_09f
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					WH_human_01_ruler
+					WH_human_02
+					WH_human_03
+					WH_human_04
+					WH_human_10
+					WH_human_11
+					WH_human_12
+					WH_human_13
+					WH_human_14 					
+					WH_human_15
+					WH_human_16
+					WH_human_17
+					WH_human_18
+					WH_human_19
+					WH_human_20
+					WH_human_05f
+					WH_human_06f
+					WH_human_07f
+					WH_human_08f
+					WH_human_09f
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					WH_human_01_ruler
+					WH_human_02
+					WH_human_03
+					WH_human_04
+					WH_human_10
+					WH_human_11
+					WH_human_12
+					WH_human_13
+					WH_human_14 					
+					WH_human_15
+					WH_human_16
+					WH_human_17
+					WH_human_18
+					WH_human_19
+					WH_human_20
+					WH_human_05f
+					WH_human_06f
+					WH_human_07f
+					WH_human_08f
+					WH_human_09f
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					WH_human_05f
+					WH_human_06f
+					WH_human_07f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					WH_human_02
+					WH_human_03
+					WH_human_04
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					WH_human_05f
+					WH_human_06f
+					WH_human_07f
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					WH_human_10
+					WH_human_11
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					WH_human_05f
+					WH_human_06f
+					WH_human_07f
+					WH_human_08f
+					WH_human_09f
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					WH_human_01_ruler
+					WH_human_02
+					WH_human_03
+					WH_human_04
+					WH_human_10
+					WH_human_11
+					WH_human_12
+					WH_human_13
+					WH_human_14 					
+					WH_human_15
+					WH_human_16
+					WH_human_17
+					WH_human_18
+					WH_human_19
+					WH_human_20
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					WH_human_05f
+					WH_human_06f
+					WH_human_07f
+					WH_human_08f
+					WH_human_09f
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					WH_human_01_ruler
+					WH_human_02
+					WH_human_03
+					WH_human_04
+					WH_human_10
+					WH_human_11
+					WH_human_12
+					WH_human_13
+					WH_human_14 					
+					WH_human_15
+					WH_human_16
+					WH_human_17
+					WH_human_18
+					WH_human_19
+					WH_human_20
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					WH_human_05f
+					WH_human_06f
+					WH_human_07f
+					WH_human_08f
+					WH_human_09f
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					WH_human_01_ruler
+					WH_human_02
+					WH_human_03
+					WH_human_04
+					WH_human_10
+					WH_human_11
+					WH_human_12
+					WH_human_13
+					WH_human_14 					
+					WH_human_15
+					WH_human_16
+					WH_human_17
+					WH_human_18
+					WH_human_19
+					WH_human_20
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

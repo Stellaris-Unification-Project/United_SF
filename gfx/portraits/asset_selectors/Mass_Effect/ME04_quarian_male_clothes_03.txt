@@ -1,0 +1,70 @@
+# This is a template which multiple species can use. 
+
+quarian_male_clothes_03 = {
+	default = "gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3a.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3a.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3a.dds"
+	}
+	
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3a.dds"
+		random = {
+			list = {	
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3a.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3b.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3c.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3d.dds"
+			}
+		}
+	
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3a.dds"
+		random = {
+			list = {	
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3a.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3b.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3c.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3d.dds"
+			}
+		}
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3a.dds"
+	
+	random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+
+			list = {	
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3a.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3b.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3c.dds"
+				"gfx/models/portraits/Mass_Effect/quarian/quarian_male_clothes_3d.dds"
+			}
+		}
+	}
+}

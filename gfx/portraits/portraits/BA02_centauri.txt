@@ -1,0 +1,170 @@
+### Centauri Portraits
+portraits = {
+	# reapers
+	centauri_londo_1 = { greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Babylon5/centauri/centauri_londo_mollari_1.dds"}
+	centauri_londo_2 = { greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Babylon5/centauri/centauri_londo_mollari_2.dds"}
+	centauri_timov_1 = { greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Babylon5/centauri/centauri_timov_1.dds"}
+	centauri_ruler_1 = { greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Babylon5/centauri/centauri_ruler1.dds"}
+    centauri_vir_1 = { greeting_sound ="human_male_greetings_03" texturefile = "gfx/models/portraits/Babylon5/centauri/centauri_vir_cotto_1.dds"}
+	#other intances to be added in similar manner.
+}
+
+portrait_groups = {
+	BA02_centauri= {
+		default = centauri_ruler_1
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					centauri_londo_1
+	
+					centauri_ruler_1					
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					centauri_timov_1 			
+				}
+			}
+			#set = {
+			#	trigger = { ... }
+			#	portraits = { ... }
+			#	#using "set =" instead of "add" will first clear any portraits already added
+			#}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					centauri_londo_1
+					centauri_timov_1
+					centauri_vir_1	
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					centauri_londo_1
+					centauri_timov_1
+					centauri_vir_1					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+						centauri_timov_1				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					centauri_londo_1
+					centauri_vir_1				
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					centauri_timov_1				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					centauri_londo_1
+					centauri_vir_1			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					centauri_timov_1				
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					centauri_londo_1
+					centauri_vir_1			
+				}
+			}
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					centauri_timov_1			
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					centauri_londo_1
+					centauri_vir_1		
+				}
+			}			
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					centauri_timov_1			
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					centauri_londo_1
+					centauri_vir_1				
+				}
+			}
+		}
+	}
+}
+

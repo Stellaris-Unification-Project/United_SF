@@ -1,0 +1,75 @@
+# This is a template which multiple species can use. 
+  
+starfleet_male_hair_02 = {
+	default = "gfx/models/portraits/Star_Trek/starfleet/andorian_male_hair.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/Star_Trek/starfleet/andorian_male_hair.dds"
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/Star_Trek/starfleet/andorian_male_hair.dds"
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+	
+		default = "gfx/models/portraits/Star_Trek/starfleet/andorian_male_hair.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Trek/starfleet/andorian_male_hair.dds"
+				"gfx/models/portraits/Star_Trek/starfleet/andorian_male_beard.dds"
+				"gfx/models/portraits/human/human_male_beard_dark_style_02.dds"
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/Star_Trek/starfleet/andorian_male_hair.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/Star_Trek/starfleet/andorian_male_hair.dds"
+				"gfx/models/portraits/Star_Trek/starfleet/andorian_male_beard.dds"
+				"gfx/models/portraits/human/human_male_beard_dark_style_02.dds"
+			}
+		}		
+		
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Star_Trek/starfleet/andorian_male_hair.dds"
+		
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+
+			list = {
+
+				"gfx/models/portraits/Star_Trek/starfleet/andorian_male_hair.dds"
+				"gfx/models/portraits/Star_Trek/starfleet/andorian_male_beard.dds"
+				"gfx/models/portraits/human/human_male_beard_dark_style_02.dds"
+			
+			}
+		}		
+	}
+}
+  

@@ -1,0 +1,41 @@
+portraits = {
+	remnant01 = {greeting_sound = "arthropoid_01_greetings" texturefile = "gfx/models/portraits/Mass_Effect/remnant/remnant_1.dds"}
+	}
+
+portrait_groups = {
+	ME22_remnant= {
+	default = remnant01
+		game_setup = { 
+			add = {
+				portraits = {
+					remnant01
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					remnant01
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					remnant01
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					remnant01
+				}
+			}
+		}
+	}
+}

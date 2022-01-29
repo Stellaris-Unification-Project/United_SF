@@ -1,0 +1,80 @@
+﻿### Bajoran
+bajoran_names = {
+	randomized = no
+	
+	ship_names = {
+		generic = {
+			Bolarat Lasnouphat Cestatat Dasmagat Fosmat Heacat Nuateras Stahevat Blopalat Gloriat Slonorat Eslaytat Fafluytat Bugrat Satweshat Duerat Autat Drokat Flonat Phobetorat Torat Koralat Snohetat
+		}
+
+		constructor = { }
+		colonizer = { }
+		science = { }
+		transport = { }
+	}
+
+	fleet_names = {
+		sequential_name = "%O% Fleet"
+	}
+	
+	army_names = {
+		defense_army = {
+			sequential_name = "%O% Bolian Guard"
+		}
+		assault_army = {
+			sequential_name = "%O% Liberation Force"
+		}
+		slave_army = {
+			sequential_name = "%O% Indentured Defence Force"
+		}
+		clone_army = { 
+			sequential_name = "%O% Clone Defence Force"
+		}
+		robotic_army = {
+			sequential_name = "%O% Mechanical Defence Force"
+		}
+		android_army = {
+			sequential_name = "%O% Synthetic Defence Force"
+		}
+		psionic_army = { 
+			sequential_name = "%O% Psi Defence Force"
+		}
+		xenomorph_army = {
+			sequential_name = "%O% Bio-Warfare Defence Force"
+		}
+		gene_warrior_army = {
+			sequential_name = "%O% Bio-Engineered Defence Force"
+		}
+	}
+
+	planet_names = {
+		generic = {
+			names = { "B'hala" Batal Hathon Ilvia Jalanda Janir "Jo'Kala" Lasuma Relliketh Singha Tamulna Tempasa "Free Haven" Golana "New Bajor" "Prophets Landing" Jeraddo Teer Octu Palu Irku Wopu Tako Yod Gomo Krettum Troarece Ikka Orye Zilled Barith Eeyr Nara Shuta Mecac Breeni Wipohl Rhororn Ilo Wevora Taiekra }
+		}
+	}
+
+	### CHARACTERS
+	character_names = {
+		names1 = {
+			weight = 100
+			first_names_male = {
+				"Kalem Apren" "Jillur Gueta" "Jas Holza" "Jaro Essa" "Ishan Chaye" "Halb Daier" "Faren Kag" "Ermat Zimm" "Dekon Elig" "Day Kannu" "Ches'sarro Seeto" "Brin Tusk" "Benten Vek" "Basso Tromac" "Bareil Antos" "Anjohl Tennan" "Akorem Laan" "Ro Gale" "Razka Karn" "Proka Migdal" "Ojuy Gel" "Mora Pol" "Marat Kobar" "Lorit Akrem" "Li Paz" "Li Nalas" "Lenaris Holem" "Latha Mabrin" "Kubus Oak" "Kira Taban" "Kira Reon" "Kira Pohl" "Keeve Falor" "Weld Ram" "Timor Landi" "Teero Anaydis" "Tahna Los" "Surmak Ren" "Shakaar Edon" "Sarish Rez"
+			}
+			first_names_female = {
+				"Ro Laren" "Kira Nerys" "Kara Polus" "Jomat Luson" "Galis Blin" "Els Renora" "Chalan Aroya" "Alenis Grem" "Marika Wilkarah" "Luma Rahl" "Kira Meru" "Winn Adami" "Varis Sul" "Vaatrik Pallra" "Trentin Fala" "Tora Naprem" "Tora Nerys" "Tor Jolan" "Tal Celes" "Sito Jaxa" "Sirco Ch'Ano" "Ro Talia" "Oset Lipo" "Togi Haize" "Carpa Feyute" "Gotye Hoardi" "Funu Juxiye" "Cotold Areahu" "Seva Wexi" "Irod Gemea" "Selle Faxi" "Jurput Moala" "Gaallit Ahon" "Dehi Apowea" "Irod Gemea" "Diji Xihea" "Ine Glozira" "Ume Kaihu" "Jacu Airjeto"
+			}
+			second_names = {
+				""
+			}
+			regnal_first_names_male = { 
+				"Kalem Apren" "Jillur Gueta" "Jas Holza" "Jaro Essa" "Ishan Chaye" "Halb Daier" "Faren Kag" "Ermat Zimm" "Dekon Elig" "Day Kannu" "Ches'sarro Seeto" "Brin Tusk" "Benten Vek" "Basso Tromac" "Bareil Antos" "Anjohl Tennan" "Akorem Laan" "Ro Gale" "Razka Karn" "Proka Migdal" "Ojuy Gel" "Mora Pol" "Marat Kobar" "Lorit Akrem" "Li Paz" "Li Nalas" "Lenaris Holem" "Latha Mabrin" "Kubus Oak" "Kira Taban" "Kira Reon" "Kira Pohl" "Keeve Falor" "Weld Ram" "Timor Landi" "Teero Anaydis" "Tahna Los" "Surmak Ren" "Shakaar Edon" "Sarish Rez"
+			}
+			regnal_first_names_female = { 
+				"Ro Laren" "Kira Nerys" "Kara Polus" "Jomat Luson" "Galis Blin" "Els Renora" "Chalan Aroya" "Alenis Grem" "Marika Wilkarah" "Luma Rahl" "Kira Meru" "Winn Adami" "Varis Sul" "Vaatrik Pallra" "Trentin Fala" "Tora Naprem" "Tora Nerys" "Tor Jolan" "Tal Celes" "Sito Jaxa" "Sirco Ch'Ano" "Ro Talia" "Oset Lipo" "Togi Haize" "Carpa Feyute" "Gotye Hoardi" "Funu Juxiye" "Cotold Areahu" "Seva Wexi" "Irod Gemea" "Selle Faxi" "Jurput Moala" "Gaallit Ahon" "Dehi Apowea" "Irod Gemea" "Diji Xihea" "Ine Glozira" "Ume Kaihu" "Jacu Airjeto"
+			}
+			regnal_second_names = { 
+				""
+			}
+		}
+	}
+}

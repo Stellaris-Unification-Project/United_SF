@@ -1,0 +1,256 @@
+portraits = {
+
+	WH_tau01 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tau/tau_admiral1.dds"}
+	WH_tau02 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tau/tau_admiral2.dds"}
+	WH_tau03 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tau/tau_general1.dds"}
+	WH_tau04 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tau/tau_ruler1.dds"}
+	WH_tau05 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tau/tau_ruler2.dds"}
+	WH_tau06 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tau/tau_scientist1.dds"}
+	WH_tau07 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tau/tau1.dds"}
+	WH_tau08 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tau/tau2.dds"}
+	WH_tau09 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/Warhammer_40k/tau/tau3.dds"}	
+}
+
+portrait_groups = {
+	WH18_tau = {
+		default = WH_tau03
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					WH_tau03
+					WH_tau04
+					WH_tau05
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					WH_tau03
+					WH_tau04
+					WH_tau05
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					WH_tau01
+					WH_tau02
+					WH_tau03
+					WH_tau04
+					WH_tau05
+					WH_tau06
+					WH_tau07
+					WH_tau08
+					WH_tau09
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

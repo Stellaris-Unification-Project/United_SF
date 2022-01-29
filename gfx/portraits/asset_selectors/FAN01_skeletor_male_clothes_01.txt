@@ -1,0 +1,47 @@
+# This is a template which multiple species can use. 
+
+skeletor_male_clothes_01 = {
+	default = "gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_ruler.dds"
+	
+	game_setup = {
+		default = "gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_ruler.dds"
+	}
+	
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_ruler.dds"
+	}
+	
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_peasant.dds"	
+		random = {
+			trigger = { always = yes }
+			list = {
+				"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_peasant.dds"
+				"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_scientist.dds"	
+			}
+		}
+	}
+
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_scientist.dds" = { leader_class = scientist }
+		"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_general.dds" = { leader_class = general }
+		"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_general.dds" = { leader_class = admiral }
+		"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_governor.dds" = { leader_class = governor }
+	}
+	
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_ruler.dds"
+		random = {
+			trigger = { always = yes }
+			list = {
+					"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_ruler.dds"
+					"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_ruler.dds"
+					"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_ruler.dds"
+					"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_governor.dds"
+					"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_governor.dds"
+					"gfx/models/portraits/Fantasy/skeletor/skeletor_outfit_scientist.dds"
+			}
+		}
+    }	
+}

@@ -1,0 +1,486 @@
+# This is a template which multiple species can use.
+
+asari_outfit = {
+	default = "gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3a.dds"
+	
+	game_setup = {#will run with a limited country gfx/models/portraits/Mass_Effect/asari. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3a.dds"			
+	}
+	
+	#species gfx/models/portraits/Mass_Effect/asari
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3a.dds"
+	}
+	
+	#pop gfx/models/portraits/Mass_Effect/asari
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_2.dds"
+			
+		random = {
+			list = {
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_1.dds"		#collarless
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_2.dds"		#simple suit
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3.dds"		#high neck
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4.dds"		#slick suit
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_1.dds"		#corset + scarf
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_1b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_2.dds"		#strapless + scarf
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_2b.dds"
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_1.dds"		#halter
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_1a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_2.dds"		#slip + strap
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_2a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_3.dds"		#strapless + choker
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_3a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_4.dds"		#absolute cleavage
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_4a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_4b.dds"
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_1.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_2.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_1.dds"		#hex jacket
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_1a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_2.dds"		#leather jacket
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_2b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_3.dds"		#heavy robe
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_3a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_4.dds"		#bulky suit
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1.dds"		#slip + lace
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2.dds"		#cross
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3.dds"		#sweetheart
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4.dds"		#strapless patterned
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4a.dds"
+				
+				#"gfx/models/portraits/Mass_Effect/asari/asari_nude_suit.dds"			#discreet energy armour, obviously
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_1.dds"	#Wardrobe malfunction
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_2.dds"	#Necklace
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_3.dds"	#Huntress
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_1.dds"		#steel
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_2.dds"		#basic
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_3.dds"		#leather
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_4.dds"		#fancy kink
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_5.dds"		#spikey kink
+			}
+		}
+		
+	}
+	
+	#leader gfx/models/portraits/Mass_Effect/asari
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3a.dds"
+		
+		random = {
+			list = {
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_1.dds"		#collarless
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_2.dds"		#simple suit
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3.dds"		#high neck
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4.dds"		#slick suit
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_1.dds"		#corset + scarf
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_1b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_2.dds"		#strapless + scarf
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_2b.dds"
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_1.dds"		#halter
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_1a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_2.dds"		#slip + strap
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_2a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_3.dds"		#strapless + choker
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_3a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_4.dds"		#absolute cleavage
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_4a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_4b.dds"
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_1.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_2.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_1.dds"		#hex jacket
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_1a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_2.dds"		#leather jacket
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_2b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_3.dds"		#heavy robe
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_3a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_4.dds"		#bulky suit
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1.dds"		#slip + lace
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2.dds"		#cross
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3.dds"		#sweetheart
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4.dds"		#strapless patterned
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4a.dds"
+				
+				#"gfx/models/portraits/Mass_Effect/asari/asari_nude_suit.dds"			#discreet energy armour, obviously
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_1.dds"	#Wardrobe malfunction
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_2.dds"	#Necklace
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_3.dds"	#Huntress
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_1.dds"		#steel
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_2.dds"		#basic
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_3.dds"		#leather
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_4.dds"		#fancy kink
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_5.dds"		#spikey kink
+			}
+		}
+	}
+	
+	#leader gfx/models/portraits/Mass_Effect/asari 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1.dds"
+		
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+			
+			list = {
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_1.dds"		#collarless
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_2.dds"		#simple suit
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3.dds"		#high neck
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4.dds"		#slick suit
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_1.dds"		#corset + scarf
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_1b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_2.dds"		#strapless + scarf
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_2b.dds"
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_1.dds"		#halter
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_1a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_2.dds"		#slip + strap
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_2a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_3.dds"		#strapless + choker
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_3a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_4.dds"		#absolute cleavage
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_4a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setB_4b.dds"
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_1.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_2.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_1.dds"		#hex jacket
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_1a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_2.dds"		#leather jacket
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_2b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_3.dds"		#heavy robe
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_3a.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setC_4.dds"		#bulky suit
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1.dds"		#slip + lace
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2.dds"		#cross
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3.dds"		#sweetheart
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3b.dds"
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4.dds"		#strapless patterned
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4a.dds"
+				
+				#"gfx/models/portraits/Mass_Effect/asari/asari_nude_suit.dds"			#discreet energy armour, obviously
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_1.dds"	#Wardrobe malfunction
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_2.dds"	#Necklace
+				
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_3.dds"	#Huntress
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_1.dds"		#steel
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_2.dds"		#basic
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_3.dds"		#leather
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_4.dds"		#fancy kink
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_slave_5.dds"		#spikey kink
+			
+			#ruler specific
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_admiral_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_admiral_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_admiral_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_admiral_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_admiral_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_admiral_2b.dds"
+			
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3d.dds"
+
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_4.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_4a.dds"
+
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setA_2a.dds"
+
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3d.dds"
+
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_generic_4b.dds"
+
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_1c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_governor_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_4.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_4a.dds"
+
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3d.dds"
+
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_primitive_3.dds"
+
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_2c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3c.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_ruler_3d.dds"
+	
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_general_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_general_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_general_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_general_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_general_3a.dds"
+
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_1b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_2b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3a.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_3b.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_setD_4a.dds"
+
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_1.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_2.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_3.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_4.dds"
+				"gfx/models/portraits/Mass_Effect/asari/asari_outfit_scientist_4a.dds"
+			}
+		}
+	}
+}

@@ -1,0 +1,79 @@
+portraits = {
+	# HANNAH
+	hannah_01_female_01 = {	entity = "portrait_human_female_01_entity"	clothes_selector = "hannah_01_female_clothes_01" hair_selector = "hannah_01_female_hair_01"		greeting_sound = "human_female_greetings_03"
+		character_textures = {
+			"gfx/models/portraits/Fantasy/hannah/hannah_01_female_body_01.dds"
+		}
+	}
+
+	hannah_01_admiral_01 = {	entity = "portrait_swarm_01_entity"	clothes_selector = "no_texture" hair_selector = "general_no_hair"	greeting_sound = "event_swarm"
+		character_textures = {
+			"gfx/models/portraits/Fantasy/hannah/hannah_01_admiral_body_01.dds"
+		}
+	}
+}
+
+portrait_groups = {
+	FAN06_hannah = {
+		default = hannah_01_female_01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					hannah_01_female_01
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					hannah_01_female_01
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					hannah_01_female_01
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, governor
+			add = {
+				trigger = {
+					leader_class = admiral
+				}
+				portraits = {
+					hannah_01_admiral_01
+				}
+			}
+			add = {
+				trigger = {
+					OR = {
+						leader_class = scientist
+						leader_class = general
+						leader_class = governor
+					}
+				}
+				portraits = {
+					hannah_01_female_01
+				}
+			}
+		}
+
+			
+		#leader scope 
+		ruler = {
+			add = {
+				portraits = {
+					hannah_01_female_01
+				}
+			}
+		}
+	}	
+}

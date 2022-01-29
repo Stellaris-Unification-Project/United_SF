@@ -1,0 +1,53 @@
+# This is a template which multiple species can use. 
+
+mammalian_tellarite_male_clothes_01 = {
+	default = "gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_01.dds"
+	
+	game_setup = {
+		default = "gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_01.dds"
+	}
+
+	species = {
+		default = "gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_01.dds"
+	}
+	
+
+	pop = {
+		default = "gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_02.dds"
+	}
+
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_03.dds" = { leader_class = scientist }
+		"gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_02.dds" = { leader_class = general }
+		"gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_02.dds" = { leader_class = admiral }
+		"gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_01.dds" = { leader_class = governor }
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_01.dds"
+		
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+
+			list = {
+					"gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_01.dds" 
+					"gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_02.dds"
+					"gfx/models/portraits/Star_Trek/tellarite/tellarite_male_clothes_03.dds"
+			}
+		}
+	}
+}

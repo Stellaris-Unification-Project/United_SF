@@ -1,0 +1,94 @@
+  
+   portraits = { 
+		#	xeno01 = { greeting_sound ="arthropoid_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/xenomorph/xenomorph.dds"} 
+		#	xeno02 = { greeting_sound ="arthropoid_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/xenomorph/queen.dds"}
+		#	xeno03 = { greeting_sound ="arthropoid_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/xenomorph/xenomorph_3.dds"} 
+		#	xeno04 = { greeting_sound ="arthropoid_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/xenomorph/xenomorph_2.dds"} 
+		#	xeno05 = { greeting_sound ="arthropoid_01_greetings" texturefile = "gfx/models/portraits/Miscellaneous/xenomorph/predalien.dds"} 
+		
+		
+		xeno01 = {
+		entity = "xeno_portrait_entity" clothes_selector = "general_no_hair" hair_selector = "general_no_hair"	greeting_sound = "arthropoid_01_greetings" 
+		character_textures = {	"gfx/models/portraits/Miscellaneous/xenomorph/xenomorph_portrait.dds"
+		} }
+
+		xeno02 = {
+		entity = "xeno_portrait_entity" clothes_selector = "general_no_hair" hair_selector = "general_no_hair"	greeting_sound = "arthropoid_01_greetings" 
+		character_textures = {
+			"gfx/models/portraits/Miscellaneous/xenomorph/xenomorph_portrait2.dds"
+		} }
+
+		xeno03 = {
+		entity = "xeno_portrait_entity" clothes_selector = "general_no_hair" hair_selector = "general_no_hair"	greeting_sound = "arthropoid_01_greetings" 
+		character_textures = {
+			"gfx/models/portraits/Miscellaneous/xenomorph/xenomorph_portrait3.dds"
+		} }	
+
+		xeno04 = {
+		entity = "xeno_portrait_entity" clothes_selector = "general_no_hair" hair_selector = "general_no_hair"	greeting_sound = "arthropoid_01_greetings" 
+		character_textures = {
+			"gfx/models/portraits/Miscellaneous/xenomorph/xenomorph_portrait4.dds"
+		} }
+
+		xeno05 = {
+		entity = "xeno_portrait_entity" clothes_selector = "general_no_hair" hair_selector = "general_no_hair"	greeting_sound = "arthropoid_01_greetings" 
+		character_textures = {
+			"gfx/models/portraits/Miscellaneous/xenomorph/xenomorph_portrait5.dds"
+		} }
+		
+	}
+
+portrait_groups = {
+	MI01_xenomorph = {
+		default = xeno01
+		game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+			add = {
+				portraits = {
+					xeno01
+					xeno02
+					xeno03
+					xeno04
+					xeno05
+				}
+			}
+		}		
+		
+		ruler = {
+				add = {
+				portraits = {
+					xeno01
+					xeno02
+					xeno03
+					xeno04
+					xeno05
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					xeno01
+					xeno02
+					xeno03
+					xeno04
+					xeno05
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					xeno01
+					xeno02
+					xeno03
+					xeno04
+					xeno05
+				}
+			}
+		}
+	}
+}
+   

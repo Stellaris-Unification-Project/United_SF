@@ -1,0 +1,167 @@
+# This is a template which multiple species can use. 
+  
+alliance_male_hair_01 = {
+	default = "gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_03_and_beard_dark_style_01.dds"
+	
+	game_setup = {
+		default = "gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_03_and_beard_dark_style_01.dds"
+	}
+	
+	species = { 
+		default = "gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_03_and_beard_dark_style_01.dds"
+	}
+	
+	pop = { 
+	
+		default = "gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_03_and_beard_dark_style_01.dds"
+
+		random = {
+			list = {
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_01_and_beard_dark_style_01.dds"
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_02_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_02_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_03.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_03_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_03_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_04.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_04_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_04_and_beard_dark_style_02.dds"
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_02_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_02_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_03.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_03_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_03_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_04.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_04_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_04_and_beard_dark_style_02.dds"
+
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_01_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_02_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_02_and_beard_light_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_03.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_03_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_03_and_beard_light_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_04.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_04_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_04_and_beard_light_style_02.dds"
+			}
+		}	
+	}
+	
+	
+	
+	
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_01_and_beard_dark_style_01.dds"
+		random = {
+			list = {
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_01_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_01_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_02_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_02_and_beard_dark_style_02.dds"
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_01_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_02_and_beard_dark_style_01.dds"
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_03_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_03_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_04_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_04_and_beard_dark_style_02.dds"
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_02_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_02_and_beard_dark_style_01.dds"
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_03_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_03_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_04_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_04_and_beard_dark_style_02.dds"
+				
+
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_01_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_01_and_beard_light_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_02_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_02_and_beard_light_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_01_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_02_and_beard_light_style_01.dds"
+                                                                                      
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_03_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_03_and_beard_light_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_04_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_04_and_beard_light_style_02.dds"
+					
+			}
+		}		
+		
+	}
+  
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_01_and_beard_dark_style_01.dds"
+		
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+
+			list = {
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_01_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_01_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_02_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_02_and_beard_dark_style_02.dds"
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_01_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_02_and_beard_dark_style_01.dds"
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_03_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_03_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_04_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_black_style_04_and_beard_dark_style_02.dds"
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_02_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_02_and_beard_dark_style_01.dds"
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_03_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_03_and_beard_dark_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_04_and_beard_dark_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_brown_style_04_and_beard_dark_style_02.dds"
+				
+
+				
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_01_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_01_and_beard_light_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_02_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_02_and_beard_light_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_01_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_02_and_beard_light_style_01.dds"
+                                                                                      
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_03_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_03_and_beard_light_style_02.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_04_and_beard_light_style_01.dds"
+				"gfx/models/portraits/Mass_Effect/alliance/alliance_male_hair_cendre_style_04_and_beard_light_style_02.dds"
+			}
+		}		
+		
+	}
+}
+  

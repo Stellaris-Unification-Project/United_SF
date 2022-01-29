@@ -1,0 +1,191 @@
+portraits = {
+
+	XC12_viper_1 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/viper/viper_1.dds"}
+	XC12_viper_2 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/viper/viper_2.dds"}
+	XC12_viper_3 = {greeting_sound = "mammalian_01_greetings" texturefile = "gfx/models/portraits/XCOM/viper/viper_3.dds"}
+}
+
+portrait_groups = {
+	XC12_viper = {
+		default = XC12_viper_1
+		game_setup = { 
+			add = {
+				trigger = {
+					ruler = { gender = male }
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+
+				}
+			}
+			add = {
+				trigger = {
+					ruler = { gender = female }
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			}
+		}		
+		
+		#species scope
+		species = { #generic portrait for a species
+			add = {
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			}
+		}		
+		
+		#pop scope
+		pop = { #for a specific pop
+			add = {
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			}
+		}
+		
+		#leader scope
+		leader = { #scientists, generals, admirals, governor
+			add = {
+				trigger = {
+					gender = female
+					leader_class = scientist
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+					leader_class = scientist
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			} 		
+			add = {
+				trigger = {
+					gender = female
+					leader_class = general
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = male
+					leader_class = general
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			}  
+			add = {
+				trigger = {
+					gender = female
+					leader_class = admiral
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = admiral
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = female
+					leader_class = governor
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			} 
+			add = {
+				trigger = {
+					gender = male
+					leader_class = governor
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			} 		
+
+		}
+
+		#leader scope 
+		ruler = {
+			add = {
+				trigger = {
+					gender = female
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+				}
+			}
+			add = {
+				trigger = {
+					gender = male
+				}
+				portraits = {
+					XC12_viper_1
+					XC12_viper_2
+					XC12_viper_3
+					
+					
+				}
+			}
+		}		
+	
+	}
+}
+
+

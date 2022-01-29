@@ -1,0 +1,60 @@
+##############################################################
+###	PORTRAITS SETTINGS
+###
+### Which portraits are used is set in 
+### common\species_classes\00_Miscellaneous.txt
+###
+###	This file configures how portraits and planet backgrounds are built.
+###	Default position orientation is lower left.
+##############################################################
+
+portraits = {
+	terminator_01 = {entity = "terminator_entity" clothes_selector = "terminator_clothes_1" hair_selector = "terminator_hair_1"	greeting_sound = "human_male_greetings_02"	
+		character_textures = { "gfx/models/portraits/empty_body.dds"}
+	}
+	
+	terminator_02 = {entity = "terminator_entity" clothes_selector = "terminator_clothes_2" hair_selector = "terminator_hair_2"	greeting_sound = "human_male_greetings_02"	
+		character_textures = { "gfx/models/portraits/empty_body.dds"}
+	}
+
+}
+
+portrait_groups = {
+	MI26_terminator = {
+			default = terminator_01
+		game_setup = {
+			add = {
+				portraits = {
+					 terminator_01
+				}
+			}
+		}
+
+		ruler = {
+			add = {
+				portraits = {
+					 terminator_01
+				}
+			}
+		
+		}
+
+		species = {
+			add = {
+				portraits = {
+					 terminator_01
+					 terminator_02
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					 terminator_01
+					 terminator_02
+				}
+			}
+		}
+	}
+}

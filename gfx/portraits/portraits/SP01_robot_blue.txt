@@ -1,0 +1,61 @@
+
+portraits = {	
+	SP_robot01	= {	entity =  "portrait_robot_01_entity" clothes_selector = "no_texture" hair_selector = "no_texture" 
+					greeting_sound = "robot_human_greetings"
+					character_textures = {
+					    #blue 
+						"gfx/models/portraits/AI/Alien_AI.dds" # default blue
+						"gfx/models/portraits/Special/robot/Alien_AI2.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI3.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI4.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI5.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI6.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI7.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI8.dds"	
+						#sv_melynas
+						"gfx/models/portraits/Special/robot/Alien_AI_red5.dds"	
+						"gfx/models/portraits/Special/robot/Alien_AI_red51.dds"
+						"gfx/models/portraits/Special/robot/Alien_AI_red52.dds"							
+					}
+					
+				}
+}
+#defining robot textures end here;
+					
+portrait_groups = {
+	SP01_robot = {
+		default = SP_robot01
+		game_setup = {
+			add = {
+				portraits = {
+					 SP_robot01
+				}
+			}
+		}
+
+		ruler = {
+				add = {
+				portraits = {
+					 SP_robot01
+				}
+			}
+		
+		}
+
+		species = {
+			set = {
+				portraits = {
+					 SP_robot01
+				}
+			}
+		}		
+
+		pop = {
+			add = {
+				portraits = {
+					 SP_robot01
+				}
+			}
+		}
+	}
+}

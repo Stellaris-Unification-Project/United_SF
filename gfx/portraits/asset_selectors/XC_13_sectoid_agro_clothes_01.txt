@@ -1,0 +1,76 @@
+# This is a template which multiple species can use. 
+
+sectoid_agro_clothes_1 = {
+	default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_1.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_1.dds"
+	}
+	
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_1.dds"
+	}
+	
+	pop = { #for a specific pop
+				default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_1.dds"
+	}
+		
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_1.dds"
+	}
+
+	ruler = { #for rulers
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_1.dds"
+	}
+}
+##################################################################
+sectoid_agro_clothes_2 = {
+	default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_2.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_2.dds"
+	}
+	
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_2.dds"
+	}
+	
+	pop = { #for a specific pop
+				default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_2.dds"
+	}
+		
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_2.dds"
+	}
+
+	ruler = { #for rulers
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_2.dds"
+	}
+}
+##################################################################
+sectoid_agro_clothes_3 = {
+	default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_3.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_3.dds"
+	}
+	
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_3.dds"
+	}
+	
+	pop = { #for a specific pop
+				default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_3.dds"
+	}
+		
+	leader = { #scientists, generals, admirals, governor
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_3.dds"
+	}
+
+	ruler = { #for rulers
+		default = "gfx/models/portraits/XCOM/sectoid_agro/sectoid_agro_clothes_3.dds"
+	}
+}
+##################################################################
+
+

@@ -1,0 +1,95 @@
+# This is a template which multiple species can use. 
+
+cerberus_male_outfit = {
+	default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral.dds"
+	
+	game_setup = {#will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral.dds"
+		
+	}
+	
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral.dds"
+	
+	random = {
+			list = {
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral_2.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_general.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_general_2.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_governer.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_governer_2.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_ruler.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_scientist.dds"				
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_scientist_2.dds"
+				}
+		}
+	}
+	
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral.dds"
+		
+		random = {
+			list = {
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral_2.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_general.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_general_2.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_governer.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_governer_2.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_ruler.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_scientist.dds"				
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_scientist_2.dds"
+				}
+		}
+		
+		
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor
+		"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_scientist.dds" = { leader_class = scientist }
+		"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_general.dds" = { leader_class = general }
+		"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral.dds" = { leader_class = admiral }
+		"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_governer.dds" = { leader_class = governor }
+	}
+
+	#leader scope 
+	ruler = { #for rulers
+		default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral.dds"
+		
+		random = {
+			trigger = {
+				owner = {
+					OR = {
+						has_government = gov_stagnant_ascendancy
+						has_primitive_government = yes
+						has_materialist_government = yes
+						has_pacifist_government = yes
+						has_generic_government = yes
+						has_militarist_government = yes
+						has_spiritualist_government = yes
+						
+					}
+				}
+			}
+
+			list = {
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_admiral_2.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_general.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_general_2.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_governer.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_governer_2.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_ruler.dds"
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_scientist.dds"				
+				"gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_outfit_scientist_2.dds"
+				}
+		}
+	}
+}
+
+cerberus_male_hair_1 = { 
+	default = "gfx/models/portraits/Mass_Effect/cerberus/cerberus_male_hair_blonde_style_03_and_beard_light_style_01.dds"
+}

@@ -1,0 +1,138 @@
+﻿### Extradimensional Invaders
+swarm_names = {
+	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = {
+			Swarmer Invader Devourer Destroyer Absorber Eater Exhauster Feeder Ingester Ravager Annihilator Guzzler Gorger Infester Infecter Pillager Plunderer Spreader Burster Marauder Assailer Crawler Streamer Eviscerator Gutter Extractor Biter Chewer Ingester Inhaler Absorber Scarfer Muncher Grazer Digester Dissolver Blighter Corrupter Wrecker Spoiler Poisoner Defiler
+		}
+		
+		
+		mining_station = { }
+		research_station = { }
+
+
+		observation_station = { }
+
+
+		
+		transport = {
+			"Swarm Broodship"
+		}
+
+		military_station_small = {}
+		military_station_medium = {}
+		military_station_large = {}	
+	}
+
+	fleet_names = {
+		random_names = {
+				"Swarmer Great Swarm" "Invader Great Swarm" "Devourer Great Swarm" "Destroyer Great Swarm" "Absorber Great Swarm" "Eater Great Swarm" "Exhauster Great Swarm" "Feeder Great Swarm" "Ingester Great Swarm" "Ravager Great Swarm" "Annihilator Great Swarm" "Guzzler Great Swarm" "Gorger Great Swarm" "Infester Great Swarm" "Infecter Great Swarm" "Pillager Great Swarm" "Plunderer Great Swarm" "Spreader Great Swarm" "Burster Great Swarm" "Marauder Great Swarm" "Assailer Great Swarm" "Crawler Great Swarm" "Streamer Great Swarm" "Eviscerater Great Swarm" "Gutter Great Swarm" "Extracter Great Swarm" "Biter Great Swarm" "Chewer Great Swarm" "Ingester Great Swarm" "Inhaler Great Swarm" "Absorber Great Swarm" "Scarfer Great Swarm" "Muncher Great Swarm" "Grazer Great Swarm" "Digester Great Swarm" "Dissolver Great Swarm" "Blighter Great Swarm" "Corrupter Great Swarm" "Tainter Great Swarm" "Spoiler Great Swarm" "Poisoner Great Swarm" "Defiler Great Swarm"
+			}
+		sequential_name = "%O% Great Swarm"
+	}
+	
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Reactive Growths"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Proactive Growths"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Biomass Growths"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Cloned Growths"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Robotic Growths"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Android Growths"
+		}
+		
+		psionic_army = {
+			sequential_name = "%O% Psionic Growths"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Xenomorph Growths"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Gene-Commando Growths"
+		}
+	}
+	
+	### PLANETS
+
+	planet_names = {
+
+		generic = {
+			names = {
+				XURUBAR ZAAX MIBUX MATIX GAAR ZOX REXOM LARUX LUUX LIZAX RALUB RAZIX MAPAX GOPAX OXAZ ZENOX ZELGAK KOZAR ZARA ZEX XIZOR ZI ELGOR PARNAX EITHIX METIK XOLGIR KELGAR XO
+				GIRAX TYROX BARAX IRAX XAKAN RIPLAX KAGARUX ZURPAK ZEKOL RAKUX PYXOK XUUR KABUX XIOR XAKAAN
+				XUGAN XIKAZ ULTAX XILKOR RALAX XIRUK KEIK ORUK XOR XORIK PIRAX XATOR ZADISH ZOPAX XERATOR MITOZ ZEKAN RATEX ZIIR ZUBOL ZATAK KA EK KIROP
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+
+	### CHARACTERS
+
+	character_names = {
+		default = {
+		
+			full_names = {
+				XUGAN XIKAZ ULTAX PIRAX XATOR ZADISH ZOPAX XERATOR MITOZ ZEKAN RATEX ZIIR ZUBOL ZATAK IGUX ZEK
+				GIRAX TYROX BARAX IRAX XAKAN RIPLAX KAGARUX ZURPAK ZEKOL RAKUX PYXOK XUUR KABUX XIOR XAKAAN
+				XURUBAR ZAAX MIBUX MATIX GAAR ZOX REXOM LARUX LUUX LIZAX RALUB RAZIX MAPAX GOPAX OXAZ ZENOX ZELGAK KOZAR ZARA ZEX XIZOR ZI ELGOR PARNAX EITHIX METIK XOLGIR KELGAR XO
+			}
+			
+		}
+	}
+}
